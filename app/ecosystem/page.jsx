@@ -20,7 +20,7 @@ const NIRMAAN_STATS = [
   { v: '399', l: 'Student entrepreneurs (FY 24–25)' },
   { v: '239', l: 'Active teams' },
   { v: '24', l: 'Faculty entrepreneurs' },
-  { v: '21', l: 'Startups incubated at IITMIC' },
+  { v: '17', l: 'Startups registered with MCA' },
   { v: '₹80 Cr+', l: 'Startup revenue (FY 24–25)' },
   { v: '₹1,000 Cr+', l: 'Portfolio valuation' },
 ];
@@ -38,7 +38,7 @@ export default function Ecosystem() {
       <PageHero
         kicker="The I&E Stack"
         title="Five stages. One campus. Zero gaps."
-        lead="IIT Madras is the only campus in India where you can go from first prototype to funded company without leaving the gate. SIE connects every layer, based out of the Sudha & Shankar Innovation Hub — inaugurated by the Hon'ble Vice President of India in February 2023."
+        lead="At IIT Madras, you can go from first prototype to funded company without leaving the campus. SIE connects every layer of that journey, based out of the Sudha & Shankar Innovation Hub — inaugurated by the Hon'ble Vice President of India in February 2023."
       />
 
       <Section kicker="Stage 1 · Tinker" title="Centre for Innovation (CFI)">
@@ -52,8 +52,7 @@ export default function Ecosystem() {
             </p>
             <p>
               Competition teams build hyperloop pods, autonomous vehicles, solar racecars, sounding rockets, Mars
-              rovers and submersible robots. Fourteen startups are currently moving through the CFI → Nirmaan → IITMIC
-              pipeline.
+              rovers and submersible robots — and the strongest projects graduate into the startup pipeline.
             </p>
             <div className="grid grid-cols-2 gap-4 sm:grid-cols-3">
               {CFI_STATS.map((s) => (
