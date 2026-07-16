@@ -15,7 +15,7 @@ export default function StartupsClient() {
           <div key={s.name} className="card">
             <div className="flex items-baseline justify-between gap-3">
               <p className="font-display text-lg font-bold text-navy">{s.name}</p>
-              <p className="font-display text-lg font-bold text-gold">{s.raised}</p>
+              <p className="font-display text-lg font-bold text-accent">{s.raised}</p>
             </div>
             <p className="mt-2 text-sm text-ink/60">{s.sector} · {s.round} · via {s.origin} · {s.year}</p>
           </div>
@@ -51,7 +51,7 @@ export default function StartupsClient() {
                 <p className="font-display font-bold text-navy">{s.name}</p>
                 <p className="text-xs text-ink/40">{s.batch} · {s.roll}</p>
               </div>
-              {s.startup && <p className="mt-1 text-sm font-semibold text-gold">{s.startup}</p>}
+              {s.startup && <p className="mt-1 text-sm font-semibold text-accent">{s.startup}</p>}
               <p className="mt-2 text-sm leading-relaxed text-ink/70">{s.research}</p>
               <p className="mt-2 text-xs text-ink/50">{s.faculty} · {s.dept}</p>
             </div>

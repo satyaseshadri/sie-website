@@ -50,7 +50,7 @@
   },
   {
     "slug": "ugfir",
-    "accent": "gold",
+    "accent": "accent",
     "short": "UG-FIR",
     "name": "UG Founder-in-Residence",
     "kicker": "Fellowship · Recent IITM graduates",
@@ -115,9 +115,9 @@
     ],
     "eligibility": [],
     "courses": [
-      { "code": "ID4101", "name": "Innovative Entrepreneur – 1", "theme": "Essentials for an entrepreneur" },
-      { "code": "ID5101", "name": "Innovative Entrepreneur – 1", "theme": "Customer discovery" },
-      { "code": "ID5102", "name": "Innovative Entrepreneur – 2", "theme": "Launching your venture" },
+      { "code": "ID4101", "name": "Entrepreneurship Essentials", "theme": "Idea to impact" },
+      { "code": "ID5101", "name": "Innovative Entrepreneur", "theme": "Customer discovery" },
+      { "code": "ID5102", "name": "Building Your Venture", "theme": "Launching and growing your startup" },
       { "code": "ID4031", "name": "Innovation and Entrepreneurship", "theme": "A multidisciplinary approach" },
       { "code": "ID5031", "name": "Innovation and Entrepreneurship", "theme": "A multidisciplinary perspective" }
     ],

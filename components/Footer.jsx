@@ -9,7 +9,7 @@ export default function Footer() {
           <p className="font-display text-lg font-semibold text-white">{site.name}</p>
           <p className="mt-1 text-sm text-white/60">{site.hub} · {site.institute}</p>
           <p className="mt-4 max-w-md text-sm leading-relaxed">{site.tagline} {site.heroLine}</p>
-          <a href={site.linkedin} className="mt-4 inline-block text-sm text-gold-light hover:underline" rel="noopener">LinkedIn ↗</a>
+          <a href={site.linkedin} className="mt-4 inline-block text-sm text-accent-light hover:underline" rel="noopener">LinkedIn ↗</a>
         </div>
         <div>
           <p className="font-display text-sm font-semibold uppercase tracking-wider text-white">Explore</p>
@@ -26,6 +26,7 @@ export default function Footer() {
           <ul className="mt-3 space-y-2 text-sm">
             <li><a className="hover:text-white" href="https://nirmaan.iitm.ac.in" rel="noopener">Nirmaan — Pre-Incubator ↗</a></li>
             <li><a className="hover:text-white" href="https://cfi.iitm.ac.in" rel="noopener">Centre for Innovation ↗</a></li>
+            <li><a className="hover:text-white" href="https://www.venturearch.org" rel="noopener">VentureArch — Venture Building Platform ↗</a></li>
             <li><a className="hover:text-white" href="https://www.iitm.ac.in" rel="noopener">IIT Madras ↗</a></li>
           </ul>
           <p className="mt-5 text-sm">{site.address}</p>

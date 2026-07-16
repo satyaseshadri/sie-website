@@ -1,0 +1,10 @@
+[
+  { "name": "American Express", "logo": "/images/sponsors/amex.png" },
+  { "name": "Aptiv", "logo": "/images/sponsors/aptiv.png" },
+  { "name": "Citibank", "logo": "/images/sponsors/citibank.png" },
+  { "name": "GameChange Solar", "logo": "/images/sponsors/gamechange.png" },
+  { "name": "HDFC Bank Parivartan", "logo": "/images/sponsors/hdfc-parivartan.png" },
+  { "name": "HyperVerge", "logo": "/images/sponsors/hyperverge.png" },
+  { "name": "Indus Biotech", "logo": "/images/sponsors/indus-biotech.png" },
+  { "name": "Jane Street", "logo": "/images/sponsors/jane.png" }
+]

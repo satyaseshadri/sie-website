@@ -67,7 +67,18 @@ The live URL appears in the repo's Actions run and under Settings → Pages.
 For production at sie.iitm.ac.in, build **without** `BASE_PATH` (`npm run build`) and
 upload `out/` — links then resolve from the domain root.
 
+## Contact form
+
+The form posts to [FormSubmit](https://formsubmit.co) (`formsubmit.co/ajax/support@sieiitm.org`).
+**One-time activation:** the first submission sends a confirmation email to support@sieiitm.org —
+click the link in it once, and all subsequent messages are delivered. No server needed.
+
 ## Content to verify before launch
+
+- Four CFI faculty-advisor LinkedIn links on the old site pointed to the wrong profiles
+  (Sathyan Subbiah, Anuj Kumar Tiwari, Sivakumar M.S., Karthik Raman) — they are left blank
+  in `data/team.json`; add the correct URLs when available. Joel George M (Nirmaan list)
+  also had a wrong link (pointed to Boby George).
 
 - MS(E) monthly HTRA stipend (₹12,400) — taken from the current MS(E) mini-site.
 - Application cycle dates (UG-FIR/PG-FIR/MS July 2026 intake) — confirm current status.

@@ -17,7 +17,7 @@ export function Section({ kicker, title, lead, children, className = '', dark = 
 
 export function PageHero({ kicker, title, lead, children }) {
   return (
-    <div className="border-b border-navy/10 bg-gradient-to-b from-gold-pale/60 to-white">
+    <div className="border-b border-navy/10 bg-gradient-to-b from-accent-pale/60 to-white">
       <div className="container-site py-16 sm:py-20">
         {kicker && <p className="kicker">{kicker}</p>}
         <h1 className="mt-2 max-w-3xl font-display text-4xl font-bold text-navy sm:text-5xl">{title}</h1>
@@ -32,6 +32,6 @@ export const ACCENTS = {
   blue: 'bg-brand-blue/10 text-brand-blue',
   green: 'bg-brand-green/10 text-brand-green',
   red: 'bg-brand-red/10 text-brand-red',
-  gold: 'bg-gold/15 text-[#9a7412]',
+  accent: 'bg-accent/15 text-accent-dark',
   navy: 'bg-navy/10 text-navy',
 };

@@ -45,7 +45,7 @@ export default function ProgramPage({ params }) {
                 <p className="font-display font-bold text-navy">Eligibility</p>
                 <ul className="mt-3 space-y-2 text-sm leading-relaxed text-ink/75">
                   {p.eligibility.map((e, i) => (
-                    <li key={i} className="flex gap-2"><span className="text-gold">✓</span>{e}</li>
+                    <li key={i} className="flex gap-2"><span className="text-accent">✓</span>{e}</li>
                   ))}
                 </ul>
               </div>
@@ -64,7 +64,7 @@ export default function ProgramPage({ params }) {
             <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
               {p.courses.map((c) => (
                 <div key={c.code + c.theme} className="card py-5">
-                  <p className="text-xs font-bold text-gold">{c.code}</p>
+                  <p className="text-xs font-bold text-accent">{c.code}</p>
                   <p className="mt-1 font-display font-semibold text-navy">{c.name}</p>
                   <p className="text-sm text-ink/60">{c.theme}</p>
                 </div>
@@ -75,12 +75,12 @@ export default function ProgramPage({ params }) {
       </Section>
 
       {p.slug === 'ms' && (
-        <Section className="bg-gold-pale/50" kicker="July 2026 admissions" title="Open projects" lead="Apply against a faculty-led problem statement — or propose your own venture idea.">
+        <Section className="bg-accent-pale/50" kicker="July 2026 admissions" title="Open projects" lead="Apply against a faculty-led problem statement — or propose your own venture idea.">
           <div id="projects" className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map((pr) => (
               <div key={pr.id} className="card py-5">
                 <div className="flex items-center justify-between">
-                  <p className="text-xs font-bold text-gold">{pr.id}</p>
+                  <p className="text-xs font-bold text-accent">{pr.id}</p>
                   <span className={`tag ${ACCENTS.blue}`}>{pr.sector}</span>
                 </div>
                 <p className="mt-2 font-display font-semibold leading-snug text-navy">{pr.title}</p>

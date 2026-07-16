@@ -15,11 +15,11 @@
 
 @layer components {
   .container-site { @apply mx-auto w-full max-w-site px-5 sm:px-8; }
-  .kicker { @apply text-xs font-semibold uppercase tracking-[0.18em] text-gold; }
+  .kicker { @apply text-xs font-semibold uppercase tracking-[0.18em] text-accent; }
   .h-display { @apply font-display font-bold text-navy; }
-  .btn-primary { @apply inline-flex items-center gap-2 rounded-lg bg-gold px-5 py-3 font-display text-sm font-semibold text-navy transition hover:bg-gold-light focus:outline-none focus:ring-2 focus:ring-gold focus:ring-offset-2; }
+  .btn-primary { @apply inline-flex items-center gap-2 rounded-lg bg-accent px-5 py-3 font-display text-sm font-semibold text-white transition hover:bg-accent-light focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2; }
   .btn-ghost { @apply inline-flex items-center gap-2 rounded-lg border border-navy/25 px-5 py-3 font-display text-sm font-semibold text-navy transition hover:border-navy hover:bg-navy/5; }
-  .btn-outline { @apply inline-flex items-center gap-2 rounded-lg border border-navy/20 px-5 py-3 font-display text-sm font-semibold text-navy transition hover:border-gold hover:text-gold; }
+  .btn-outline { @apply inline-flex items-center gap-2 rounded-lg border border-navy/20 px-5 py-3 font-display text-sm font-semibold text-navy transition hover:border-accent hover:text-accent; }
   .card { @apply rounded-2xl border border-navy/10 bg-white p-6 shadow-sm transition hover:shadow-md; }
   .tag { @apply inline-block rounded-full px-3 py-1 text-xs font-semibold; }
 }

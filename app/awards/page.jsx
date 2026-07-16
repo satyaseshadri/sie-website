@@ -18,7 +18,7 @@ export default function Awards() {
         <div className="mx-auto max-w-3xl space-y-6">
           {awards.map((a, i) => (
             <div key={a.name} className="card">
-              <p className="text-xs font-bold text-gold">{String(i + 1).padStart(2, '0')}</p>
+              <p className="text-xs font-bold text-accent">{String(i + 1).padStart(2, '0')}</p>
               <h2 className="mt-1 font-display text-xl font-bold text-navy">{a.name}</h2>
               <p className="mt-1 text-sm text-ink/60">{a.scope} · {a.criteria}</p>
               {a.recipients.length > 0 && (

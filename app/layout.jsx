@@ -32,7 +32,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
-        <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-[60] focus:bg-gold focus:px-4 focus:py-2 focus:text-navy">Skip to content</a>
+        <a href="#main" className="sr-only focus:not-sr-only focus:absolute focus:z-[60] focus:bg-accent focus:px-4 focus:py-2 focus:text-navy">Skip to content</a>
         <Header />
         <main id="main">{children}</main>
         <Footer />

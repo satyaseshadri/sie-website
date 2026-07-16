@@ -9,9 +9,9 @@ export const metadata = {
 const TAG_STYLES = {
   Event: 'bg-brand-blue/10 text-brand-blue',
   People: 'bg-brand-green/10 text-brand-green',
-  Milestone: 'bg-gold/15 text-[#9a7412]',
+  Milestone: 'bg-accent/15 text-accent-dark',
   Visit: 'bg-brand-red/10 text-brand-red',
-  Achievement: 'bg-gold/15 text-[#9a7412]',
+  Achievement: 'bg-accent/15 text-accent-dark',
 };
 
 export default function News() {

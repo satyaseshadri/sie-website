@@ -21,7 +21,7 @@ export default function Programs() {
             <Link key={p.slug} href={`/programs/${p.slug}/`} className="card flex flex-col">
               <span className={`tag self-start ${ACCENTS[p.accent] || ACCENTS.navy}`}>{p.short}</span>
               <h2 className="mt-3 font-display text-2xl font-bold text-navy">{p.name}</h2>
-              <p className="mt-1 text-sm font-semibold text-gold">{p.kicker}</p>
+              <p className="mt-1 text-sm font-semibold text-accent">{p.kicker}</p>
               <p className="mt-3 flex-1 leading-relaxed text-ink/70">{p.oneLiner}</p>
               <p className="mt-5 text-sm font-semibold text-brand-blue">Program details →</p>
             </Link>

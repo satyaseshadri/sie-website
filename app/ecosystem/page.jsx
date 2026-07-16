@@ -13,7 +13,7 @@ const CFI_STATS = [
   { v: '73', l: 'Active projects' },
   { v: '22', l: 'Faculty involved' },
   { v: '1,100+', l: 'Students involved' },
-  { v: '₹2.79 Cr', l: 'Team sponsorships (FY 24–25)' },
+  { v: '14', l: 'Startups in the CFI→Nirmaan→IITMIC pipeline' },
 ];
 
 const NIRMAAN_STATS = [
@@ -70,12 +70,12 @@ export default function Ecosystem() {
             <a href="https://cfi.iitm.ac.in" rel="noopener" className="btn-outline w-full justify-center">Visit cfi.iitm.ac.in ↗</a>
           </div>
         </div>
-        <div className="mt-10 rounded-2xl border border-navy/10 bg-gold-pale/40 p-6">
+        <div className="mt-10 rounded-2xl border border-navy/10 bg-accent-pale/40 p-6">
           <p className="kicker">Recent wins</p>
           <div className="mt-4 grid gap-4 md:grid-cols-2">
             {WINS.map((w) => (
               <div key={w.team} className="flex gap-3">
-                <span className="mt-1 text-gold">★</span>
+                <span className="mt-1 text-accent">★</span>
                 <p className="text-sm leading-relaxed text-ink/80"><strong className="text-navy">{w.team}</strong> — {w.win}</p>
               </div>
             ))}
@@ -83,7 +83,7 @@ export default function Ecosystem() {
         </div>
       </Section>
 
-      <Section className="border-y border-navy/10 bg-gold-pale/30" kicker="Stage 2 · Pre-incubate" title="Nirmaan — The Pre-Incubator">
+      <Section className="border-y border-navy/10 bg-accent-pale/30" kicker="Stage 2 · Pre-incubate" title="Nirmaan — The Pre-Incubator">
         <div className="mt-6 grid gap-10 lg:grid-cols-3">
           <div className="space-y-4 text-lg leading-relaxed text-ink/80 lg:col-span-2">
             <p>
@@ -116,17 +116,17 @@ export default function Ecosystem() {
 
       <Section kicker="Stages 3–5 · Learn, fund, scale" title="Then SIE takes you the rest of the way">
         <div className="mt-10 grid gap-5 md:grid-cols-3">
-          <Link href="/programs/" className="card border-t-4 border-brand-blue">
+          <Link href="/programs/" className="card border-t-4 border-t-brand-blue">
             <p className="font-display text-xl font-bold text-navy">Learn</p>
             <p className="mt-2 text-sm leading-relaxed text-ink/70">MS (Entrepreneurship) with startup-as-thesis, PhD research on innovation, and ID-series electives open to all IITM students.</p>
             <p className="mt-4 text-sm font-semibold text-brand-blue">Programs →</p>
           </Link>
-          <Link href="/programs/ugfir/" className="card border-t-4 border-gold">
+          <Link href="/programs/ugfir/" className="card border-t-4 border-t-accent">
             <p className="font-display text-xl font-bold text-navy">Fund</p>
             <p className="mt-2 text-sm leading-relaxed text-ink/70">UG-FIR and PG-FIR fellowships: a stipend, accommodation and mentorship to build your company full-time after graduation.</p>
             <p className="mt-4 text-sm font-semibold text-brand-blue">Fellowships →</p>
           </Link>
-          <a href="https://www.incubation.iitm.ac.in" rel="noopener" className="card border-t-4 border-navy">
+          <a href="https://www.incubation.iitm.ac.in" rel="noopener" className="card border-t-4 border-t-navy">
             <p className="font-display text-xl font-bold text-navy">Scale</p>
             <p className="mt-2 text-sm leading-relaxed text-ink/70">Graduating ventures move into the IIT Madras Incubation Cell and Research Park — deep-tech India's strongest launchpad. ↗</p>
             <p className="mt-4 text-sm font-semibold text-brand-blue">IITMIC →</p>

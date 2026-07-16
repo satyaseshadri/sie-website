@@ -1,5 +1,6 @@
 import site from '../../data/site.json';
 import { PageHero, Section } from '../../components/Section';
+import ContactForm from '../../components/ContactForm';
 
 export const metadata = {
   title: 'Contact',
@@ -16,11 +17,12 @@ export default function Contact() {
       />
       <Section>
         <div className="grid gap-10 lg:grid-cols-2">
+          <ContactForm />
           <div className="space-y-6">
             <div className="card">
               <p className="kicker">Email</p>
-              <a href={`mailto:${site.email}`} className="mt-1 block font-display text-xl font-bold text-brand-blue hover:underline">{site.email}</a>
-              <p className="mt-4 text-sm text-ink/60">Program-specific contacts are listed on the <a className="text-brand-blue hover:underline" href="/people/">People page</a>.</p>
+              <a href={`mailto:${site.email}`} className="mt-1 block font-display text-xl font-bold text-accent hover:underline">{site.email}</a>
+              <p className="mt-3 text-sm text-ink/60">Program-specific contacts are listed on the <a className="text-accent hover:underline" href="/people/">People page</a>.</p>
             </div>
             <div className="card">
               <p className="kicker">Phone</p>
@@ -30,16 +32,16 @@ export default function Contact() {
               <p className="kicker">Visit</p>
               <p className="mt-1 leading-relaxed text-ink/80">{site.address}</p>
             </div>
-          </div>
-          <div className="overflow-hidden rounded-2xl border border-navy/10 shadow-sm">
-            <iframe
-              src={site.mapsEmbed}
-              title="Map: Sudha & Shankar Innovation Hub, IIT Madras"
-              className="h-full min-h-[420px] w-full"
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              allowFullScreen
-            />
+            <div className="overflow-hidden rounded-2xl border border-navy/10 shadow-sm">
+              <iframe
+                src={site.mapsEmbed}
+                title="Map: Sudha & Shankar Innovation Hub, IIT Madras"
+                className="h-72 w-full"
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                allowFullScreen
+              />
+            </div>
           </div>
         </div>
       </Section>

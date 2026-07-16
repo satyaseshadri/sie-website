@@ -4,11 +4,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        navy: { DEFAULT: '#141432', light: '#1e1e48', lighter: '#2a2a5e' },
-        gold: { DEFAULT: '#D9A62E', light: '#F0C75E', pale: '#FBF3DF' },
+        navy: { DEFAULT: '#16324A', light: '#1E4160', lighter: '#2A567C' },
+        accent: { DEFAULT: '#0F8A7A', light: '#12A390', pale: '#E9F5F2', dark: '#085041' },
         brand: { blue: '#2A4DD0', green: '#2F9E63', red: '#D62828' },
         paper: '#FFFFFF',
-        ink: '#23233B',
+        ink: '#2A3844',
       },
       fontFamily: {
         sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif'],
