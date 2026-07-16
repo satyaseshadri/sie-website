@@ -17,11 +17,11 @@ export function Section({ kicker, title, lead, children, className = '', dark = 
 
 export function PageHero({ kicker, title, lead, children }) {
   return (
-    <div className="bg-navy text-white">
+    <div className="border-b border-navy/10 bg-gradient-to-b from-gold-pale/60 to-white">
       <div className="container-site py-16 sm:py-20">
         {kicker && <p className="kicker">{kicker}</p>}
-        <h1 className="mt-2 max-w-3xl font-display text-4xl font-bold sm:text-5xl">{title}</h1>
-        {lead && <p className="mt-5 max-w-2xl text-lg leading-relaxed text-white/80">{lead}</p>}
+        <h1 className="mt-2 max-w-3xl font-display text-4xl font-bold text-navy sm:text-5xl">{title}</h1>
+        {lead && <p className="mt-5 max-w-2xl text-lg leading-relaxed text-ink/75">{lead}</p>}
         {children}
       </div>
     </div>

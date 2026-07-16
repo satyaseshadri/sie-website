@@ -11,6 +11,7 @@ const TAG_STYLES = {
   People: 'bg-brand-green/10 text-brand-green',
   Milestone: 'bg-gold/15 text-[#9a7412]',
   Visit: 'bg-brand-red/10 text-brand-red',
+  Achievement: 'bg-gold/15 text-[#9a7412]',
 };
 
 export default function News() {

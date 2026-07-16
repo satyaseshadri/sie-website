@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import site from '../data/site.json';
 import startups from '../data/startups.json';
 import news from '../data/news.json';
@@ -11,7 +12,7 @@ export const metadata = {
 };
 
 const STACK = [
-  { step: '01', name: 'Tinker', who: 'Centre for Innovation (CFI)', desc: "India's largest 24/7 student-run innovation lab. 14 clubs, 8 competition teams, world records. Walk in with an idea, walk out with a product.", href: 'https://cfi.iitm.ac.in', accent: 'border-brand-red', external: true },
+  { step: '01', name: 'Tinker', who: 'Centre for Innovation (CFI)', desc: "India's largest 24/7 student-run innovation lab. 14 clubs, 8 competition teams, 73 live projects. Walk in with an idea, walk out with a product.", href: 'https://cfi.iitm.ac.in', accent: 'border-brand-red', external: true },
   { step: '02', name: 'Pre-incubate', who: 'Nirmaan', desc: "The country's first on-campus pre-incubator. Pratham (₹2L) and Akshar (₹5L) programmes take teams from idea to MVP with mentorship and workspace.", href: 'https://nirmaan.iitm.ac.in', accent: 'border-brand-green', external: true },
   { step: '03', name: 'Learn', who: 'MS · PhD · Courses', desc: 'A research degree where your startup is your thesis, doctoral research on innovation, and founder-led electives for every IITM student.', href: '/programs/', accent: 'border-brand-blue' },
   { step: '04', name: 'Fund', who: 'Founder-in-Residence', desc: 'UG-FIR and PG-FIR fellowships pay recent graduates and research scholars to build their companies full-time.', href: '/programs/ugfir/', accent: 'border-gold' },
@@ -22,28 +23,42 @@ export default function Home() {
   return (
     <>
       {/* Hero */}
-      <div className="relative overflow-hidden bg-navy text-white">
-        <div className="pointer-events-none absolute -right-40 -top-40 h-96 w-96 rounded-full bg-gold/10 blur-3xl" aria-hidden="true" />
-        <div className="pointer-events-none absolute -bottom-32 left-1/4 h-80 w-80 rounded-full bg-brand-blue/20 blur-3xl" aria-hidden="true" />
-        <div className="container-site relative py-24 sm:py-32">
-          <p className="kicker">School of Innovation &amp; Entrepreneurship · IIT Madras</p>
-          <h1 className="mt-4 max-w-4xl font-display text-4xl font-extrabold leading-tight sm:text-6xl">
-            From lab to <span className="text-gold">launch</span>.
-          </h1>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-white/80 sm:text-xl">
-            {site.heroLine} One school connects the whole journey — tinkering labs, pre-incubation, degrees, founder fellowships and seed support.
-          </p>
-          <div className="mt-9 flex flex-wrap gap-4">
-            <Link href="/programs/" className="btn-primary">Find your program</Link>
-            <Link href="/startups/" className="btn-ghost">See the startups</Link>
+      <div className="border-b border-navy/10 bg-white">
+        <div className="container-site grid items-center gap-12 py-16 sm:py-20 lg:grid-cols-2">
+          <div>
+            <p className="kicker">School of Innovation &amp; Entrepreneurship · IIT Madras</p>
+            <h1 className="mt-4 font-display text-4xl font-extrabold leading-tight text-navy sm:text-6xl">
+              From lab to <span className="text-gold">launch</span>.
+            </h1>
+            <p className="mt-6 max-w-xl text-lg leading-relaxed text-ink/75 sm:text-xl">
+              {site.heroLine} One school connects the whole journey — tinkering labs, pre-incubation, degrees, founder fellowships and seed support.
+            </p>
+            <div className="mt-9 flex flex-wrap gap-4">
+              <Link href="/programs/" className="btn-primary">Find your program</Link>
+              <Link href="/startups/" className="btn-ghost">See the startups</Link>
+            </div>
+          </div>
+          <div className="relative">
+            <Image
+              src="/images/dome.jpg"
+              alt="The Sudha & Shankar Innovation Hub at IIT Madras"
+              width={1920}
+              height={1280}
+              priority
+              className="rounded-2xl object-cover shadow-lg"
+            />
+            <div className="absolute -bottom-5 left-5 rounded-xl bg-white px-4 py-3 shadow-lg ring-1 ring-navy/10">
+              <p className="text-xs font-semibold uppercase tracking-wider text-ink/50">Home of SIE</p>
+              <p className="font-display text-sm font-bold text-navy">Sudha &amp; Shankar Innovation Hub</p>
+            </div>
           </div>
         </div>
-        <div className="relative border-t border-white/10 bg-navy-light/60">
+        <div className="border-t border-navy/10 bg-gold-pale/50">
           <div className="container-site grid grid-cols-2 gap-6 py-8 sm:grid-cols-4">
             {site.stats.map((s) => (
               <div key={s.label}>
-                <p className="font-display text-2xl font-bold text-gold sm:text-3xl">{s.value}</p>
-                <p className="mt-1 text-xs text-white/60 sm:text-sm">{s.label}</p>
+                <p className="font-display text-2xl font-bold text-navy sm:text-3xl">{s.value}</p>
+                <p className="mt-1 text-xs text-ink/60 sm:text-sm">{s.label}</p>
               </div>
             ))}
           </div>
@@ -75,19 +90,19 @@ export default function Home() {
 
       {/* Startups */}
       <Section
-        dark
+        className="border-y border-navy/10 bg-gold-pale/40"
         kicker="Proof, not promises"
         title="₹50 Cr+ raised by ventures from this ecosystem"
-        lead="Student and alumni companies pre-incubated at Nirmaan are raising serious rounds in spacetech, healthcare, agritech and climate."
+        lead="Student and alumni companies pre-incubated at Nirmaan are raising serious rounds in spacetech, healthcare, agritech and climate — on a combined Nirmaan portfolio now valued at over ₹1,000 crore."
       >
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {startups.slice(0, 6).map((s) => (
-            <div key={s.name} className="rounded-2xl border border-white/10 bg-white/5 p-6">
+            <div key={s.name} className="card">
               <div className="flex items-baseline justify-between gap-3">
-                <p className="font-display text-lg font-bold text-white">{s.name}</p>
+                <p className="font-display text-lg font-bold text-navy">{s.name}</p>
                 <p className="font-display text-lg font-bold text-gold">{s.raised}</p>
               </div>
-              <p className="mt-2 text-sm text-white/60">{s.sector} · {s.round} · via {s.origin}</p>
+              <p className="mt-2 text-sm text-ink/60">{s.sector} · {s.round} · via {s.origin}</p>
             </div>
           ))}
         </div>
@@ -113,7 +128,7 @@ export default function Home() {
       </Section>
 
       {/* News */}
-      <Section className="bg-gold-pale/50" kicker="Latest" title="News from the school">
+      <Section className="border-t border-navy/10" kicker="Latest" title="News from the school">
         <div className="mt-10 grid gap-5 md:grid-cols-3">
           {news.slice(0, 3).map((n) => (
             <article key={n.slug} className="card">
@@ -123,7 +138,7 @@ export default function Home() {
             </article>
           ))}
         </div>
-        <Link href="/news/" className="btn-outline mt-10">All news</Link>
+        <Link href="/news/" className="btn-ghost mt-10">All news</Link>
       </Section>
     </>
   );

@@ -7,7 +7,7 @@ module.exports = {
         navy: { DEFAULT: '#141432', light: '#1e1e48', lighter: '#2a2a5e' },
         gold: { DEFAULT: '#D9A62E', light: '#F0C75E', pale: '#FBF3DF' },
         brand: { blue: '#2A4DD0', green: '#2F9E63', red: '#D62828' },
-        paper: '#FAF9F6',
+        paper: '#FFFFFF',
         ink: '#23233B',
       },
       fontFamily: {

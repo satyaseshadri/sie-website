@@ -24,9 +24,9 @@ export default function ProgramPage({ params }) {
       <PageHero kicker={p.kicker} title={p.name} lead={p.oneLiner}>
         <div className="mt-8 grid max-w-3xl grid-cols-2 gap-4 sm:grid-cols-4">
           {p.facts.map((f) => (
-            <div key={f.k} className="rounded-xl border border-white/15 bg-white/5 p-4">
-              <p className="text-xs uppercase tracking-wider text-white/50">{f.k}</p>
-              <p className="mt-1 text-sm font-semibold text-gold-light">{f.v}</p>
+            <div key={f.k} className="rounded-xl border border-navy/10 bg-white p-4 shadow-sm">
+              <p className="text-xs uppercase tracking-wider text-ink/50">{f.k}</p>
+              <p className="mt-1 text-sm font-semibold text-navy">{f.v}</p>
             </div>
           ))}
         </div>
