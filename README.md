@@ -67,6 +67,15 @@ The live URL appears in the repo's Actions run and under Settings → Pages.
 For production at sie.iitm.ac.in, build **without** `BASE_PATH` (`npm run build`) and
 upload `out/` — links then resolve from the domain root.
 
+## Startup feed bot
+
+`.github/workflows/feed.yml` runs daily (08:00 IST): `scripts/update-feed.js` scans Google News
+RSS for every startup in `data/nirmaan-startups.json`, keeps milestone stories (funding, awards,
+launches, patents), and commits `data/startup-feed.json` — which triggers a site rebuild, so the
+Startups page refreshes automatically. Add/remove startups by editing `data/nirmaan-startups.json`.
+The current feed is seeded with verified milestones from SIE records; the bot replaces it as it
+finds fresh news. Run manually from the Actions tab ("Update startup feed" → Run workflow).
+
 ## Contact form
 
 The form posts to [FormSubmit](https://formsubmit.co) (`formsubmit.co/ajax/support@sieiitm.org`).

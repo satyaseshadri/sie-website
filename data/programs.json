@@ -6,6 +6,12 @@
     "name": "MS (Entrepreneurship)",
     "kicker": "Research degree · Startup as thesis",
     "oneLiner": "Build a deep-tech venture and earn a research degree for it — the programme that has produced founders since 1982.",
+    "notice": {
+      "title": "Admissions for the July 2026 cohort are now closed.",
+      "body": "Please check back for the next admission cycle. Meanwhile, meet the scholars building ventures in the current cohorts.",
+      "ctaLabel": "Meet the MS(E) scholars",
+      "ctaHref": "/startups/#scholars"
+    },
     "facts": [
       { "k": "Degree", "v": "M.S. by Research, IIT Madras" },
       { "k": "Duration", "v": "2–3 years, milestone-based" },
@@ -22,7 +28,7 @@
       "Graduation from a recognised university",
       "A startup proposal submitted with the application"
     ],
-    "cta": { "label": "View open projects & apply", "href": "/programs/ms/#projects" }
+    "cta": { "label": "Explore project areas", "href": "/programs/ms/#projects" }
   },
   {
     "slug": "phd",

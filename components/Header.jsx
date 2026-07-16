@@ -17,7 +17,9 @@ const NAV = [
     ],
   },
   { label: 'Ecosystem', href: '/ecosystem/' },
+  { label: 'Venture Studios', href: '/studios/' },
   { label: 'Startups', href: '/startups/' },
+  { label: 'Open Calls', href: '/open-calls/' },
   { label: 'People', href: '/people/' },
   { label: 'News', href: '/news/' },
   { label: 'Awards', href: '/awards/' },
@@ -46,7 +48,7 @@ export default function Header() {
           {NAV.map((item) =>
             item.children ? (
               <div key={item.label} className="group relative">
-                <Link href={item.href} className="flex items-center gap-1 rounded-md px-3 py-2 text-sm font-medium text-navy/80 hover:bg-navy/5 hover:text-navy">
+                <Link href={item.href} className="flex items-center gap-1 rounded-md px-2 py-2 text-[13px] font-medium text-navy/80 hover:bg-navy/5 hover:text-navy xl:px-2.5 xl:text-sm">
                   {item.label}
                   <svg className="h-3 w-3" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>
                 </Link>
@@ -59,7 +61,7 @@ export default function Header() {
                 </div>
               </div>
             ) : (
-              <Link key={item.href} href={item.href} className="rounded-md px-3 py-2 text-sm font-medium text-navy/80 hover:bg-navy/5 hover:text-navy">
+              <Link key={item.href} href={item.href} className="rounded-md px-2 py-2 text-[13px] font-medium text-navy/80 hover:bg-navy/5 hover:text-navy xl:px-2.5 xl:text-sm">
                 {item.label}
               </Link>
             )

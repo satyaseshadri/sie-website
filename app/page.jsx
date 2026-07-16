@@ -103,7 +103,7 @@ export default function Home() {
                 <p className="font-display text-lg font-bold text-navy">{s.name}</p>
                 <p className="font-display text-lg font-bold text-accent">{s.raised}</p>
               </div>
-              <p className="mt-2 text-sm text-ink/60">{s.sector} · {s.round} · via {s.origin}</p>
+              <p className="mt-2 text-sm text-ink/60">{s.sector} · {s.round}</p>
             </div>
           ))}
         </div>

@@ -2,6 +2,7 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import programs from '../../../data/programs.json';
 import projects from '../../../data/projects.json';
+import students from '../../../data/students.json';
 import { PageHero, Section, ACCENTS } from '../../../components/Section';
 
 export function generateStaticParams() {
@@ -31,6 +32,18 @@ export default function ProgramPage({ params }) {
           ))}
         </div>
       </PageHero>
+
+      {p.notice && (
+        <div className="border-b border-navy/10 bg-accent-pale">
+          <div className="container-site flex flex-wrap items-center justify-between gap-4 py-5">
+            <div>
+              <p className="font-display font-bold text-navy">{p.notice.title}</p>
+              <p className="mt-0.5 text-sm text-ink/70">{p.notice.body}</p>
+            </div>
+            <Link href={p.notice.ctaHref} className="btn-primary flex-none">{p.notice.ctaLabel}</Link>
+          </div>
+        </div>
+      )}
 
       <Section>
         <div className="grid gap-12 lg:grid-cols-3">
@@ -75,7 +88,29 @@ export default function ProgramPage({ params }) {
       </Section>
 
       {p.slug === 'ms' && (
-        <Section className="bg-accent-pale/50" kicker="July 2026 admissions" title="Open projects" lead="Apply against a faculty-led problem statement — or propose your own venture idea.">
+        <Section kicker="Scholars building companies" title="Ventures launched from this programme" lead="MS(E) scholars whose research has already become a venture — several with external funding.">
+          <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+            {students.filter((s) => s.startup).slice(0, 12).map((s) => (
+              <div key={s.roll} className={`card py-4 ${s.funded ? 'border-accent/40 bg-accent-pale/40' : ''}`}>
+                <div className="flex items-start justify-between gap-2">
+                  <p className="font-display font-semibold leading-snug text-navy">{s.startup}</p>
+                  {s.funded && <span className="tag flex-none bg-accent/15 text-accent-dark">{s.funded}</span>}
+                </div>
+                <p className="mt-1 text-sm text-ink/60">
+                  {s.linkedin ? (
+                    <a href={s.linkedin} rel="noopener" target="_blank" className="text-brand-blue hover:underline">{s.name} ↗</a>
+                  ) : s.name}
+                  {' · '}{s.batch} batch
+                </p>
+              </div>
+            ))}
+          </div>
+          <Link href="/startups/#scholars" className="btn-ghost mt-8">Full MS(E) scholar directory</Link>
+        </Section>
+      )}
+
+      {p.slug === 'ms' && (
+        <Section className="bg-accent-pale/50" kicker="From the July 2026 cycle" title="Project areas" lead="Faculty-led problem statements from the most recent admission cycle — the next call will offer a similar spread. Applicants may also propose their own venture idea.">
           <div id="projects" className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map((pr) => (
               <div key={pr.id} className="card py-5">

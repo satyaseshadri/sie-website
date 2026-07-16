@@ -1,101 +1,460 @@
 {
   "leadership": [
-    { "name": "Prof. Kamakoti Veezhinathan", "role": "Director, IIT Madras", "photo": "", "linkedin": "https://www.linkedin.com/in/kamakoti-veezhinathan-9a8528b/", "message": "The School of Innovation & Entrepreneurship provides the academic foundation to IITM's 'I&E Stack' and will train the coming generation of startup founders who will produce distinctive solutions addressing some of the most pressing industrial and societal challenges. SIE at IIT Madras is one of our key initiatives towards the vision of Viksit Bharat 2047 and is aligned with visionary programmes such as Make in India, Swachh Bharat and NEP." },
-    { "name": "Prof. Satyanarayanan Seshadri", "role": "Head, School of Innovation and Entrepreneurship", "photo": "/images/people/satyanarayanan-seshadri.jpg", "linkedin": "https://www.linkedin.com/in/satyaseshadri/", "message": "SIE at IIT Madras is leading its transformation into India's foremost entrepreneurial university. Our vision is to be among the top 5 global entrepreneurial universities and to propel India as a top-3 deep-tech, science-based startup nation. SIE pioneers an active venture-creation model, where research to revenue is supported at every step through our innovation stack — tinkering labs, deep-tech centres of excellence, pre-incubation, lab-to-market education and venture studios." },
-    { "name": "Prof. Murugaiyan Amirthalingam", "role": "Advisor, Nirmaan", "photo": "/images/people/murugaiyan-amirthalingam.jpg", "linkedin": "", "message": "Nirmaan, the pre-incubator at IIT Madras, supports students, researchers and alumni taking their first steps into entrepreneurship. It turns early ideas and prototypes into real startup opportunities through mentorship, seed funding, prototyping support and access to the wider IIT Madras startup ecosystem — working closely with aspiring founders from concept to a strong, scalable venture." },
-    { "name": "Prof. Manish Anand", "role": "Advisor, CFI", "photo": "/images/people/manish-anand.jpg", "linkedin": "https://www.linkedin.com/in/manish-anand-80985a170/", "message": "The Centre for Innovation is where IIT Madras students learn by doing — a 24/7 student-run lab where ideas are built, broken and rebuilt until they work. CFI is the first step of the founder pipeline at IIT Madras." }
+    {
+      "name": "Prof. Kamakoti Veezhinathan",
+      "role": "Director, IIT Madras",
+      "photo": "",
+      "linkedin": "https://www.linkedin.com/in/kamakoti-veezhinathan-9a8528b/",
+      "message": "The School of Innovation & Entrepreneurship provides the academic foundation to IITM's 'I&E Stack' and will train the coming generation of startup founders who will produce distinctive solutions addressing some of the most pressing industrial and societal challenges. SIE at IIT Madras is one of our key initiatives towards the vision of Viksit Bharat 2047 and is aligned with visionary programmes such as Make in India, Swachh Bharat and NEP."
+    },
+    {
+      "name": "Prof. Satyanarayanan Seshadri",
+      "role": "Head, School of Innovation and Entrepreneurship",
+      "photo": "/images/people/satyanarayanan-seshadri.jpg",
+      "linkedin": "https://www.linkedin.com/in/satyaseshadri/",
+      "message": "SIE at IIT Madras is leading its transformation into India's foremost entrepreneurial university. Our vision is to be among the top 5 global entrepreneurial universities and to propel India as a top-3 deep-tech, science-based startup nation. SIE pioneers an active venture-creation model, where research to revenue is supported at every step through our innovation stack — tinkering labs, deep-tech centres of excellence, pre-incubation, lab-to-market education and venture studios."
+    },
+    {
+      "name": "Prof. Murugaiyan Amirthalingam",
+      "role": "Advisor, Nirmaan",
+      "photo": "/images/people/murugaiyan-amirthalingam.jpg",
+      "linkedin": "",
+      "message": "Nirmaan, the pre-incubator at IIT Madras, supports students, researchers and alumni taking their first steps into entrepreneurship. It turns early ideas and prototypes into real startup opportunities through mentorship, seed funding, prototyping support and access to the wider IIT Madras startup ecosystem — working closely with aspiring founders from concept to a strong, scalable venture."
+    },
+    {
+      "name": "Prof. Manish Anand",
+      "role": "Advisor, CFI",
+      "photo": "/images/people/manish-anand.jpg",
+      "linkedin": "https://www.linkedin.com/in/manish-anand-80985a170/",
+      "message": "The Centre for Innovation is where IIT Madras students learn by doing — a 24/7 student-run lab where ideas are built, broken and rebuilt until they work. CFI is the first step of the founder pipeline at IIT Madras."
+    }
   ],
   "staff": [
-    { "name": "Prof. Satyanarayanan Seshadri", "role": "Head, SIE", "email": "head@sie.iitm.ac.in", "photo": "/images/people/satyanarayanan-seshadri.jpg", "linkedin": "https://www.linkedin.com/in/satyaseshadri/" },
-    { "name": "Prof. Murugaiyan Amirthalingam", "role": "Advisor, Nirmaan", "email": "advisor-nirmaan@sie.iitm.ac.in", "photo": "/images/people/murugaiyan-amirthalingam.jpg", "linkedin": "" },
-    { "name": "Prof. Manish Anand", "role": "Advisor, CFI", "email": "advisor-cfi@sie.iitm.ac.in", "photo": "/images/people/manish-anand.jpg", "linkedin": "https://www.linkedin.com/in/manish-anand-80985a170/" },
-    { "name": "K. S. Nandhini", "role": "Chief Operating Officer", "email": "coo@sie.iitm.ac.in", "photo": "/images/people/ks-nandhini.jpg", "linkedin": "" },
-    { "name": "Krishnaveni", "role": "Finance Manager", "email": "finance-manager@sie.iitm.ac.in", "photo": "/images/people/krishnaveni.jpg", "linkedin": "" },
-    { "name": "Usha Sriram", "role": "Academic Liaison Officer", "email": "acad@sie.iitm.ac.in", "photo": "/images/people/usha-sriram.jpg", "linkedin": "" },
-    { "name": "E. Sundarraj", "role": "IP Manager", "email": "ip-manager@sie.iitm.ac.in", "photo": "/images/people/e-sundarraj.jpg", "linkedin": "" },
-    { "name": "Anjana U. P.", "role": "Pre-Incubation Coordinator", "email": "preincubation1@sie.iitm.ac.in", "photo": "", "linkedin": "" },
-    { "name": "Amrutha Narayanan", "role": "Learning Development Coordinator", "email": "ldc@sie.iitm.ac.in", "photo": "/images/people/amrutha-narayanan.jpg", "linkedin": "" },
-    { "name": "Sriram", "role": "Technician", "email": "technician1@sie.iitm.ac.in", "photo": "/images/people/sriram.jpg", "linkedin": "" },
-    { "name": "Suvanya", "role": "Technician (Safety & Inventory)", "email": "technician2@sie.iitm.ac.in", "photo": "/images/people/suvanya.jpg", "linkedin": "" },
-    { "name": "R. Manikandan", "role": "Facility Manager", "email": "facility-manager@sie.iitm.ac.in", "photo": "/images/people/r-manikandan.jpg", "linkedin": "" },
-    { "name": "Velankanni Robert", "role": "Senior Office Assistant", "email": "facility1@sie.iitm.ac.in", "photo": "/images/people/velankanni-robert.jpg", "linkedin": "" },
-    { "name": "Rajesh", "role": "Office Assistant", "email": "", "photo": "", "linkedin": "" },
-    { "name": "Jaya Prakash M.", "role": "Tech Support", "email": "techsupport@sie.iitm.ac.in", "photo": "/images/people/jaya-prakash.jpg", "linkedin": "" }
+    {
+      "name": "K. S. Nandhini",
+      "role": "Chief Operating Officer",
+      "email": "coo@sie.iitm.ac.in",
+      "photo": "/images/people/ks-nandhini.jpg",
+      "linkedin": ""
+    },
+    {
+      "name": "Krishnaveni",
+      "role": "Finance Manager",
+      "email": "finance-manager@sie.iitm.ac.in",
+      "photo": "/images/people/krishnaveni.jpg",
+      "linkedin": ""
+    },
+    {
+      "name": "Usha Sriram",
+      "role": "Academic Liaison Officer",
+      "email": "acad@sie.iitm.ac.in",
+      "photo": "/images/people/usha-sriram.jpg",
+      "linkedin": ""
+    },
+    {
+      "name": "E. Sundarraj",
+      "role": "IP Manager",
+      "email": "ip-manager@sie.iitm.ac.in",
+      "photo": "/images/people/e-sundarraj.jpg",
+      "linkedin": ""
+    },
+    {
+      "name": "Anjana U. P.",
+      "role": "Pre-Incubation Coordinator",
+      "email": "preincubation1@sie.iitm.ac.in",
+      "photo": "",
+      "linkedin": ""
+    },
+    {
+      "name": "Amrutha Narayanan",
+      "role": "Learning Development Coordinator",
+      "email": "ldc@sie.iitm.ac.in",
+      "photo": "/images/people/amrutha-narayanan.jpg",
+      "linkedin": ""
+    },
+    {
+      "name": "Sriram",
+      "role": "Technician",
+      "email": "technician1@sie.iitm.ac.in",
+      "photo": "/images/people/sriram.jpg",
+      "linkedin": ""
+    },
+    {
+      "name": "Suvanya",
+      "role": "Technician (Safety & Inventory)",
+      "email": "technician2@sie.iitm.ac.in",
+      "photo": "/images/people/suvanya.jpg",
+      "linkedin": ""
+    },
+    {
+      "name": "R. Manikandan",
+      "role": "Facility Manager",
+      "email": "facility-manager@sie.iitm.ac.in",
+      "photo": "/images/people/r-manikandan.jpg",
+      "linkedin": ""
+    },
+    {
+      "name": "Velankanni Robert",
+      "role": "Senior Office Assistant",
+      "email": "facility1@sie.iitm.ac.in",
+      "photo": "/images/people/velankanni-robert.jpg",
+      "linkedin": ""
+    },
+    {
+      "name": "Rajesh",
+      "role": "Office Assistant",
+      "email": "",
+      "photo": "",
+      "linkedin": ""
+    },
+    {
+      "name": "Jaya Prakash M.",
+      "role": "Tech Support",
+      "email": "techsupport@sie.iitm.ac.in",
+      "photo": "/images/people/jaya-prakash.jpg",
+      "linkedin": ""
+    }
   ],
   "mentorGroups": [
     {
       "group": "MS (Entrepreneurship)",
       "accent": "blue",
       "mentors": [
-        { "name": "Prof. Satyanarayanan Seshadri", "role": "MS(E) Mentor", "linkedin": "https://www.linkedin.com/in/satyaseshadri/" },
-        { "name": "Gopal Raman", "role": "MS(E) Mentor", "linkedin": "https://www.linkedin.com/in/ramangopal/" },
-        { "name": "Dr. T. Pradeep", "role": "MS(E) Mentor", "linkedin": "https://www.linkedin.com/in/thalappil-pradeep-b22505ba/" }
+        {
+          "name": "Prof. Satyanarayanan Seshadri",
+          "role": "MS(E) Mentor",
+          "linkedin": "https://www.linkedin.com/in/satyaseshadri/"
+        },
+        {
+          "name": "Gopal Raman",
+          "role": "MS(E) Mentor",
+          "linkedin": "https://www.linkedin.com/in/ramangopal/"
+        },
+        {
+          "name": "Dr. T. Pradeep",
+          "role": "MS(E) Mentor",
+          "linkedin": "https://www.linkedin.com/in/thalappil-pradeep-b22505ba/"
+        }
       ]
     },
     {
       "group": "Nirmaan",
       "accent": "green",
       "mentors": [
-        { "name": "Prof. V. Kamakoti", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/kamakoti-veezhinathan-9a8528b/" },
-        { "name": "Prof. Satyanarayanan Seshadri", "role": "Co-founder", "linkedin": "https://www.linkedin.com/in/satyaseshadri/" },
-        { "name": "Prof. Prabhu Rajagopal", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/prabhu-rajagopal-041ab74/" },
-        { "name": "Prof. Parasuraman Swaminathan", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/parasuraman-swaminathan-19032533/" },
-        { "name": "Dr. MohanaKrishnan Logan", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/mohanakrishnan-logan-3b4893b6/" },
-        { "name": "Prof. Manish Anand", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/manish-anand-80985a170/" },
-        { "name": "Dr. Sivasrinivasu Devadula", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/sivasrinivasu-devadula-74986812/" },
-        { "name": "Prof. Krishnan Balasubramaniam", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/krishnan-balasubramanian-534145157/" },
-        { "name": "Dr. Satyesh Kumar Yadav", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/satyesh-yadav-91a167a/" },
-        { "name": "Prof. Sathiya N. Gummadi", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/sathyanarayana-gummadi-b37575250/" },
-        { "name": "Dr. T. Pradeep", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/thalappil-pradeep-b22505ba/" },
-        { "name": "Prof. Sivarama Krishnan", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/srkris/" },
-        { "name": "Dr. Abhijit P. Deshpande", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/abhijit-deshpande-55ba3224a/" },
-        { "name": "Prof. Manivannan M", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/manivannan-muniyandi-5b2591224/" },
-        { "name": "Prof. Basavaraja Madivala Gurappa", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/basaiitm/" },
-        { "name": "Prof. G. Sai Krishnan", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/sai-krishnan-9a0442197/" },
-        { "name": "Prof. M. Pattabiraman", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/pattabiraman-murari/" },
-        { "name": "Dr. S. Pandian", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/pandian-ps-51721962/" },
-        { "name": "Prof. R. Dhamodharan", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/dhamodharanraghavachari/" },
-        { "name": "Prof. M. Thenmozhi", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/m-thenmozhi-831894a/" },
-        { "name": "Prof. David Kumar", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/david-kumar-22a15468/" },
-        { "name": "Prof. Joel George M", "role": "Advisor", "linkedin": "" },
-        { "name": "Dr. Santhosh Kumar Sahu", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/sksahuiitm/" },
-        { "name": "Prof. N. Manoj", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/manoj-n-ba8b1211/" },
-        { "name": "Dr. Vimal Edachery", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/dr-vimal-edachery-a15425aa/" },
-        { "name": "Prof. Bala Ramadurai", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/balaramadurai/" },
-        { "name": "Prof. Boby George", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/boby-george-82090262/" },
-        { "name": "Dr. Mathava Kumar S", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/mathava-kumar-s-iitm-1129983a8/" },
-        { "name": "Dr. R. Velmurugan", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/velmurugan-r-iitm-0566ba1b9/" },
-        { "name": "Dr. Gokul S Krishnan", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/gokul-s-krishnan-437a7654/" },
-        { "name": "Prof. Raj Jaswa", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/rjaswa/" },
-        { "name": "Prof. Shanti Swarup K", "role": "Advisor", "linkedin": "https://www.linkedin.com/in/shanti-swarup-7b15b312/" }
+        {
+          "name": "Prof. V. Kamakoti",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/kamakoti-veezhinathan-9a8528b/"
+        },
+        {
+          "name": "Prof. Satyanarayanan Seshadri",
+          "role": "Co-founder",
+          "linkedin": "https://www.linkedin.com/in/satyaseshadri/"
+        },
+        {
+          "name": "Prof. Prabhu Rajagopal",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/prabhu-rajagopal-041ab74/"
+        },
+        {
+          "name": "Prof. Parasuraman Swaminathan",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/parasuraman-swaminathan-19032533/"
+        },
+        {
+          "name": "Dr. MohanaKrishnan Logan",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/mohanakrishnan-logan-3b4893b6/"
+        },
+        {
+          "name": "Prof. Manish Anand",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/manish-anand-80985a170/"
+        },
+        {
+          "name": "Dr. Sivasrinivasu Devadula",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/sivasrinivasu-devadula-74986812/"
+        },
+        {
+          "name": "Prof. Krishnan Balasubramaniam",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/krishnan-balasubramanian-534145157/"
+        },
+        {
+          "name": "Dr. Satyesh Kumar Yadav",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/satyesh-yadav-91a167a/"
+        },
+        {
+          "name": "Prof. Sathiya N. Gummadi",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/sathyanarayana-gummadi-b37575250/"
+        },
+        {
+          "name": "Dr. T. Pradeep",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/thalappil-pradeep-b22505ba/"
+        },
+        {
+          "name": "Prof. Sivarama Krishnan",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/srkris/"
+        },
+        {
+          "name": "Dr. Abhijit P. Deshpande",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/abhijit-deshpande-55ba3224a/"
+        },
+        {
+          "name": "Prof. Manivannan M",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/manivannan-muniyandi-5b2591224/"
+        },
+        {
+          "name": "Prof. Basavaraja Madivala Gurappa",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/basaiitm/"
+        },
+        {
+          "name": "Prof. G. Sai Krishnan",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/sai-krishnan-9a0442197/"
+        },
+        {
+          "name": "Prof. M. Pattabiraman",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/pattabiraman-murari/"
+        },
+        {
+          "name": "Dr. S. Pandian",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/pandian-ps-51721962/"
+        },
+        {
+          "name": "Prof. R. Dhamodharan",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/dhamodharanraghavachari/"
+        },
+        {
+          "name": "Prof. M. Thenmozhi",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/m-thenmozhi-831894a/"
+        },
+        {
+          "name": "Prof. David Kumar",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/david-kumar-22a15468/"
+        },
+        {
+          "name": "Prof. Joel George M",
+          "role": "Advisor",
+          "linkedin": ""
+        },
+        {
+          "name": "Dr. Santhosh Kumar Sahu",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/sksahuiitm/"
+        },
+        {
+          "name": "Prof. N. Manoj",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/manoj-n-ba8b1211/"
+        },
+        {
+          "name": "Dr. Vimal Edachery",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/dr-vimal-edachery-a15425aa/"
+        },
+        {
+          "name": "Prof. Bala Ramadurai",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/balaramadurai/"
+        },
+        {
+          "name": "Prof. Boby George",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/boby-george-82090262/"
+        },
+        {
+          "name": "Dr. Mathava Kumar S",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/mathava-kumar-s-iitm-1129983a8/"
+        },
+        {
+          "name": "Dr. R. Velmurugan",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/velmurugan-r-iitm-0566ba1b9/"
+        },
+        {
+          "name": "Dr. Gokul S Krishnan",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/gokul-s-krishnan-437a7654/"
+        },
+        {
+          "name": "Prof. Raj Jaswa",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/rjaswa/"
+        },
+        {
+          "name": "Prof. Shanti Swarup K",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/shanti-swarup-7b15b312/"
+        }
       ]
     },
     {
       "group": "Centre for Innovation (CFI)",
       "accent": "red",
       "mentors": [
-        { "name": "Prof. Sathyan Subbiah", "role": "Faculty Advisor, Abhiyaan", "linkedin": "" },
-        { "name": "Prof. Anuj Kumar Tiwari", "role": "Faculty Advisor, Abhyuday & Anveshak", "linkedin": "" },
-        { "name": "Prof. Sivakumar M. S.", "role": "Faculty Advisor, Agnirath", "linkedin": "" },
-        { "name": "Prof. Satyanarayanan Seshadri", "role": "Faculty Advisor, Raftar", "linkedin": "https://www.linkedin.com/in/satyaseshadri/" },
-        { "name": "Prof. Satyanarayanan R. Chakravarthy", "role": "Faculty Advisor, Avishkar Hyperloop", "linkedin": "https://www.linkedin.com/in/satya-chakravarthy-51326241/" },
-        { "name": "Prof. Karthik Raman", "role": "Faculty Advisor, iGEM", "linkedin": "" },
-        { "name": "Dr. V. Sriram", "role": "Faculty Advisor, Amogh", "linkedin": "" },
-        { "name": "Prof. Chester Rebeiro", "role": "Faculty Advisor, Cybersecurity Club", "linkedin": "https://www.linkedin.com/in/chester-rebeiro-7475192/" },
-        { "name": "Devaprakash Muniraj", "role": "Faculty Advisor, Aero Club", "linkedin": "https://www.linkedin.com/in/devaprakash-muniraj-32820729/" },
-        { "name": "Prof. Bijo Sebastian", "role": "Faculty Advisor, iBot", "linkedin": "https://www.linkedin.com/in/bijo-sebastian-389153147/" },
-        { "name": "Prof. Rupesh Nasre", "role": "Faculty Advisor, Programming Club", "linkedin": "https://www.linkedin.com/in/nasre/" },
-        { "name": "Prof. Tiju Thomas", "role": "Faculty Advisor, Sahaay", "linkedin": "https://www.linkedin.com/in/tiju-thomas-4826198/" },
-        { "name": "Prof. Nishad Kothari", "role": "Faculty Advisor, Mathematics Club", "linkedin": "" },
-        { "name": "Prof. Suresh Govindrajan", "role": "Faculty Advisor, Horizon", "linkedin": "" },
-        { "name": "Prof. Arun Karuppaswamy B", "role": "Faculty Advisor, Electronics Club", "linkedin": "https://www.linkedin.com/in/arunkaruppaswamyb/" },
-        { "name": "Prof. Prabhu Rajagopal", "role": "Faculty Advisor, Team Envisage", "linkedin": "https://www.linkedin.com/in/prabhu-rajagopal-041ab74/" },
-        { "name": "Prof. Manish Anand", "role": "Faculty Advisor, Product Design Club", "linkedin": "https://www.linkedin.com/in/manish-anand-80985a170/" },
-        { "name": "Prof. N. Manoj", "role": "Faculty Advisor, Biotech Club", "linkedin": "https://www.linkedin.com/in/manoj-n-ba8b1211/" },
-        { "name": "Prof. G. Saravana Kumar", "role": "Faculty Advisor, 3D Printing Club", "linkedin": "https://www.linkedin.com/in/saravana-kumar-gurunathan-8607747b/" },
-        { "name": "Prof. John Augustine", "role": "Faculty Advisor, WebOps & Blockchain", "linkedin": "https://www.linkedin.com/in/johnaugustine/" },
-        { "name": "Prof. Kaushik Mitra", "role": "Faculty Advisor, AI Club", "linkedin": "https://www.linkedin.com/in/kaushik-mitra-300b2716/" }
+        {
+          "name": "Prof. Sathyan Subbiah",
+          "role": "Faculty Advisor, Abhiyaan",
+          "linkedin": ""
+        },
+        {
+          "name": "Prof. Anuj Kumar Tiwari",
+          "role": "Faculty Advisor, Abhyuday & Anveshak",
+          "linkedin": ""
+        },
+        {
+          "name": "Prof. Sivakumar M. S.",
+          "role": "Faculty Advisor, Agnirath",
+          "linkedin": ""
+        },
+        {
+          "name": "Prof. Satyanarayanan Seshadri",
+          "role": "Faculty Advisor, Raftar",
+          "linkedin": "https://www.linkedin.com/in/satyaseshadri/"
+        },
+        {
+          "name": "Prof. Satyanarayanan R. Chakravarthy",
+          "role": "Faculty Advisor, Avishkar Hyperloop",
+          "linkedin": "https://www.linkedin.com/in/satya-chakravarthy-51326241/"
+        },
+        {
+          "name": "Prof. Karthik Raman",
+          "role": "Faculty Advisor, iGEM",
+          "linkedin": ""
+        },
+        {
+          "name": "Dr. V. Sriram",
+          "role": "Faculty Advisor, Amogh",
+          "linkedin": ""
+        },
+        {
+          "name": "Prof. Chester Rebeiro",
+          "role": "Faculty Advisor, Cybersecurity Club",
+          "linkedin": "https://www.linkedin.com/in/chester-rebeiro-7475192/"
+        },
+        {
+          "name": "Devaprakash Muniraj",
+          "role": "Faculty Advisor, Aero Club",
+          "linkedin": "https://www.linkedin.com/in/devaprakash-muniraj-32820729/"
+        },
+        {
+          "name": "Prof. Bijo Sebastian",
+          "role": "Faculty Advisor, iBot",
+          "linkedin": "https://www.linkedin.com/in/bijo-sebastian-389153147/"
+        },
+        {
+          "name": "Prof. Rupesh Nasre",
+          "role": "Faculty Advisor, Programming Club",
+          "linkedin": "https://www.linkedin.com/in/nasre/"
+        },
+        {
+          "name": "Prof. Tiju Thomas",
+          "role": "Faculty Advisor, Sahaay",
+          "linkedin": "https://www.linkedin.com/in/tiju-thomas-4826198/"
+        },
+        {
+          "name": "Prof. Nishad Kothari",
+          "role": "Faculty Advisor, Mathematics Club",
+          "linkedin": ""
+        },
+        {
+          "name": "Prof. Suresh Govindrajan",
+          "role": "Faculty Advisor, Horizon",
+          "linkedin": ""
+        },
+        {
+          "name": "Prof. Arun Karuppaswamy B",
+          "role": "Faculty Advisor, Electronics Club",
+          "linkedin": "https://www.linkedin.com/in/arunkaruppaswamyb/"
+        },
+        {
+          "name": "Prof. Prabhu Rajagopal",
+          "role": "Faculty Advisor, Team Envisage",
+          "linkedin": "https://www.linkedin.com/in/prabhu-rajagopal-041ab74/"
+        },
+        {
+          "name": "Prof. Manish Anand",
+          "role": "Faculty Advisor, Product Design Club",
+          "linkedin": "https://www.linkedin.com/in/manish-anand-80985a170/"
+        },
+        {
+          "name": "Prof. N. Manoj",
+          "role": "Faculty Advisor, Biotech Club",
+          "linkedin": "https://www.linkedin.com/in/manoj-n-ba8b1211/"
+        },
+        {
+          "name": "Prof. G. Saravana Kumar",
+          "role": "Faculty Advisor, 3D Printing Club",
+          "linkedin": "https://www.linkedin.com/in/saravana-kumar-gurunathan-8607747b/"
+        },
+        {
+          "name": "Prof. John Augustine",
+          "role": "Faculty Advisor, WebOps & Blockchain",
+          "linkedin": "https://www.linkedin.com/in/johnaugustine/"
+        },
+        {
+          "name": "Prof. Kaushik Mitra",
+          "role": "Faculty Advisor, AI Club",
+          "linkedin": "https://www.linkedin.com/in/kaushik-mitra-300b2716/"
+        }
       ]
+    }
+  ],
+  "governingCouncil": [
+    {
+      "name": "Prof. Ashwin Mahalingam",
+      "affiliation": "IIT Madras",
+      "linkedin": ""
+    },
+    {
+      "name": "Kunal Upadhyay",
+      "affiliation": "IIM Ahmedabad",
+      "linkedin": ""
+    },
+    {
+      "name": "Vishy Vishwanathan",
+      "affiliation": "IIT Madras Alumnus",
+      "linkedin": ""
+    },
+    {
+      "name": "K. K. Raman",
+      "affiliation": "IIT Madras Alumnus",
+      "linkedin": ""
+    },
+    {
+      "name": "Prof. Prabhu Rajagopal",
+      "affiliation": "IIT Madras",
+      "linkedin": "https://www.linkedin.com/in/prabhu-rajagopal-041ab74/"
+    },
+    {
+      "name": "Prof. Satyanarayanan Seshadri",
+      "affiliation": "IIT Madras · Head, SIE",
+      "linkedin": "https://www.linkedin.com/in/satyaseshadri/"
+    },
+    {
+      "name": "Prof. Murugaiyan Amirthalingam",
+      "affiliation": "IIT Madras · Advisor, Nirmaan",
+      "linkedin": ""
+    },
+    {
+      "name": "Prof. Manish Anand",
+      "affiliation": "IIT Madras · Advisor, CFI",
+      "linkedin": "https://www.linkedin.com/in/manish-anand-80985a170/"
     }
   ]
 }

@@ -1,0 +1,31 @@
+name: Update startup feed
+
+on:
+  schedule:
+    - cron: '30 2 * * *'   # daily, 08:00 IST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Scan news sources
+        run: node scripts/update-feed.js
+      - name: Commit if changed
+        run: |
+          git config user.name "sie-feed-bot"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet data/startup-feed.json; then
+            git add data/startup-feed.json
+            git commit -m "chore: refresh startup feed [bot]"
+            git push
+          else
+            echo "Feed unchanged."
+          fi
