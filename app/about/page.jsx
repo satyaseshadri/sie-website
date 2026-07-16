@@ -67,12 +67,23 @@ export default function About() {
         </div>
       </Section>
 
-      <Section kicker="The team" title="People who run the school">
-        <div className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-          {team.staff.map((p) => (
-            <PersonCard key={p.name + p.role} person={p} />
-          ))}
+      <Section kicker="Genesis" title="How the ecosystem grew">
+        <p className="mt-3 max-w-2xl text-ink/70">
+          Two decades of building — from CFI's founding in 2008 and Nirmaan's launch in 2015 to the school itself
+          and the Sudha &amp; Shankar Innovation Hub.
+        </p>
+        <div className="mt-8 overflow-hidden rounded-2xl border border-navy/10 shadow-sm">
+          <Image src="/images/genesis.jpg" alt="Timeline of the IIT Madras innovation and entrepreneurship ecosystem" width={1600} height={1386} className="w-full object-cover" />
         </div>
+      </Section>
+
+      <Section className="border-t border-navy/10" kicker="Operations" title="Chief Operating Officer">
+        <div className="mt-8 max-w-md">
+          <PersonCard person={team.staff.find((p) => p.role === 'Chief Operating Officer')} />
+        </div>
+        <p className="mt-5 text-ink/70">
+          The full operations team is on the <a href="/people/" className="text-accent underline">People page</a>.
+        </p>
       </Section>
     </>
   );

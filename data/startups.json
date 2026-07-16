@@ -1,14 +1,90 @@
 [
-  { "name": "Scimplify", "sector": "Specialty Chemicals", "raised": "$9.5M", "round": "Series A", "origin": "Nirmaan", "year": 2024 },
-  { "name": "Modulus Housing", "sector": "Construction Tech", "raised": "₹70 Cr", "round": "Series A", "origin": "Nirmaan", "year": 2025 },
-  { "name": "GalaxEye", "sector": "SpaceTech", "raised": "₹58 Cr", "round": "Series A", "origin": "Nirmaan", "year": 2025 },
-  { "name": "Arctus Aerospace", "sector": "Aerospace", "raised": "$2.6M", "round": "Seed", "origin": "Nirmaan", "year": 2025 },
-  { "name": "Tan90 Thermal Solutions", "sector": "Cold Chain / Agritech", "raised": "₹20 Cr", "round": "Series A", "origin": "Nirmaan", "year": 2025 },
-  { "name": "Inbound Aerospace", "sector": "SpaceTech", "raised": "₹9 Cr", "round": "Pre-seed", "origin": "Nirmaan", "year": 2025 },
-  { "name": "Plenome Technologies", "sector": "Healthcare", "raised": "₹6.5 Cr", "round": "Seed", "origin": "Nirmaan", "year": 2025 },
-  { "name": "Urban Matrix", "sector": "DroneTech", "raised": "₹6 Cr", "round": "Pre-Series A", "origin": "Nirmaan", "year": 2023 },
-  { "name": "Susstains Engineering Solutions", "sector": "Sustainability", "raised": "₹1.5 Cr", "round": "Seed", "origin": "Nirmaan", "year": 2025 },
-  { "name": "Green Aadhaar", "sector": "Sustainability", "raised": "₹50 L", "round": "Seed", "origin": "Nirmaan", "year": 2025 },
-  { "name": "Grow Your Farm", "sector": "Agritech", "raised": "₹32 L", "round": "Seed", "origin": "Nirmaan", "year": 2025 },
-  { "name": "TIQWorld", "sector": "Agritech", "raised": "₹15 L", "round": "Active", "origin": "Nirmaan", "year": 2025 }
+  {
+    "name": "Modulus Housing",
+    "sector": "Construction Tech",
+    "raised": "₹70 Cr",
+    "round": "Series A",
+    "origin": "Nirmaan",
+    "year": 2025
+  },
+  {
+    "name": "GalaxEye",
+    "sector": "SpaceTech",
+    "raised": "₹58 Cr",
+    "round": "Series A",
+    "origin": "Nirmaan",
+    "year": 2025
+  },
+  {
+    "name": "Arctus Aerospace",
+    "sector": "Aerospace",
+    "raised": "$2.6M",
+    "round": "Seed",
+    "origin": "Nirmaan",
+    "year": 2025
+  },
+  {
+    "name": "Tan90 Thermal Solutions",
+    "sector": "Cold Chain / Agritech",
+    "raised": "₹20 Cr",
+    "round": "Series A",
+    "origin": "Nirmaan",
+    "year": 2025
+  },
+  {
+    "name": "Inbound Aerospace",
+    "sector": "SpaceTech",
+    "raised": "₹9 Cr",
+    "round": "Pre-seed",
+    "origin": "Nirmaan",
+    "year": 2025
+  },
+  {
+    "name": "Plenome Technologies",
+    "sector": "Healthcare",
+    "raised": "₹6.5 Cr",
+    "round": "Seed",
+    "origin": "Nirmaan",
+    "year": 2025
+  },
+  {
+    "name": "Urban Matrix",
+    "sector": "DroneTech",
+    "raised": "₹6 Cr",
+    "round": "Pre-Series A",
+    "origin": "Nirmaan",
+    "year": 2023
+  },
+  {
+    "name": "Susstains Engineering Solutions",
+    "sector": "Sustainability",
+    "raised": "₹1.5 Cr",
+    "round": "Seed",
+    "origin": "Nirmaan",
+    "year": 2025
+  },
+  {
+    "name": "Green Aadhaar",
+    "sector": "Sustainability",
+    "raised": "₹50 L",
+    "round": "Seed",
+    "origin": "Nirmaan",
+    "year": 2025
+  },
+  {
+    "name": "Grow Your Farm",
+    "sector": "Agritech",
+    "raised": "₹32 L",
+    "round": "Seed",
+    "origin": "Nirmaan",
+    "year": 2025
+  },
+  {
+    "name": "TIQWorld",
+    "sector": "Agritech",
+    "raised": "₹15 L",
+    "round": "Active",
+    "origin": "Nirmaan",
+    "year": 2025
+  }
 ]

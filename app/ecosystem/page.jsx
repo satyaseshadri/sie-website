@@ -126,10 +126,31 @@ export default function Ecosystem() {
             <p className="mt-2 text-sm leading-relaxed text-ink/70">UG-FIR and PG-FIR fellowships: a stipend, accommodation and mentorship to build your company full-time after graduation.</p>
             <p className="mt-4 text-sm font-semibold text-brand-blue">Fellowships →</p>
           </Link>
-          <a href="https://www.incubation.iitm.ac.in" rel="noopener" className="card border-t-4 border-t-navy">
+          <a href="https://www.incubation.iitm.ac.in" rel="noopener" target="_blank" className="card border-t-4 border-t-navy">
             <p className="font-display text-xl font-bold text-navy">Scale</p>
             <p className="mt-2 text-sm leading-relaxed text-ink/70">Graduating ventures move into the IIT Madras Incubation Cell and Research Park — deep-tech India's strongest launchpad. ↗</p>
             <p className="mt-4 text-sm font-semibold text-brand-blue">IITMIC →</p>
+          </a>
+        </div>
+      </Section>
+
+      <Section className="border-t border-navy/10 bg-accent-pale/30" kicker="Partners in the stack" title="The wider IIT Madras I&E family">
+        <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
+          <a href="https://esummitiitm.org" rel="noopener" target="_blank" className="card hover:border-accent/50">
+            <p className="font-display text-lg font-bold text-navy">E-Cell IIT Madras ↗</p>
+            <p className="mt-2 text-sm leading-relaxed text-ink/70">The student entrepreneurship society — organisers of E-Summit, India's largest student-run entrepreneurship summit, and a year-round pipeline of aspiring founders.</p>
+          </a>
+          <a href="https://gdc.iitm.ac.in" rel="noopener" target="_blank" className="card hover:border-accent/50">
+            <p className="font-display text-lg font-bold text-navy">GDC ↗</p>
+            <p className="mt-2 text-sm leading-relaxed text-ink/70">The Gopalakrishnan-Deshpande Centre for Innovation and Entrepreneurship — lab-to-market coaching that helps researchers translate science into ventures.</p>
+          </a>
+          <a href="https://www.incubation.iitm.ac.in" rel="noopener" target="_blank" className="card hover:border-accent/50">
+            <p className="font-display text-lg font-bold text-navy">IITM Incubation Cell ↗</p>
+            <p className="mt-2 text-sm leading-relaxed text-ink/70">One of India's leading deep-tech incubators — where Nirmaan graduates incorporate, raise and scale, backed by the IITM Research Park.</p>
+          </a>
+          <a href="https://www.venturearch.org" rel="noopener" target="_blank" className="card hover:border-accent/50">
+            <p className="font-display text-lg font-bold text-navy">VentureArch ↗</p>
+            <p className="mt-2 text-sm leading-relaxed text-ink/70">SIE's venture-building platform — the digital backbone founders, mentors and programme teams use across the pipeline.</p>
           </a>
         </div>
       </Section>

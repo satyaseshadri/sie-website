@@ -1,11 +1,15 @@
 import Link from 'next/link';
 import site from '../data/site.json';
+import Img from './Img';
 
 export default function Footer() {
   return (
     <footer className="bg-navy text-white/80">
       <div className="container-site grid gap-10 py-14 md:grid-cols-4">
         <div className="md:col-span-2">
+          <div className="mb-4 inline-block rounded-xl bg-white p-3">
+            <Img src="/images/sie-logo.png" alt="School of Innovation & Entrepreneurship, IIT Madras" width={640} height={201} className="h-12 w-auto" />
+          </div>
           <p className="font-display text-lg font-semibold text-white">{site.name}</p>
           <p className="mt-1 text-sm text-white/60">{site.hub} · {site.institute}</p>
           <p className="mt-4 max-w-md text-sm leading-relaxed">{site.tagline} {site.heroLine}</p>
@@ -18,6 +22,7 @@ export default function Footer() {
             <li><Link className="hover:text-white" href="/ecosystem/">Ecosystem</Link></li>
             <li><Link className="hover:text-white" href="/startups/">Startups</Link></li>
             <li><Link className="hover:text-white" href="/news/">News</Link></li>
+            <li><Link className="hover:text-white" href="/events/">Events</Link></li>
             <li><Link className="hover:text-white" href="/contact/">Contact</Link></li>
           </ul>
         </div>

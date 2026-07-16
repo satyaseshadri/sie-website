@@ -16,16 +16,18 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 20
-      - name: Scan news sources
+      - name: Scan startup news
         run: node scripts/update-feed.js
+      - name: Scan school news
+        run: node scripts/update-school-news.js
       - name: Commit if changed
         run: |
           git config user.name "sie-feed-bot"
           git config user.email "actions@github.com"
-          if ! git diff --quiet data/startup-feed.json; then
-            git add data/startup-feed.json
-            git commit -m "chore: refresh startup feed [bot]"
+          if ! git diff --quiet data/startup-feed.json data/school-news-feed.json; then
+            git add data/startup-feed.json data/school-news-feed.json
+            git commit -m "chore: refresh news feeds [bot]"
             git push
           else
-            echo "Feed unchanged."
+            echo "Feeds unchanged."
           fi

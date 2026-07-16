@@ -3,7 +3,7 @@ import StartupsClient from './StartupsClient';
 
 export const metadata = {
   title: 'Startups',
-  description: 'Funded ventures from the SIE ecosystem — ₹200 Cr+ raised across spacetech, construction tech, specialty chemicals, healthcare and climate — plus the full MS(E) scholar directory.',
+  description: 'Funded ventures from the SIE ecosystem — ₹150 Cr+ raised across spacetech, construction tech, healthcare and climate — plus the full MS(E) scholar directory.',
 };
 
 export default function Startups() {
@@ -12,7 +12,7 @@ export default function Startups() {
       <PageHero
         kicker="Startups"
         title="Ventures built here, funded out there"
-        lead="₹200 Cr+ in external funding raised by student and alumni ventures supported by the SIE ecosystem — led by Modulus Housing's ₹70 Cr and GalaxEye's ₹58 Cr Series A rounds."
+        lead="₹150 Cr+ in external funding raised by student and alumni ventures supported by the SIE ecosystem — led by Modulus Housing's ₹70 Cr and GalaxEye's ₹58 Cr Series A rounds."
       />
       <Section>
         <StartupsClient />

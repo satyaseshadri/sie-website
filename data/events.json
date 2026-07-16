@@ -1,0 +1,62 @@
+{
+  "upcoming": [
+    {
+      "name": "Tech Pioneer Awards 2026",
+      "date": "Dates to be announced",
+      "venue": "IIT Madras",
+      "desc": "Recognising the boldest deep-tech builders in the IIT Madras ecosystem. Categories and nominations open soon.",
+      "link": "/open-calls/",
+      "tag": "Awards"
+    },
+    {
+      "name": "Nirmaan — next pre-incubation cohort",
+      "date": "Applications announced on nirmaan.iitm.ac.in",
+      "venue": "Sudha & Shankar Innovation Hub",
+      "desc": "Pratham and Akshar intake for student teams — ₹2L to ₹7L in grants, workspace and mentorship.",
+      "link": "https://nirmaan.iitm.ac.in",
+      "tag": "Program"
+    }
+  ],
+  "past": [
+    {
+      "name": "Delta Expo 2026",
+      "date": "14–15 March 2026",
+      "venue": "IIT Madras campus",
+      "desc": "The institute's flagship innovation and startup expo — 45+ innovation teams and 30 startups across robotics, AI, biotech, aerospace, electronics, product design and sustainability. Inaugurated by the Hon'ble Governor of Tamil Nadu.",
+      "link": "https://news.careers360.com/iit-madras-delta-expo-2026-students-innovation-startup-ai-robotics-biotechnology-aerospace-electronics-product-design-cfi-nirmaan",
+      "tag": "Expo"
+    },
+    {
+      "name": "E-Summit 2026 — 'Vision to Venture'",
+      "date": "6–8 February 2026",
+      "venue": "IIT Madras campus",
+      "desc": "E-Cell IIT Madras's flagship summit: 10,000+ students and founders, 500+ startups, 100+ investors and mentors, pitch arenas and masterclasses. The ₹600 Cr IIT Madras Unicorn Frontier Fund I was announced at the inauguration.",
+      "link": "https://esummitiitm.org/",
+      "tag": "Summit"
+    },
+    {
+      "name": "IIT Madras Technology Summit 2026",
+      "date": "May 2026",
+      "venue": "Bharat Mandapam, New Delhi",
+      "desc": "SIE showcased its deep-tech venture pipeline at the inaugural IITM Technology Summit, inaugurated by the Hon'ble Minister of Education.",
+      "link": "/news/",
+      "tag": "Summit"
+    },
+    {
+      "name": "Research Conclave 2025",
+      "date": "2 November 2025",
+      "venue": "Centre for Innovation, IIT Madras",
+      "desc": "A full day of learning, collaboration and knowledge exchange for students, researchers and innovators, hosted at CFI.",
+      "link": "/news/",
+      "tag": "Conclave"
+    },
+    {
+      "name": "CFI Open House 2025",
+      "date": "2025 edition",
+      "venue": "Centre for Innovation, IIT Madras",
+      "desc": "CFI's flagship annual showcase — every club and competition team demos a year of building to the campus and public.",
+      "link": "https://cfi.iitm.ac.in/open-house",
+      "tag": "Expo"
+    }
+  ]
+}

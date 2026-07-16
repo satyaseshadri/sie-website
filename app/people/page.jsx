@@ -1,7 +1,6 @@
 import team from '../../data/team.json';
 import { PageHero, Section, ACCENTS } from '../../components/Section';
 import PersonCard, { LinkedInIcon } from '../../components/PersonCard';
-import Img from '../../components/Img';
 
 export const metadata = {
   title: 'People',
@@ -78,9 +77,6 @@ export default function People() {
           {team.staff.map((p) => (
             <PersonCard key={p.name + p.role} person={p} />
           ))}
-        </div>
-        <div className="mt-12 overflow-hidden rounded-2xl">
-          <Img src="/images/cohort.jpg" alt="The SIE community at the Sudha & Shankar Innovation Hub" width={1600} height={900} className="w-full object-cover" />
         </div>
       </Section>
     </>
