@@ -1,0 +1,30 @@
+{
+  "leadership": [
+    { "name": "Prof. Kamakoti Veezhinathan", "role": "Director, IIT Madras", "message": "The School of Innovation & Entrepreneurship provides the academic foundation to IITM's 'I&E Stack' and will train the coming generation of startup founders who will produce distinctive solutions addressing some of the most pressing industrial and societal challenges. SIE at IIT Madras is one of our key initiatives towards the vision of Viksit Bharat 2047 and is aligned with visionary programmes such as Make in India, Swachh Bharat and NEP." },
+    { "name": "Prof. Satyanarayanan Seshadri", "role": "Head, School of Innovation and Entrepreneurship", "message": "SIE at IIT Madras is leading its transformation into India's foremost entrepreneurial university. Our vision is to be among the top 5 global entrepreneurial universities and to propel India as a top-3 deep-tech, science-based startup nation. SIE pioneers an active venture-creation model, where research to revenue is supported at every step through our innovation stack — tinkering labs, deep-tech centres of excellence, pre-incubation, lab-to-market education and venture studios." },
+    { "name": "Prof. Murugaiyan Amirthalingam", "role": "Advisor, Nirmaan", "message": "Nirmaan, the pre-incubator at IIT Madras, supports students, researchers and alumni taking their first steps into entrepreneurship. It turns early ideas and prototypes into real startup opportunities through mentorship, seed funding, prototyping support and access to the wider IIT Madras startup ecosystem — working closely with aspiring founders from concept to a strong, scalable venture." },
+    { "name": "Prof. Manish Anand", "role": "Advisor, CFI", "message": "The Centre for Innovation is where IIT Madras students learn by doing — a 24/7 student-run lab where ideas are built, broken and rebuilt until they work. CFI is the first step of the founder pipeline at IIT Madras." }
+  ],
+  "staff": [
+    { "name": "Prof. Satyanarayanan Seshadri", "role": "Head, SIE", "email": "head@sie.iitm.ac.in" },
+    { "name": "Prof. Murugaiyan Amirthalingam", "role": "Advisor, Nirmaan", "email": "advisor-nirmaan@sie.iitm.ac.in" },
+    { "name": "Prof. Manish Anand", "role": "Advisor, CFI", "email": "advisor-cfi@sie.iitm.ac.in" },
+    { "name": "K. S. Nandhini", "role": "Chief Operating Officer", "email": "coo@sie.iitm.ac.in" },
+    { "name": "Krishnaveni", "role": "Finance Manager", "email": "finance-manager@sie.iitm.ac.in" },
+    { "name": "Usha Sriram", "role": "Academic Liaison Officer", "email": "acad@sie.iitm.ac.in" },
+    { "name": "E. Sundarraj", "role": "IP Manager", "email": "ip-manager@sie.iitm.ac.in" },
+    { "name": "Anjana U. P.", "role": "Pre-Incubation Coordinator", "email": "preincubation1@sie.iitm.ac.in" },
+    { "name": "Amrutha Narayanan", "role": "Learning Development Coordinator", "email": "ldc@sie.iitm.ac.in" },
+    { "name": "Sriram", "role": "Technician", "email": "technician1@sie.iitm.ac.in" },
+    { "name": "Suvanya", "role": "Technician (Safety & Inventory)", "email": "technician2@sie.iitm.ac.in" },
+    { "name": "R. Manikandan", "role": "Facility Manager", "email": "facility-manager@sie.iitm.ac.in" },
+    { "name": "Velankanni Robert", "role": "Senior Office Assistant", "email": "facility1@sie.iitm.ac.in" },
+    { "name": "Rajesh", "role": "Office Assistant", "email": "" },
+    { "name": "Jaya Prakash M.", "role": "Tech Support", "email": "techsupport@sie.iitm.ac.in" }
+  ],
+  "mentors": [
+    { "name": "Prof. Satyanarayanan Seshadri", "program": "MS(E)", "linkedin": "" },
+    { "name": "Gopal Raman", "program": "MS(E)", "linkedin": "" },
+    { "name": "Dr. T. Pradeep", "program": "MS(E)", "linkedin": "" }
+  ]
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Seshan Rammohan Nirmaan Award for Entrepreneurship and Innovation",
+    "scope": "Nirmaan Programme",
+    "criteria": "Deserving startup from Nirmaan — preferably biotechnology / life sciences",
+    "recipients": []
+  },
+  {
+    "name": "Chinmay Deodhar Prize",
+    "scope": "Across IIT Madras",
+    "criteria": "Endowment award for one student",
+    "recipients": [{ "name": "Sumukha V. Nadig", "year": "2024–2025" }]
+  },
+  {
+    "name": "Ashok Khanna Award for Entrepreneurship",
+    "scope": "Across IIT Madras",
+    "criteria": "Endowment award for one student",
+    "recipients": [{ "name": "Asfaq Jalal", "year": "2024–2025" }]
+  },
+  {
+    "name": "Invention Engine Pitch Session — Winners 2026",
+    "scope": "Pitch session",
+    "criteria": "Selected by Invention Engine evaluators for outstanding performance and innovation",
+    "recipients": [
+      { "name": "ScoutEdge — Satyendra Kumar", "year": "2026" },
+      { "name": "Zeex AI — Gaurav Yadav", "year": "2026" },
+      { "name": "Immortigen — Aayan Raj", "year": "2026" }
+    ]
+  }
+]

@@ -1,0 +1,11 @@
+[
+  { "name": "GalaxEye", "sector": "SpaceTech", "raised": "₹58 Cr", "round": "Series A", "origin": "Nirmaan", "year": 2025 },
+  { "name": "Inbound Aerospace", "sector": "SpaceTech", "raised": "₹9 Cr", "round": "Seed", "origin": "Nirmaan", "year": 2025 },
+  { "name": "Plenome Technologies", "sector": "Healthcare", "raised": "₹7.5 Cr", "round": "Seed", "origin": "Nirmaan", "year": 2025 },
+  { "name": "Tan90 Thermal Solutions", "sector": "Agritech", "raised": "₹5 Cr", "round": "Series A", "origin": "Nirmaan", "year": 2025 },
+  { "name": "Urban Matrix", "sector": "DroneTech", "raised": "₹3.8 Cr", "round": "Seed", "origin": "Nirmaan", "year": 2025 },
+  { "name": "Susstains Engineering Solutions", "sector": "Sustainability", "raised": "₹1.5 Cr", "round": "Seed", "origin": "Nirmaan", "year": 2025 },
+  { "name": "Green Aadhaar", "sector": "Sustainability", "raised": "₹50 L", "round": "Seed", "origin": "Nirmaan", "year": 2025 },
+  { "name": "Grow Your Farm", "sector": "Agritech", "raised": "₹32 L", "round": "Seed", "origin": "Nirmaan", "year": 2025 },
+  { "name": "TIQWorld", "sector": "Agritech", "raised": "₹15 L", "round": "Active", "origin": "Nirmaan", "year": 2025 }
+]

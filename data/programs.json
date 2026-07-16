@@ -1,0 +1,126 @@
+[
+  {
+    "slug": "ms",
+    "accent": "blue",
+    "short": "MS(E)",
+    "name": "MS (Entrepreneurship)",
+    "kicker": "Research degree · Startup as thesis",
+    "oneLiner": "Build a deep-tech venture and earn a research degree for it — the programme that has produced founders since 1982.",
+    "facts": [
+      { "k": "Degree", "v": "M.S. by Research, IIT Madras" },
+      { "k": "Duration", "v": "2–3 years, milestone-based" },
+      { "k": "Stipend", "v": "₹12,400/month HTRA" },
+      { "k": "Cohort", "v": "43 active scholars, 4 startups incorporated" }
+    ],
+    "body": [
+      "Launched in 1982–83, the MS (Entrepreneurship) by Research programme pioneered entrepreneurship education in India and has matured over four decades into a global benchmark. You work on a real problem — often from an IITM research lab — and convert it into a scalable startup. Your venture is your thesis; you are evaluated on milestones, not exams.",
+      "Scholars move through a structured journey: problem identification and validation, solution development and prototyping, market testing and business modelling, then scaling and venture building — with faculty supervision, accomplished founder-mentors and the full IITM ecosystem behind them.",
+      "Programme alumni hold key technology patents, many commercialised through transfers to leading organisations. Recent cohorts have founded companies in healthcare, energy, robotics, agritech and quantum communication."
+    ],
+    "eligibility": [
+      "B.Tech / B.E., or a postgraduate degree (M.Com / M.A. included)",
+      "Graduation from a recognised university",
+      "A startup proposal submitted with the application"
+    ],
+    "cta": { "label": "View open projects & apply", "href": "/programs/ms/#projects" }
+  },
+  {
+    "slug": "phd",
+    "accent": "navy",
+    "short": "PhD",
+    "name": "PhD (Innovation & Entrepreneurship)",
+    "kicker": "Doctoral research · Deep-tech ecosystems",
+    "oneLiner": "Rigorous, applied research on how innovation emerges, how startups scale, and how lab research reaches the market.",
+    "facts": [
+      { "k": "Mode", "v": "Full-time doctoral programme" },
+      { "k": "Apply via", "v": "IIT Madras PhD Admissions Portal" },
+      { "k": "Deadline", "v": "30 March 2026" },
+      { "k": "Backgrounds", "v": "Engineering, management, economics, policy" }
+    ],
+    "body": [
+      "SIE is building a world-class research programme that generates rigorous and applied knowledge to inform practice, policy and pedagogy in the Indian deep-tech context.",
+      "Research domains span entrepreneurship (venture science, network effects, capital structure for early-stage deep-tech, venture studios) and innovation (design innovation for the creator economy, AI in innovation and manufacturing, open innovation for scaling academic R&D, innovation ecosystems and policy, lab-to-market commercialisation pathways).",
+      "Doctoral scholars work closely with faculty and industry stakeholders on critical challenges in India's evolving innovation ecosystem, with access to IIT Madras research facilities and its startup pipeline."
+    ],
+    "eligibility": [
+      "Strong academic background and research interest in entrepreneurship, innovation, technology commercialisation, innovation policy, or AI & manufacturing innovation",
+      "Open to engineering, management, economics, public policy and related disciplines"
+    ],
+    "cta": { "label": "Apply via the IITM PhD portal", "href": "https://research.iitm.ac.in/" }
+  },
+  {
+    "slug": "ugfir",
+    "accent": "gold",
+    "short": "UG-FIR",
+    "name": "UG Founder-in-Residence",
+    "kicker": "Fellowship · Recent IITM graduates",
+    "oneLiner": "A funded year to build your startup full-time, right after graduation — no job offer required, no excuses needed.",
+    "facts": [
+      { "k": "Stipend", "v": "₹20,000/month" },
+      { "k": "Duration", "v": "6 months, extendable to 1 year" },
+      { "k": "Support", "v": "Accommodation, mentorship, Nirmaan resources" },
+      { "k": "Eligibility", "v": "Recent IITM UG graduates, preferably Nirmaan pre-incubated" }
+    ],
+    "body": [
+      "Starting a company while planning the rest of your life is hard. UG-FIR removes the financial and logistical constraints so recent graduates can pursue their venture with full focus.",
+      "Backed by the IITM alumni network and the Office of Alumni & Corporate Relations, fellows get a monthly stipend, campus accommodation, dedicated mentorship, targeted workshops and access to Nirmaan's infrastructure and the wider IITM innovation ecosystem.",
+      "Apply with your personal details and pitch deck when the cycle opens; results are typically announced in the first week of June."
+    ],
+    "eligibility": [
+      "Recent undergraduate alumni of IIT Madras who are startup founders",
+      "Preference for teams pre-incubated at Nirmaan"
+    ],
+    "cta": { "label": "Application details", "href": "/contact/" }
+  },
+  {
+    "slug": "pgfir",
+    "accent": "green",
+    "short": "PG-FIR",
+    "name": "PG Founder-in-Residence",
+    "kicker": "K. Ganesh & Meena Ganesh Scholarship",
+    "oneLiner": "Turn your thesis into a company — funded time for MS and PhD scholars to commercialise their research.",
+    "facts": [
+      { "k": "MS scholars", "v": "₹25,000/month · 6 + 6 months" },
+      { "k": "PhD scholars", "v": "₹30,000/month · 6 + 6 months" },
+      { "k": "MS(E) scholars", "v": "₹20,000/month · up to 2 years" },
+      { "k": "Window", "v": "Synopsis submitted within the past 6 months" }
+    ],
+    "body": [
+      "The K. Ganesh and Meena Ganesh Scholarship for Entrepreneurship Development helps postgraduate scholars transform research into viable, market-ready ventures at the exact moment it matters — right after thesis submission.",
+      "The fellowship provides a monthly stipend and residence so scholars can dedicate themselves fully to venture creation, with mentorship from experienced founders, alumni networks, and Nirmaan's pre-incubation support.",
+      "Applicants must not hold HTRA or other project funding, and apply with a research-to-market plan and synopsis when the cycle opens (previously mid-April)."
+    ],
+    "eligibility": [
+      "Recently graduated or graduating M.S./PhD scholars of IIT Madras intending to commercialise their research",
+      "Scholars enrolled in the MS (Entrepreneurship) programme",
+      "Synopsis submitted within the past 6 months; no concurrent HTRA/project funding"
+    ],
+    "cta": { "label": "Application details", "href": "/contact/" }
+  },
+  {
+    "slug": "courses",
+    "accent": "red",
+    "short": "Courses",
+    "name": "Entrepreneurship Courses",
+    "kicker": "ID-series electives · Open to IITM students",
+    "oneLiner": "Structured entrepreneurship education inside your degree — from customer discovery to launching a venture.",
+    "facts": [
+      { "k": "Level", "v": "UG and PG electives" },
+      { "k": "Series", "v": "ID4xxx / ID5xxx" },
+      { "k": "Format", "v": "Practice-based, founder-led" },
+      { "k": "Open to", "v": "All IIT Madras students" }
+    ],
+    "body": [
+      "SIE's course stack gives every IITM student a structured path into entrepreneurship, taught by regular and professor-of-practice faculty with real founder experience."
+    ],
+    "eligibility": [],
+    "courses": [
+      { "code": "ID4101", "name": "Innovative Entrepreneur – 1", "theme": "Essentials for an entrepreneur" },
+      { "code": "ID5101", "name": "Innovative Entrepreneur – 1", "theme": "Customer discovery" },
+      { "code": "ID5102", "name": "Innovative Entrepreneur – 2", "theme": "Launching your venture" },
+      { "code": "ID4031", "name": "Innovation and Entrepreneurship", "theme": "A multidisciplinary approach" },
+      { "code": "ID5031", "name": "Innovation and Entrepreneurship", "theme": "A multidisciplinary perspective" }
+    ],
+    "cta": { "label": "Course registration via IITM academics", "href": "https://www.iitm.ac.in/academics" }
+  }
+]
