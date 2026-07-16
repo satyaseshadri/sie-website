@@ -10,6 +10,7 @@ const nextConfig = {
   images: { unoptimized: true },
   basePath,
   assetPrefix: basePath || undefined,
+  env: { NEXT_PUBLIC_BASE_PATH: basePath },
 };
 
 module.exports = nextConfig;

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import Image from 'next/image';
+import Image from '../components/Img';
 import site from '../data/site.json';
 import startups from '../data/startups.json';
 import news from '../data/news.json';
