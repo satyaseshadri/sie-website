@@ -134,12 +134,52 @@ export default function Ecosystem() {
         </div>
       </Section>
 
-      <Section className="border-t border-navy/10 bg-accent-pale/30" kicker="Partners in the stack" title="The wider IIT Madras I&E family">
-        <div className="mt-8 grid gap-5 md:grid-cols-2 lg:grid-cols-4">
-          <a href="https://esummitiitm.org" rel="noopener" target="_blank" className="card hover:border-accent/50">
+      <Section className="border-t border-navy/10" kicker="Cutting across every stage" title="E-Cell — the evangelisation layer">
+        <div className="mt-6 grid items-start gap-8 lg:grid-cols-3">
+          <p className="text-lg leading-relaxed text-ink/80 lg:col-span-2">
+            The Entrepreneurship Cell is part of the school alongside CFI and Nirmaan — not a stage in the pipeline
+            but the layer that cuts across all of it. E-Cell evangelises entrepreneurship on campus and beyond:
+            it runs <strong>E-Summit</strong>, India's largest student-run entrepreneurship summit (10,000+
+            attendees, 500+ startups in 2026), pitch arenas, workshops and outreach that keep the top of the
+            funnel full for every programme downstream.
+          </p>
+          <a href="https://esummitiitm.org" rel="noopener" target="_blank" className="card self-start border-t-4 border-t-accent hover:border-accent/50">
             <p className="font-display text-lg font-bold text-navy">E-Cell IIT Madras ↗</p>
-            <p className="mt-2 text-sm leading-relaxed text-ink/70">The student entrepreneurship society — organisers of E-Summit, India's largest student-run entrepreneurship summit, and a year-round pipeline of aspiring founders.</p>
+            <p className="mt-2 text-sm leading-relaxed text-ink/70">E-Summit, campus outreach and the founder community.</p>
           </a>
+        </div>
+      </Section>
+
+      <Section className="border-t border-navy/10 bg-accent-pale/40" kicker="Translation funnel" title="From pre-incubation to incubation" lead="How teams move through the pipeline — measured across all Nirmaan cohorts.">
+        <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            { v: '321', l: 'Teams entered Nirmaan (all cohorts)' },
+            { v: '50', l: 'Graduated — 15.6% overall graduation rate' },
+            { v: '28', l: 'Reached IITM Incubation Cell' },
+            { v: '56%', l: 'Of graduates go on to incubate at IITMIC' },
+          ].map((s) => (
+            <div key={s.l} className="rounded-xl border border-navy/10 bg-white p-5">
+              <p className="font-display text-3xl font-bold text-accent">{s.v}</p>
+              <p className="mt-1 text-sm text-ink/60">{s.l}</p>
+            </div>
+          ))}
+        </div>
+        <div className="mt-6 grid gap-4 sm:grid-cols-3">
+          {[
+            { v: '103', l: 'IPs filed by CFI & Nirmaan teams' },
+            { v: '22 + 11', l: 'Patents + trademarks filed by the Aug 2023 cohort alone' },
+            { v: '70', l: 'Pre-Incubation Agreements signed' },
+          ].map((s) => (
+            <div key={s.l} className="rounded-xl border border-navy/10 bg-white p-5">
+              <p className="font-display text-2xl font-bold text-navy">{s.v}</p>
+              <p className="mt-1 text-sm text-ink/60">{s.l}</p>
+            </div>
+          ))}
+        </div>
+      </Section>
+
+      <Section className="border-t border-navy/10 bg-accent-pale/30" kicker="Partners in the stack" title="The wider IIT Madras I&E family">
+        <div className="mt-8 grid gap-5 md:grid-cols-3">
           <a href="https://gdc.iitm.ac.in" rel="noopener" target="_blank" className="card hover:border-accent/50">
             <p className="font-display text-lg font-bold text-navy">GDC ↗</p>
             <p className="mt-2 text-sm leading-relaxed text-ink/70">The Gopalakrishnan-Deshpande Centre for Innovation and Entrepreneurship — lab-to-market coaching that helps researchers translate science into ventures.</p>

@@ -21,9 +21,15 @@ const NAV = [
   { label: 'Startups', href: '/startups/' },
   { label: 'Open Calls', href: '/open-calls/' },
   { label: 'People', href: '/people/' },
-  { label: 'News', href: '/news/' },
-  { label: 'Events', href: '/events/' },
-  { label: 'Awards', href: '/awards/' },
+  {
+    label: 'News & Events',
+    href: '/news/',
+    children: [
+      { label: 'News', href: '/news/' },
+      { label: 'Events', href: '/events/' },
+      { label: 'Awards', href: '/awards/' },
+    ],
+  },
   { label: 'Contact', href: '/contact/' },
 ];
 
