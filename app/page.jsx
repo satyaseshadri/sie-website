@@ -93,8 +93,8 @@ export default function Home() {
       <Section
         className="border-y border-navy/10 bg-accent-pale/40"
         kicker="Proof, not promises"
-        title="₹50 Cr+ raised by ventures from this ecosystem"
-        lead="Student and alumni companies pre-incubated at Nirmaan are raising serious rounds in spacetech, healthcare, agritech and climate — on a combined Nirmaan portfolio now valued at over ₹1,000 crore."
+        title="₹200 Cr+ raised by ventures from this ecosystem"
+        lead="Student and alumni companies pre-incubated at Nirmaan are raising serious rounds in spacetech, construction tech, specialty chemicals, healthcare and climate — on a combined Nirmaan portfolio now valued at over ₹1,000 crore."
       >
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {startups.slice(0, 6).map((s) => (
