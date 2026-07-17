@@ -81,6 +81,17 @@ innovation & entrepreneurship press coverage (SIE, Nirmaan, CFI, E-Summit, Delta
 Park, incubation) and writes `data/school-news-feed.json`, shown as "Around the ecosystem" on the
 News page. Tune its search queries in the `QUERIES` array at the top of the script.
 
+## MC²⁺ Ignite microsite (unlisted until launch)
+
+`/studios/energy/` is the MC²⁺ Ignite Cohort 1 microsite (IITM × MC²⁺ Foundation partnership).
+It is deployed but **unlisted**: no navigation links, not in sitemap.xml, and `noindex` set.
+Share the direct URL privately for review.
+
+**To launch:** (1) remove `robots: { index: false … }` from `app/studios/energy/page.jsx`;
+(2) add `/studios/energy` to the routes list in `app/sitemap.js`; (3) link it from the Studio
+Sustainability card in `app/studios/page.jsx` and anywhere else desired (news item, homepage);
+(4) publish the PR announcement from the MC2_Ignite_PR_Launch_Kit as a news item. Rebuild and deploy.
+
 ## Contact form
 
 The form posts to [FormSubmit](https://formsubmit.co) (`formsubmit.co/ajax/support@sieiitm.org`).
