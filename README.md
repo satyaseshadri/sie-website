@@ -124,4 +124,5 @@ rewrite ^/academics/courses/?$         /programs/courses/ permanent;
 rewrite ^/academics/awards/?$          /awards/           permanent;
 rewrite ^/scholorship/ugfir/?$         /programs/ugfir/   permanent;
 rewrite ^/scholorship/pgfir/?$         /programs/pgfir/   permanent;
+Testing write access
 ```
