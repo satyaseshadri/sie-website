@@ -23,7 +23,7 @@ export default function PersonCard({ person }) {
   return (
     <div className="card flex items-center gap-4 py-4">
       {person.photo ? (
-        <Img src={person.photo} alt={person.name} width={480} height={480} className="h-16 w-16 flex-none rounded-full object-cover" />
+        <Img src={person.photo} alt={person.name} width={480} height={480} className="h-16 w-16 flex-none rounded-full object-cover object-top" />
       ) : (
         <span className="flex h-16 w-16 flex-none items-center justify-center rounded-full bg-accent-pale font-display text-lg font-bold text-accent-dark">
           {initials(person.name)}

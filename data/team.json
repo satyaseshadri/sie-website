@@ -3,14 +3,14 @@
     {
       "name": "Prof. Kamakoti Veezhinathan",
       "role": "Director, IIT Madras",
-      "photo": "",
+      "photo": "/images/people/Director.jpg",
       "linkedin": "https://www.linkedin.com/in/kamakoti-veezhinathan-9a8528b/",
       "message": "The School of Innovation & Entrepreneurship provides the academic foundation to IITM's 'I&E Stack' and will train the coming generation of startup founders who will produce distinctive solutions addressing some of the most pressing industrial and societal challenges. SIE at IIT Madras is one of our key initiatives towards the vision of Viksit Bharat 2047 and is aligned with visionary programmes such as Make in India, Swachh Bharat and NEP."
     },
     {
       "name": "Prof. Satyanarayanan Seshadri",
       "role": "Head, School of Innovation and Entrepreneurship",
-      "photo": "/images/people/satyanarayanan-seshadri.jpg",
+      "photo": "/images/people/satya.webp",
       "linkedin": "https://www.linkedin.com/in/satyaseshadri/",
       "message": "SIE at IIT Madras is leading its transformation into India's foremost entrepreneurial university. Our vision is to be among the top 5 global entrepreneurial universities and to propel India as a top-3 deep-tech, science-based startup nation. SIE pioneers an active venture-creation model, where research to revenue is supported at every step through our innovation stack — tinkering labs, deep-tech centres of excellence, pre-incubation, lab-to-market education and venture studios."
     },
@@ -34,7 +34,7 @@
       "name": "K. S. Nandhini",
       "role": "Chief Operating Officer",
       "email": "coo@sie.iitm.ac.in",
-      "photo": "/images/people/ks-nandhini.jpg",
+      "photo": "/images/people/Nandhini.jpeg",
       "linkedin": ""
     },
     {
@@ -62,7 +62,7 @@
       "name": "Anjana U. P.",
       "role": "Pre-Incubation Coordinator",
       "email": "preincubation1@sie.iitm.ac.in",
-      "photo": "",
+      "photo": "/images/people/anjana-square.jpeg",
       "linkedin": ""
     },
     {
@@ -97,7 +97,7 @@
       "name": "Velankanni Robert",
       "role": "Senior Office Assistant",
       "email": "facility1@sie.iitm.ac.in",
-      "photo": "/images/people/velankanni-robert.jpg",
+      "photo": "/images/people/vela-square.jpeg",
       "linkedin": ""
     },
     {
@@ -111,7 +111,7 @@
       "name": "Jaya Prakash M.",
       "role": "Tech Support",
       "email": "techsupport@sie.iitm.ac.in",
-      "photo": "/images/people/jaya-prakash.jpg",
+      "photo": "/images/people/jp.jpg",
       "linkedin": ""
     }
   ],

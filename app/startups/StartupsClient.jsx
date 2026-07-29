@@ -57,32 +57,42 @@ export default function StartupsClient() {
         <h2 className="mt-2 font-display text-3xl font-bold text-navy">Scholars &amp; their ventures</h2>
         <p className="mt-3 max-w-2xl text-ink/70">Every MS (Entrepreneurship) scholar, batch 2021 onwards, with the venture or research problem they're building on.</p>
 
-        <div className="mt-6 flex flex-wrap gap-2" role="tablist" aria-label="Filter by batch">
-          {batches.map((b) => (
-            <button
-              key={b}
-              type="button"
-              role="tab"
-              aria-selected={batch === b}
-              onClick={() => setBatch(b)}
-              className={`rounded-full px-4 py-1.5 text-sm font-semibold transition ${
-                batch === b ? 'bg-navy text-white' : 'bg-navy/5 text-navy hover:bg-navy/10'
-              }`}
-            >
-              {b === 'All' ? 'All batches' : `${b} batch`}
-            </button>
-          ))}
+        <div className="mt-6 flex flex-wrap items-center gap-2">
+          <p className="text-sm font-semibold uppercase tracking-wide text-ink/50">Filter by year</p>
+          <div className="flex flex-wrap gap-2" role="tablist" aria-label="Filter by batch">
+            {batches.map((b) => (
+              <button
+                key={b}
+                type="button"
+                role="tab"
+                aria-selected={batch === b}
+                onClick={() => setBatch(b)}
+                className={`rounded-full px-4 py-1.5 text-sm font-semibold transition ${
+                  batch === b ? 'bg-navy text-white' : 'bg-navy/5 text-navy hover:bg-navy/10'
+                }`}
+              >
+                {b === 'All' ? 'All years' : `${b}`}
+              </button>
+            ))}
+          </div>
         </div>
 
         <div className="mt-8 grid gap-4 md:grid-cols-2">
           {shown.map((s) => (
             <div key={s.roll} className={`card py-5 ${s.funded ? 'border-accent/40 bg-accent-pale/30' : ''}`}>
               <div className="flex flex-wrap items-baseline justify-between gap-2">
-                <p className="font-display font-bold text-navy">
-                  {s.linkedin ? (
-                    <a href={s.linkedin} target="_blank" rel="noopener" className="hover:text-brand-blue hover:underline">{s.name} ↗</a>
-                  ) : s.name}
-                </p>
+                <div className="flex items-center gap-2">
+                  <p className="font-display font-bold text-navy">
+                    {s.linkedin ? (
+                      <a href={s.linkedin} target="_blank" rel="noopener" className="hover:text-brand-blue hover:underline">{s.name} ↗</a>
+                    ) : s.name}
+                  </p>
+                  {s.graduated && (
+                    <span className="rounded-full bg-emerald-500/15 px-2.5 py-1 text-[10px] font-semibold uppercase tracking-wide text-emerald-700">
+                      Graduated
+                    </span>
+                  )}
+                </div>
                 <p className="text-xs text-ink/40">{s.batch} · {s.roll}</p>
               </div>
               {s.startup && (

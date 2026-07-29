@@ -34,6 +34,12 @@ All content lives in `data/*.json`. Edit the file, rebuild, redeploy.
 | `data/students.json` | MS(E) scholar directory (filterable by batch) |
 | `data/awards.json` | Awards & recipients |
 
+### Tech Pioneer Grant form
+
+The grant apply page is at `/tech-pioneer-grant/` (linked from Open Calls). To connect
+submissions to a Google Sheet, follow `scripts/tech-pioneer-SETUP.md` — paste the Apps
+Script Web app URL into `public/tpg/config.js`.
+
 ### Adding a news item
 
 Append to `data/news.json`:
@@ -119,7 +125,7 @@ rewrite ^/our-team/?$        /people/           permanent;
 rewrite ^/initiatives/?$     /ecosystem/        permanent;
 rewrite ^/mentors/?$         /people/           permanent;
 rewrite ^/academics/overview/?$        /programs/ms/     permanent;
-rewrite ^/academics/overview/phd/?$    /programs/phd/    permanent;
+rewrite ^/academics/overview/phd/?$    /programs/phd/    permane
 rewrite ^/academics/courses/?$         /programs/courses/ permanent;
 rewrite ^/academics/awards/?$          /awards/           permanent;
 rewrite ^/scholorship/ugfir/?$         /programs/ugfir/   permanent;

@@ -1,12 +1,12 @@
 {
   "upcoming": [
     {
-      "name": "Tech Pioneer Awards 2026",
+      "name": "Tech Pioneer Grant 2026",
       "date": "Dates to be announced",
       "venue": "IIT Madras",
-      "desc": "Recognising the boldest deep-tech builders in the IIT Madras ecosystem. Categories and nominations open soon.",
+      "desc": "Grant call for clean tech, agri tech, and fintech ventures — three categories matched to stage, funding up to ₹20L.",
       "link": "/open-calls/",
-      "tag": "Awards"
+      "tag": "Grant"
     },
     {
       "name": "Nirmaan — next pre-incubation cohort",
@@ -18,6 +18,14 @@
     }
   ],
   "past": [
+    {
+      "name": "SIE Town Hall & MS(E) Orientation",
+      "date": "27 July 2026, 3:00 PM",
+      "venue": "TTJ Hall, ICSR, IIT Madras",
+      "desc": "Join the open discussion on SIE initiatives, faculty engagement, and the upcoming MS(E) orientation for the new cohort.",
+      "link": "https://sie.iitm.ac.in",
+      "tag": "Town Hall"
+    },
     {
       "name": "Delta Expo 2026",
       "date": "14–15 March 2026",

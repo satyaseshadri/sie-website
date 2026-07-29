@@ -51,7 +51,13 @@ export default function About() {
               <blockquote className="text-sm leading-relaxed text-ink/75">“{l.message}”</blockquote>
               <figcaption className="mt-4 flex items-center gap-3">
                 {l.photo ? (
-                  <Image src={l.photo} alt={l.name} width={480} height={480} className="h-12 w-12 rounded-full object-cover" />
+                  <Image
+  src={l.photo}
+  alt={l.name}
+  width={480}
+  height={480}
+  className="h-14 w-14 rounded-full object-cover object-top"
+/>
                 ) : (
                   <span className="flex h-12 w-12 items-center justify-center rounded-full bg-accent-pale font-display font-bold text-accent-dark">
                     {l.name.replace(/^(Prof\.|Dr\.)\s*/i, '').split(' ').slice(0, 2).map((w) => w[0]).join('')}

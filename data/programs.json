@@ -62,10 +62,22 @@
     "kicker": "Fellowship · Recent IITM graduates",
     "oneLiner": "A funded year to build your startup full-time, right after graduation — no job offer required, no excuses needed.",
     "facts": [
-      { "k": "Stipend", "v": "₹20,000/month" },
-      { "k": "Duration", "v": "6 months, extendable to 1 year" },
-      { "k": "Support", "v": "Accommodation, mentorship, Nirmaan resources" },
-      { "k": "Eligibility", "v": "Recent IITM UG graduates, preferably Nirmaan pre-incubated" }
+      {
+        "k": "Stipend",
+        "v": "₹20,000/month"
+      },
+      {
+        "k": "Duration",
+        "v": "6 months, extendable to 1 year"
+      },
+      {
+        "k": "Support",
+        "v": "Accommodation, mentorship, Nirmaan resources"
+      },
+      {
+        "k": "Eligibility",
+        "v": "Recent IITM UG graduates, preferably Nirmaan pre-incubated"
+      }
     ],
     "body": [
       "Starting a company while planning the rest of your life is hard. UG-FIR removes the financial and logistical constraints so recent graduates can pursue their venture with full focus.",
@@ -76,7 +88,16 @@
       "Recent undergraduate alumni of IIT Madras who are startup founders",
       "Preference for teams pre-incubated at Nirmaan"
     ],
-    "cta": { "label": "Application details", "href": "/contact/" }
+    "applicationsOpen": false,
+    "deadline": {
+      "hasDeadline": false,
+      "date": null,
+      "label": " Closed"
+    },
+    "cta": {
+      "label": "Apply via Google Form",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSdBAnT_PTW-9fgQtGsGIFqcFMh8AFyAIXqUwk9sTEAzWirI-g/closedform"
+    }
   },
   {
     "slug": "pgfir",
@@ -86,10 +107,22 @@
     "kicker": "K. Ganesh & Meena Ganesh Scholarship",
     "oneLiner": "Turn your thesis into a company — funded time for MS and PhD scholars to commercialise their research.",
     "facts": [
-      { "k": "MS scholars", "v": "₹25,000/month · 6 + 6 months" },
-      { "k": "PhD scholars", "v": "₹30,000/month · 6 + 6 months" },
-      { "k": "MS(E) scholars", "v": "₹20,000/month · up to 2 years" },
-      { "k": "Window", "v": "Synopsis submitted within the past 6 months" }
+      {
+        "k": "MS scholars",
+        "v": "₹25,000/month · 6 + 6 months"
+      },
+      {
+        "k": "PhD scholars",
+        "v": "₹30,000/month · 6 + 6 months"
+      },
+      {
+        "k": "MS(E) scholars",
+        "v": "₹20,000/month · up to 2 years"
+      },
+      {
+        "k": "Window",
+        "v": "Synopsis submitted within the past 6 months"
+      }
     ],
     "body": [
       "The K. Ganesh and Meena Ganesh Scholarship for Entrepreneurship Development helps postgraduate scholars transform research into viable, market-ready ventures at the exact moment it matters — right after thesis submission.",
@@ -101,7 +134,16 @@
       "Scholars enrolled in the MS (Entrepreneurship) programme",
       "Synopsis submitted within the past 6 months; no concurrent HTRA/project funding"
     ],
-    "cta": { "label": "Application details", "href": "/contact/" }
+    "applicationsOpen": true,
+    "deadline": {
+      "hasDeadline": true,
+      "date": null,
+      "label": "Rolling Applications"
+    },
+    "cta": {
+      "label": "Apply via Google Form",
+      "href": "https://docs.google.com/forms/d/e/1FAIpQLSccBmUGMas8nwRXTuqoNYK30U-6g-nLF9swgiI1W0A0pAg5Kg/viewform"
+    }
   },
   {
     "slug": "courses",

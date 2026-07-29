@@ -18,7 +18,9 @@ export function generateMetadata({ params }) {
 export default function ProgramPage({ params }) {
   const p = programs.find((x) => x.slug === params.slug);
   if (!p) notFound();
-  const external = p.cta.href.startsWith('http');
+  const external = p.cta?.href?.startsWith('http');
+  const applicationsOpen = p.applicationsOpen ?? true;
+  const hasValidCta = Boolean(p.cta?.href) && !p.cta.href.includes('PASTE_');
 
   return (
     <>
@@ -63,11 +65,34 @@ export default function ProgramPage({ params }) {
                 </ul>
               </div>
             )}
-            {external ? (
-              <a href={p.cta.href} rel="noopener" className="btn-primary mt-6 w-full justify-center">{p.cta.label} ↗</a>
-            ) : (
-              <Link href={p.cta.href} className="btn-primary mt-6 w-full justify-center">{p.cta.label}</Link>
+
+            {p.deadline && (
+              <div className="mt-6 flex items-center gap-2 rounded-xl border border-navy/10 bg-white px-4 py-3 shadow-sm">
+                <span className={`h-2 w-2 flex-none rounded-full ${p.deadline.hasDeadline ? 'bg-accent' : 'bg-emerald-500'}`} />
+                <div>
+                  <p className="text-xs uppercase tracking-wider text-ink/50">
+                    {p.deadline.hasDeadline && p.deadline.label?.toLowerCase().includes('rolling')
+                      ? 'Application status'
+                      : (p.deadline.hasDeadline ? 'Application deadline' : 'Application status')}
+                  </p>
+                  <p className="text-sm font-semibold text-navy">
+                    {p.deadline.hasDeadline ? (p.deadline.label || p.deadline.date || 'Date to be announced') : (p.deadline.label || 'Applications closed')}
+                  </p>
+                </div>
+              </div>
             )}
+
+            {applicationsOpen && hasValidCta ? (
+              external ? (
+                <a href={p.cta.href} rel="noopener" target="_blank" className="btn-primary mt-6 w-full justify-center">{p.cta.label} ↗</a>
+              ) : (
+                <Link href={p.cta.href} className="btn-primary mt-6 w-full justify-center">{p.cta.label}</Link>
+              )
+            ) : !applicationsOpen ? (
+              <div className="mt-6 rounded-xl border border-navy/10 bg-white px-4 py-3 text-sm font-medium text-ink/70">
+                Applications are currently closed.
+              </div>
+            ) : null}
           </aside>
         </div>
 
