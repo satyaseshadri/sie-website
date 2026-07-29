@@ -24,7 +24,6 @@ export default function OpenCalls() {
               your startup stands today, with funding up to ₹20L.
             </p>
             <p className="mt-4 text-sm text-ink/50">Watch this space — or write to us to be notified.</p>
-            {/* <Link href="/tech-pioneer-grant/" className="btn-primary mt-5">Apply now</Link> */}
             <Link href="/contact/" className="btn-ghost mt-5">Get notified</Link>
           </div>
           <div className="card">
