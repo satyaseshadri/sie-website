@@ -28,6 +28,12 @@
       "Graduation from a recognised university",
       "A startup proposal submitted with the application"
     ],
+    "applicationsOpen": false,
+    "deadline": {
+      "hasDeadline": false,
+      "date": null,
+      "label": "Closed"
+    },
     "cta": { "label": "Explore project areas", "href": "/programs/ms/#projects" }
   },
   {
@@ -40,7 +46,7 @@
     "facts": [
       { "k": "Mode", "v": "Full-time doctoral programme" },
       { "k": "Apply via", "v": "IIT Madras PhD Admissions Portal" },
-      { "k": "Deadline", "v": "30 March 2026" },
+      { "k": "Admissions", "v": "Closed for the current cycle" },
       { "k": "Backgrounds", "v": "Engineering, management, economics, policy" }
     ],
     "body": [
@@ -52,6 +58,12 @@
       "Strong academic background and research interest in entrepreneurship, innovation, technology commercialisation, innovation policy, or AI & manufacturing innovation",
       "Open to engineering, management, economics, public policy and related disciplines"
     ],
+    "applicationsOpen": false,
+    "deadline": {
+      "hasDeadline": false,
+      "date": null,
+      "label": "Closed"
+    },
     "cta": { "label": "Apply via the IITM PhD portal", "href": "https://research.iitm.ac.in/" }
   },
   {
@@ -92,7 +104,7 @@
     "deadline": {
       "hasDeadline": false,
       "date": null,
-      "label": " Closed"
+      "label": "Closed"
     },
     "cta": {
       "label": "Apply via Google Form",
@@ -169,6 +181,7 @@
       { "code": "ID4031", "name": "Innovation and Entrepreneurship", "theme": "A multidisciplinary approach" },
       { "code": "ID5031", "name": "Innovation and Entrepreneurship", "theme": "A multidisciplinary perspective" }
     ],
+    "applicationsOpen": false,
     "cta": { "label": "Course registration via IITM academics", "href": "https://www.iitm.ac.in/academics" }
   }
 ]
