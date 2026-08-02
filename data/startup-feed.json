@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-01T05:39:13.671Z",
+  "updated": "2026-08-02T05:39:50.061Z",
   "items": [
     {
       "startup": "Clueso",
@@ -34,7 +34,7 @@
       "title": "Modulus Housing raises $7.83M in Series A funding round led by Kalaari Capital, others",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOemFEeFl6SGRjTWF5RmtvNWdGY2NUaDJhOUJMQS1qNDFuRGl2ZFhaTER6a2p4MEItNnFNbkwyclNJVXRCcE84bFhUNXBKNDdmVUVTeVFpQk03emdjMmQySnZvTjB3WU53aWRtRlRoWUhRdHY3TTd4VzR0RDJuSnNrSS05amUxclE5c2JLM3p4UmhlWjMtWXJxbERZTk9XWmx0TG1uSWtXRFBrUnNBSXR2b3IwMA?oc=5",
       "date": "2025-12-02",
-      "source": "yourstory.com"
+      "source": "YourStory.com"
     },
     {
       "startup": "Arctus Aerospace",
@@ -56,6 +56,13 @@
       "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa1RPZnVJdWUtQ21SODVJc0Vzd3VVSGdpRTA5SXMwVTgzb0lxZHJMV3ZNUVRFTGxuQWQ0bDNnMzZwUWRtM2ZraVoxc2VNZWxjc2dKY0QyZTNYLXpSOUZ5SzFpWkltRWlkNDlWMkhqTWE0YTUtYW5saEtwY2R3aUlpTWRGeXU2LTIzaU1oRmhmZ191Y3JTZDJ6eFJxUlFKYVp2M0JTLWc0T0VQdHVDdkZtWTZhZFRGQ1drYlM1YdIBygFBVV95cUxOSTNSMElFT3EtWDR3T0Z6S3JxV1RqcjJNM3kxZkVNSGJWQVViUE5UTXBkXzUyZ09ibzJDQjl4NHNfQzdaZ3hOZWtrT2dQek9tY2luX3p3OE5kNFRYSjdKbDUxd01XRWVadjA2ZHktcV8tS0Z5M1pvT0pVSkQ5cUpoWEd2UktQQmZERFBSbWdWSHBONldkQm83ZkdUTnA0cWQzQ1NxWEhTTnF6MXhfb29IZkVIRjFVYmtfaVpvNFhPODRhNlhIcmhiVDRB?oc=5",
       "date": "2025-07-23",
       "source": "outlookbusiness.com"
+    },
+    {
+      "startup": "Inbound Aerospace",
+      "title": "Inbound Aerospace Secures $1 Million Pre-Seed Funding to Power India’s Reusable Spacecraft Ambitions",
+      "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMDhxNktkTm1Qck8zbFJNdHN6aFNkeUQ3TzFDSWNwbGtZN0Y1bjlMd3hwVFRIZnFDN3g0UWY2MW1TbjU2UW5xZ0JHX3hleHI0dXN6Y0lwV3NwY0dMQnVPdlJsdjFDRUdoWGtnSjhkVDdSbkZVLXRTbnV2R2FJeURNcGNQV0piUUw4bE9qbklya0xlZWNNaVFWWFVfdW9SNVJMLWhPd0QxSTJEeFUyLXFYUmk1UWlzdGE3Ul9hZzNOVHE?oc=5",
+      "date": "2025-07-23",
+      "source": "UnlistedZone"
     },
     {
       "startup": "Plenome Technologies",
@@ -81,7 +88,7 @@
     {
       "startup": "Matterize",
       "title": "IIT Madras Incubates 100+ Deep Tech Startups in a Single Financial Year — A Historic First",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUlVyREZoQmduaWhBSHNPcnAzODA0Uk5jcjl5UnVYVThMeXJXdncxYndlcVc1YThxblg5YkhLRWtIYmRWdjNpMm85X1VBRzFqdFJOcll3cWJ4cXNOWXJoU181eVVzX3c5bnNCOXBocU9kWFRXU1E4SVA5RmxZUmtLZ0RLemZ4R0FGbk1vNl9jbHl4R1hCM0szaEU2RlhJaUlsNGZNVmppcTZNTXdCN0oxQXBaaw?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFBZSWEtRmRjTGg3M3JndkQ1dTItcUlxSjAxNW1IckRjSXpWb285bTBhQWpoOG1VRnl2d1lNbURRQ0F0cFVoNU84MnJuQzY?oc=5",
       "date": "2025-04-26",
       "source": "iitm.ac.in"
     },
@@ -107,18 +114,11 @@
       "source": "The CSR Universe"
     },
     {
-      "startup": "Susstains Engineering",
-      "title": "ArcelorMittal's XCarb® India Accelerator unveils pioneering startups for industrial decarboniSation",
-      "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNDU0d3R6VkNTajNUUTZOdVBkbUVBQ0ZIR2c4YXBDTWV6R3FDWU83aXlKNm5wSUdIUE5JQUswWmFEcUR1RWJ3SmFNMkVxUmJMWHFEMnlEazFodXZya2NOb3ZvYWg0TTVRN3dhR01KaUJ4c2dzMHRyWGx1RUc1Rm9vaEZKbUpfYzUwbVFUTWpMdWRaYmNxSGpSdFRKbXJVcVAwSTYtUXliUzZEeTlZVTg3ZjRVVDVHU1dYb19wMmNZcUdPMXh5WkF6OVA2bWFILU1YMFpz?oc=5",
-      "date": "2024-02-22",
-      "source": "Manufacturing Today India"
-    },
-    {
       "startup": "UrbanMatrix Technologies",
       "title": "Drone tech startup UrbanMatrix raises Rs 6 cr in pre-Series A led by Inflection Point Ventures",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTEhzN3pZeGRKRUE4R19hNENQdElwOE5pNjA5TmxNSGFTa0ppN0wyV3hSOFpFbGdTVmxlN2MzYWd0aUM4TnNKaXVlX3hXQkE1WWxoVEpQZ0d6clk0U3lMRmR0LVFTaGFNSFJNUzdCUVNFbVN0ZGZ1bGVjMVphNlZfb1ptYzF3RmxmeTJjaU11LXlVSU83TTZJb3dBc0tMcE4wRFZ2Vk9RVnUwTDFyNkFfQzFfSzBqT2RNWlBWU3VkTzV5a0g4SVNUZEJqSEdOck5ZQm1tT2paa2h1cnE3VHh4SXh6eXRTR2tOOUpTaGhvLUVTZHoyUkHSAfsBQVVfeXFMUDBjSmlZcVlnYnZ6eXMwU015UEs5M0huU2VFU0pxNFN5WWlBcVFxTHNKWnBhRldNZ3RhY2JPT3ZVLXZ2U3pySmpTM3V0Q195REthc0k4Z19TUUtQMW9feVY4ZW8yMHFvREg1NjlVTHhEU18tc1BXY0Z5TGpUc2pzWTFnQUdpSnVwX2xvLUdKVktPcnllQUw5elcxZGNJZ2ZDdGJSVkVQdkJVbEVWYUoyTWlMeUF5d05FMUhJbElGczFadExkelhsN1VwOHFqTXBTTWNpOURkWkJvTDFqdV9rUEdjX2lVQ0M3ZnhnX0E2WmdWU2tlelhic1hSTUU?oc=5",
       "date": "2023-10-26",
-      "source": "telecom.economictimes.indiatimes.com"
+      "source": "Indiatimes"
     },
     {
       "startup": "Melvano",
@@ -132,14 +132,14 @@
       "title": "[Funding alert] Agritech startup InfyU Labs raises Rs 1.8 Cr in seed round from IAN",
       "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZjZ4SFY5QWg3X2FjMEtkYW5BY2Z0VU9LOVQ0OFpadFJIUUl0NmsyVUtBQW9IenVmMUF4dnNnbUM3VWxpbmFqeC1CVklOdzZFa1g4RDdDaFVSTnZ0TlBHVG1qM1diN01sRGJPV2dmNlcydjlSUU1uQllQWGhMdVRPeV92dXFwS3lQcElKQUUzQzJRQ0p1S2JWQzRxeF91clI0RVNJ?oc=5",
       "date": "2021-09-07",
-      "source": "yourstory.com"
+      "source": "YourStory.com"
     },
     {
       "startup": "InfyU Labs",
       "title": "[Funding alert] Deeptech startup Trillbit raises $1.5M in seed funding",
       "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcjZNYWZ1V2pTQWFidzhmV1VkRWQ5X25OR21LdVQwM0pIWkxfOXBzU3NhaUFFTGN1MWcwbUpTMFQ4cnFTbm1GRnBzdUV2UEtWLVdYOURLTlJ0cGxheHlKZkpGNFlUbmt1YktRX1M2RTczMENzUFFWSTdabURtejNUVHlLTlZjWnQzQlE?oc=5",
       "date": "2021-09-07",
-      "source": "yourstory.com"
+      "source": "YourStory.com"
     }
   ]
 }
