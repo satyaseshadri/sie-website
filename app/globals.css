@@ -23,3 +23,13 @@
   .card { @apply rounded-2xl border border-navy/10 bg-white p-6 shadow-sm transition hover:shadow-md; }
   .tag { @apply inline-block rounded-full px-3 py-1 text-xs font-semibold; }
 }
+
+@keyframes marquee {
+  to { transform: translateX(-50%); }
+}
+.marquee-track {
+  animation: marquee 30s linear infinite;
+}
+.marquee-track:hover {
+  animation-play-state: paused;
+}

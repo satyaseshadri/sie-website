@@ -25,10 +25,10 @@ const ROLES = [
 ];
 
 const TIMELINE = [
-  { d: '1 Aug 2026', t: 'Applications open.', x: 'IIT Madras-led national scouting begins.' },
-  { d: '1–25 Aug', t: '25-day scouting window.', x: 'Apply online; no late submissions.' },
-  { d: '26 Aug – 9 Sep', t: 'Selection (15 days).', x: 'Triage → diligence → interviews → final pitch.' },
-  { d: '10 Sep', t: 'Cohort of 12 announced.', x: 'Contracting and onboarding through end-September.' },
+  { d: '5 Aug 2026', t: 'Applications open.', x: 'IIT Madras-led national scouting begins.' },
+  { d: '5–30 Aug', t: '25-day scouting window.', x: 'Apply online; no late submissions.' },
+  { d: '31 Aug – 14 Sep', t: 'Selection (15 days).', x: 'Triage → diligence → interviews → final pitch.' },
+  { d: '15 Sep', t: 'Cohort of 12 announced.', x: 'Contracting and onboarding through end-September.' },
   { d: '1–7 Oct', t: 'Launch bootcamp at IIMA Ventures.', x: '7-day residential kick-off; ₹50 lakh convertible debt released.' },
   { d: '8 Oct – 31 Dec', t: 'Node-based build (12 weeks).', x: 'Mentoring by IIT Madras · monitoring by IIMA Ventures · pilots via the MC²⁺ Team; gate reviews at Weeks 4 & 8.' },
   { d: '7 Jan 2027', t: 'Demo Day (IIT Madras, Chennai).', x: 'Organised by IIT Madras; up to ₹1.5 crore convertible released on milestones.' },
@@ -42,10 +42,10 @@ const SUPPORT = [
 ];
 
 const STEPS = [
-  { b: 'Triage (26–29 Aug).', x: 'A binary screen on eligibility — incorporation, founders, documented TRL, theme fit, capital raised. ~120 qualify.' },
-  { b: 'Diligence (30 Aug – 2 Sep).', x: 'A two-hour deep dive per applicant — technology review, customer reference checks, founder profiles. 48 longlisted.' },
-  { b: 'Interviews (3–6 Sep).', x: 'Structured 20-minute panel interviews (12-min pitch + 8-min Q&A) scored on team & execution, technology & IP, market & offtake, capital & use of funds, and fit & risk. 24 shortlisted.' },
-  { b: 'Final round (7–9 Sep).', x: 'In-person pitch days organised by IIT Madras; references finalised; convertible quantum set. 12 selected + 12 reserves.' },
+  { b: 'Triage (31 Aug – 3 Sep).', x: 'A binary screen on eligibility — incorporation, founders, documented TRL, theme fit, capital raised. ~120 qualify.' },
+  { b: 'Diligence (4 – 7 Sep).', x: 'A two-hour deep dive per applicant — technology review, customer reference checks, founder profiles. 48 longlisted.' },
+  { b: 'Interviews (8–11 Sep).', x: 'Structured 20-minute panel interviews (12-min pitch + 8-min Q&A) scored on team & execution, technology & IP, market & offtake, capital & use of funds, and fit & risk. 24 shortlisted.' },
+  { b: 'Final round (12–14 Sep).', x: 'In-person pitch days organised by IIT Madras; references finalised; convertible quantum set. 12 selected + 12 reserves.' },
 ];
 
 const FAQ = [
@@ -76,8 +76,8 @@ export default function MC2Ignite() {
             phase across leading research nodes, and real pilots at India's energy majors.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <a href="https://apply.mc2foundation.org" rel="noopener" target="_blank" className="inline-flex items-center gap-2 rounded-lg px-5 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
-              Apply — opens 1 Aug 2026 ↗
+            <a href="https://app.mc2plus.in/ext/form/24027/1/apply" rel="noopener" target="_blank" className="inline-flex items-center gap-2 rounded-lg px-5 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
+              Apply — opens 5 Aug 2026 ↗
             </a>
             <a href="#how" className="inline-flex items-center gap-2 rounded-lg border border-white/40 px-5 py-3 font-display text-sm font-semibold text-white hover:bg-white/10">How it works</a>
           </div>
@@ -243,12 +243,12 @@ export default function MC2Ignite() {
       {/* Apply */}
       <div className="py-16 text-center text-white" style={{ backgroundColor: '#14284A' }}>
         <div className="container-site">
-          <h2 className="font-display text-3xl font-bold">Applications open 1 August 2026</h2>
+          <h2 className="font-display text-3xl font-bold">Applications open 5 August 2026</h2>
           <p className="mx-auto mt-3 max-w-xl text-white/75">
-            The scouting window runs to 25 August 2026. Be honest about your stage, bring evidence not aspiration,
+            The scouting window runs to 30 August 2026. Be honest about your stage, bring evidence not aspiration,
             and read the application guide before you start.
           </p>
-          <a href="https://apply.mc2foundation.org" rel="noopener" target="_blank" className="mt-7 inline-flex items-center gap-2 rounded-lg px-6 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
+          <a href="https://app.mc2plus.in/ext/form/24027/1/apply" rel="noopener" target="_blank" className="mt-7 inline-flex items-center gap-2 rounded-lg px-6 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
             Apply at apply.mc2foundation.org ↗
           </a>
           <p className="mt-8 text-xs text-white/50">
