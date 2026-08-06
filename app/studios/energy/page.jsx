@@ -26,9 +26,9 @@ const ROLES = [
 
 const TIMELINE = [
   { d: '5 Aug 2026', t: 'Applications open.', x: 'IIT Madras-led national scouting begins.' },
-  { d: '5–30 Aug', t: '25-day scouting window.', x: 'Apply online; no late submissions.' },
-  { d: '31 Aug – 14 Sep', t: 'Selection (15 days).', x: 'Triage → diligence → interviews → final pitch.' },
-  { d: '15 Sep', t: 'Cohort of 12 announced.', x: 'Contracting and onboarding through end-September.' },
+  { d: '5–31 Aug', t: 'Scouting window.', x: 'Apply online; no late submissions.' },
+  { d: '1 – 15 Sep', t: 'Selection (15 days).', x: 'Triage → diligence → interviews → final pitch.' },
+  { d: '16 Sep', t: 'Cohort of 12 announced.', x: 'Contracting and onboarding through end-September.' },
   { d: '1–7 Oct', t: 'Launch bootcamp at IIMA Ventures.', x: '7-day residential kick-off; ₹50 lakh convertible debt released.' },
   { d: '8 Oct – 31 Dec', t: 'Node-based build (12 weeks).', x: 'Mentoring by IIT Madras · monitoring by IIMA Ventures · pilots via the MC²⁺ Team; gate reviews at Weeks 4 & 8.' },
   { d: '7 Jan 2027', t: 'Demo Day (IIT Madras, Chennai).', x: 'Organised by IIT Madras; up to ₹1.5 crore convertible released on milestones.' },
@@ -42,10 +42,10 @@ const SUPPORT = [
 ];
 
 const STEPS = [
-  { b: 'Triage (31 Aug – 3 Sep).', x: 'A binary screen on eligibility — incorporation, founders, documented TRL, theme fit, capital raised. ~120 qualify.' },
-  { b: 'Diligence (4 – 7 Sep).', x: 'A two-hour deep dive per applicant — technology review, customer reference checks, founder profiles. 48 longlisted.' },
-  { b: 'Interviews (8–11 Sep).', x: 'Structured 20-minute panel interviews (12-min pitch + 8-min Q&A) scored on team & execution, technology & IP, market & offtake, capital & use of funds, and fit & risk. 24 shortlisted.' },
-  { b: 'Final round (12–14 Sep).', x: 'In-person pitch days organised by IIT Madras; references finalised; convertible quantum set. 12 selected + 12 reserves.' },
+  { b: 'Triage (1 – 4 Sep).', x: 'A binary screen on eligibility — incorporation, founders, documented TRL, theme fit, capital raised. ~120 qualify.' },
+  { b: 'Diligence (5 – 8 Sep).', x: 'A two-hour deep dive per applicant — technology review, customer reference checks, founder profiles. 48 longlisted.' },
+  { b: 'Interviews (9–12 Sep).', x: 'Structured 20-minute panel interviews (12-min pitch + 8-min Q&A) scored on team & execution, technology & IP, market & offtake, capital & use of funds, and fit & risk. 24 shortlisted.' },
+  { b: 'Final round (13–15 Sep).', x: 'In-person pitch days organised by IIT Madras; references finalised; convertible quantum set. 12 selected + 12 reserves.' },
 ];
 
 const FAQ = [
@@ -53,7 +53,7 @@ const FAQ = [
   { q: 'Is this a residential programme?', a: 'Only the 7-day launch bootcamp at IIMA Ventures is residential. After that, you work from your assigned host node (or a PSU site) for the 12-week build phase, with weekly check-ins and gate reviews.' },
   { q: 'Who can apply?', a: 'Indian-incorporated startups (≤ 5 years old, ≤ ₹10 Cr raised), at least two founders including one technical co-founder, a working prototype or early pilot (TRL 4–7), and a fit with one of the ten MC²⁺ themes.' },
   { q: 'What does the money depend on?', a: 'The ₹50 lakh upfront convertible debt is released at the start against a signed Incubation Agreement. The convertible at Demo Day depends on achieving your Gate 1 and Gate 2 milestones and delivering at Demo Day.' },
-  { q: 'When will I hear back?', a: 'All applicants are notified by email no later than 10 September 2026.' },
+  { q: 'When will I hear back?', a: 'All applicants are notified by email no later than 16 September 2026.' },
 ];
 
 function Eyebrow({ children }) {
@@ -76,7 +76,7 @@ export default function MC2Ignite() {
             phase across leading research nodes, and real pilots at India's energy majors.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <a href="https://app.mc2plus.in/ext/form/24027/1/apply" rel="noopener" target="_blank" className="inline-flex items-center gap-2 rounded-lg px-5 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
+            <a href="https://app.mc2plus.in/ext/form/24027/1/apply?source=IITMadras&medium=NIL" rel="noopener" target="_blank" className="inline-flex items-center gap-2 rounded-lg px-5 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
               Apply — opens 5 Aug 2026 ↗
             </a>
             <a href="#how" className="inline-flex items-center gap-2 rounded-lg border border-white/40 px-5 py-3 font-display text-sm font-semibold text-white hover:bg-white/10">How it works</a>
@@ -245,11 +245,11 @@ export default function MC2Ignite() {
         <div className="container-site">
           <h2 className="font-display text-3xl font-bold">Applications open 5 August 2026</h2>
           <p className="mx-auto mt-3 max-w-xl text-white/75">
-            The scouting window runs to 30 August 2026. Be honest about your stage, bring evidence not aspiration,
+            The scouting window runs to 31 August 2026. Be honest about your stage, bring evidence not aspiration,
             and read the application guide before you start.
           </p>
-          <a href="https://app.mc2plus.in/ext/form/24027/1/apply" rel="noopener" target="_blank" className="mt-7 inline-flex items-center gap-2 rounded-lg px-6 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
-            Apply at apply.mc2foundation.org ↗
+          <a href="https://app.mc2plus.in/ext/form/24027/1/apply?source=IITMadras&medium=NIL" rel="noopener" target="_blank" className="mt-7 inline-flex items-center gap-2 rounded-lg px-6 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
+            Apply at www.mc2plus.in ↗
           </a>
           <p className="mt-8 text-xs text-white/50">
             MC²⁺ Foundation · Implementation Partner: IIT Madras · Bootcamp Partner: IIMA Ventures ·

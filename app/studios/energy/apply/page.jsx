@@ -3,7 +3,7 @@ import EoiForm from './EoiForm';
 
 export const metadata = {
   title: 'Apply — MC²⁺ Ignite Cohort 1',
-  description: 'Application guide and expression of interest for MC²⁺ Ignite Cohort 1 — applications open 1 August 2026 at apply.mc2foundation.org.',
+  description: 'Application guide and expression of interest for MC²⁺ Ignite Cohort 1 — applications open until 31 August 2026 at www.mc2plus.in.',
   robots: { index: false, follow: false },
 };
 
@@ -50,11 +50,11 @@ export default function Apply() {
           <h1 className="mt-3 max-w-3xl font-display text-4xl font-bold sm:text-5xl">Prepare your application</h1>
           <p className="mt-4 max-w-2xl text-lg text-white/80">
             Applications open <strong className="text-white">5th August 2026</strong> on the official portal and close
-          30TH August 2026, 23:59 IST — no late submissions. The form takes about 90 minutes; you can save and
-            return. Results by email no later than 10 September 2026.
+            31st August 2026, 23:59 IST — no late submissions. The form takes about 90 minutes; you can save and
+            return. Results by email no later than 16 September 2026.
           </p>
-          <a href="https://app.mc2plus.in/ext/form/24027/1/apply" rel="noopener" target="_blank" className="mt-7 inline-flex items-center gap-2 rounded-lg px-6 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
-            Apply at apply.mc2foundation.org ↗
+          <a href="https://app.mc2plus.in/ext/form/24027/1/apply?source=IITMadras&medium=NIL" rel="noopener" target="_blank" className="mt-7 inline-flex items-center gap-2 rounded-lg px-6 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
+            Apply at www.mc2plus.in ↗
           </a>
         </div>
       </div>

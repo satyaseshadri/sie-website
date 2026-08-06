@@ -22,8 +22,7 @@ const STACK = [
 ];
 
 const ANNOUNCEMENTS = [
-  // { text: 'Tech Pioneer Grant 2026 applications are now open — funding up to ₹20L for clean tech, agri tech and fintech ventures.', href: 'https://www.venturearch.org/tech-pioneer-grant-2026' },
-  { text: 'MC²⁺ Ignite Cohort 1 applications are open until 30th August — up to ₹2 crore for energy deep-tech founders.', href: 'https://app.mc2plus.in/ext/form/24027/1/apply' },
+  { text: 'MC²⁺ Ignite Cohort 1 applications are open until 31st August — up to ₹2 crore for energy deep-tech founders.', href: 'https://app.mc2plus.in/ext/form/24027/1/apply?source=IITMadras&medium=NIL' },
 ];
 
 export default function Home() {

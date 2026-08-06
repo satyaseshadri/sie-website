@@ -17,14 +17,14 @@ export default function OpenCalls() {
       <Section>
         <div className="grid gap-6 md:grid-cols-2">
           <div className="card border-t-4 border-t-navy">
-            <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 30st August</span>
+            <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 31st August</span>
             <h2 className="mt-3 font-display text-2xl font-bold text-navy">MC²⁺ Ignite — Cohort 1</h2>
             <p className="mt-3 leading-relaxed text-ink/70">
               India's energy accelerator for deep-tech founders — up to ₹2 crore in convertible funding,
               labs and pilot pathways at the PSU energy majors. Organised by IIT Madras with the MC²⁺ Foundation.
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
-              <a href="https://app.mc2plus.in/ext/form/24027/1/apply" rel="noopener" target="_blank" className="btn-primary">Apply now ↗</a>
+              <a href="https://app.mc2plus.in/ext/form/24027/1/apply?source=IITMadras&medium=NIL" rel="noopener" target="_blank" className="btn-primary">Apply now ↗</a>
               <Link href="/studios/energy/" className="btn-ghost">Programme details</Link>
             </div>
           </div>

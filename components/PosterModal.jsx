@@ -44,11 +44,11 @@ export default function PosterModal() {
         >
           ✕
         </button>
-        <a href="https://app.mc2plus.in/ext/form/24027/1/apply" rel="noopener" target="_blank">
+        <a href="https://app.mc2plus.in/ext/form/24027/1/apply?source=IITMadras&medium=NIL" rel="noopener" target="_blank">
           <img
             src={`${PREFIX}/images/mc2plus-poster.png`}
             alt="MC²⁺ Ignite — India's flagship energy innovation accelerator. Applications open, last date 31 August 2026. Click to apply."
-            className="max-h-[88vh] w-auto rounded-xl shadow-2xl"
+            className="max-h-[70vh] w-auto rounded-xl shadow-2xl"
           />
         </a>
       </div>
