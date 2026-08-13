@@ -53,7 +53,7 @@ export default function Apply() {
             31st August 2026, 23:59 IST — no late submissions. The form takes about 90 minutes; you can save and
             return. Results by email no later than 16 September 2026.
           </p>
-          <a href="https://app.mc2plus.in/ext/form/24027/1/apply?source=IITMadras&medium=NIL" rel="noopener" target="_blank" className="mt-7 inline-flex items-center gap-2 rounded-lg px-6 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
+          <a href="https://app.mc2plus.in/ext/form/24027/1/apply?source=IIT%20Madras&medium=NIL" rel="noopener" target="_blank" className="mt-7 inline-flex items-center gap-2 rounded-lg px-6 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
             Apply at www.mc2plus.in ↗
           </a>
         </div>

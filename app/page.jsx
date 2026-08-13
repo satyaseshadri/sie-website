@@ -21,8 +21,10 @@ const STACK = [
   { step: '05', name: 'Scale', who: 'IITMIC & Research Park', desc: 'Graduating ventures move into the IIT Madras Incubation Cell and Research Park — one of India\'s strongest deep-tech launchpads.', href: '/ecosystem/', accent: 'border-t-navy' },
 ];
 
+// Add new items at the top with badge: 'New'. Older ones use badge: 'Announcement'.
 const ANNOUNCEMENTS = [
-  { text: 'MC²⁺ Ignite Cohort 1 applications are open until 31st August — up to ₹2 crore for energy deep-tech founders.', href: 'https://app.mc2plus.in/ext/form/24027/1/apply?source=IITMadras&medium=NIL' },
+  { badge: 'New', text: 'Tech Pioneer Grant 2026 applications are open until 27th August — funding up to ₹20L for clean tech, agri tech and fintech ventures.', href: 'https://www.venturearch.org/tech-pioneer-grant-2026' },
+  { badge: 'Announcement', text: 'MC²⁺ Ignite Cohort 1 applications are open until 31st August — up to ₹2 crore for energy deep-tech founders.', href: 'https://app.mc2plus.in/ext/form/24027/1/apply?source=IIT%20Madras&medium=NIL' },
 ];
 
 export default function Home() {
@@ -30,14 +32,14 @@ export default function Home() {
     <>
       <PosterModal />
 
-      {/* Announcements marquee */}
-      <div className="overflow-hidden bg-navy py-3">
+      {/* Announcements — fixed under navbar; content scrolls */}
+      <div className="sticky top-20 z-40 overflow-hidden bg-navy py-3 sm:top-24">
         <div className="marquee-track flex w-max">
           {[0, 1].map((copy) => (
             <div key={copy} aria-hidden={copy === 1} className="flex items-center gap-16 pr-16">
               {ANNOUNCEMENTS.map((a) => (
                 <p key={a.text} className="flex items-center whitespace-nowrap text-sm font-medium text-white">
-                  <span className="mr-2.5 rounded-full bg-accent px-2.5 py-0.5 text-xs font-bold uppercase tracking-wider text-white">Announcement</span>
+                  <span className="mr-2.5 rounded-full bg-accent px-2.5 py-0.5 text-xs font-bold uppercase tracking-wider text-white">{a.badge}</span>
                   {a.text}
                   <a href={a.href} rel="noopener" target="_blank" className="ml-3 font-bold text-white underline decoration-accent decoration-2 underline-offset-4 hover:text-accent">
                     Apply now ↗

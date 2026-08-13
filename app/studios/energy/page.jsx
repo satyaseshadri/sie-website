@@ -76,7 +76,7 @@ export default function MC2Ignite() {
             phase across leading research nodes, and real pilots at India's energy majors.
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
-            <a href="https://app.mc2plus.in/ext/form/24027/1/apply?source=IITMadras&medium=NIL" rel="noopener" target="_blank" className="inline-flex items-center gap-2 rounded-lg px-5 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
+            <a href="https://app.mc2plus.in/ext/form/24027/1/apply?source=IIT%20Madras&medium=NIL" rel="noopener" target="_blank" className="inline-flex items-center gap-2 rounded-lg px-5 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
               Apply — opens 5 Aug 2026 ↗
             </a>
             <a href="#how" className="inline-flex items-center gap-2 rounded-lg border border-white/40 px-5 py-3 font-display text-sm font-semibold text-white hover:bg-white/10">How it works</a>
@@ -248,7 +248,7 @@ export default function MC2Ignite() {
             The scouting window runs to 31 August 2026. Be honest about your stage, bring evidence not aspiration,
             and read the application guide before you start.
           </p>
-          <a href="https://app.mc2plus.in/ext/form/24027/1/apply?source=IITMadras&medium=NIL" rel="noopener" target="_blank" className="mt-7 inline-flex items-center gap-2 rounded-lg px-6 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
+          <a href="https://app.mc2plus.in/ext/form/24027/1/apply?source=IIT%20Madras&medium=NIL" rel="noopener" target="_blank" className="mt-7 inline-flex items-center gap-2 rounded-lg px-6 py-3 font-display text-sm font-semibold text-[#1a1a1a]" style={{ backgroundColor: GOLD }}>
             Apply at www.mc2plus.in ↗
           </a>
           <p className="mt-8 text-xs text-white/50">
