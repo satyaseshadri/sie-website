@@ -3,14 +3,9 @@ import { useEffect, useState } from 'react';
 
 const PREFIX = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
-const SEEN_KEY = 'posters-seen-v2';
+const SEEN_KEY = 'posters-seen-v3';
 
 const POSTERS = [
-  {
-    href: 'https://www.venturearch.org/tech-pioneer-grant-2026',
-    src: '/images/tech-pioneer-poster.png',
-    alt: 'Tech Pioneer Grant 2026 — applications open until 27th August. Click to apply.',
-  },
   {
     href: 'https://app.mc2plus.in/ext/form/24027/1/apply?source=IIT%20Madras&medium=NIL',
     src: '/images/mc2plus-poster.png',
