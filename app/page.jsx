@@ -23,6 +23,7 @@ const STACK = [
 
 // Add new items at the top with badge: 'New'. Older ones use badge: 'Announcement'.
 const ANNOUNCEMENTS = [
+  { badge: 'New', text: 'Tech Pioneer Grant 2026 applications are open until 27th August — funding up to ₹20L for clean tech, agri tech and fintech ventures.', href: 'https://www.venturearch.org/tech-pioneer-grant-2026' },
   { badge: 'Announcement', text: 'MC²⁺ Ignite Cohort 1 applications are open until 31st August — up to ₹2 crore for energy deep-tech founders.', href: 'https://app.mc2plus.in/ext/form/24027/1/apply?source=IIT%20Madras&medium=NIL' },
 ];
 
