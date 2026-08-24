@@ -29,13 +29,13 @@ export default function OpenCalls() {
             </div>
           </div>
           <div className="card border-t-4 border-t-accent">
-            <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 27th August</span>
+            <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 10th September</span>
             <h2 className="mt-3 font-display text-2xl font-bold text-navy">Tech Pioneer Grant 2026</h2>
             <p className="mt-3 leading-relaxed text-ink/70">
-              A grant call for clean tech, agri tech, and fintech ventures — three categories matched to where
-              your startup stands today, with funding up to ₹20L.
+              A grant call for agritech, climatetech, and fintech ventures — funding up to ₹5L through
+              pre-incubation and up to ₹20L through incubation.
             </p>
-            <a href="https://www.venturearch.org/tech-pioneer-grant-2026" rel="noopener" target="_blank" className="btn-primary mt-5">Apply on VentureArch ↗</a>
+            <a href="https://venturearch.org/apply/nirmaan-iitm/6a698f413973750db248cd3b" rel="noopener" target="_blank" className="btn-primary mt-5">Apply on VentureArch ↗</a>
           </div>
           <div className="card">
             <span className="tag bg-navy/10 text-navy">Closed</span>
