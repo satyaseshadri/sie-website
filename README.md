@@ -76,10 +76,9 @@ Startups page refreshes automatically. Add/remove startups by editing `data/nirm
 The current feed is seeded with verified milestones from SIE records; the bot replaces it as it
 finds fresh news. Run manually from the Actions tab ("Update startup feed" → Run workflow).
 
-A second bot, `scripts/update-school-news.js`, runs in the same workflow: it scans for IIT Madras
-innovation & entrepreneurship press coverage (SIE, Nirmaan, CFI, E-Summit, Delta Expo, Research
-Park, incubation) and writes `data/school-news-feed.json`, shown as "Around the ecosystem" on the
-News page. Tune its search queries in the `QUERIES` array at the top of the script.
+Press coverage on the News page (`data/school-news-feed.json`) is curated manually — the school-news
+bot (`scripts/update-school-news.js`) is no longer run by the workflow. Edit that JSON file directly
+to update the "Around the ecosystem" list.
 
 ## MC²⁺ Ignite microsite (unlisted until launch)
 

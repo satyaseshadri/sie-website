@@ -39,8 +39,7 @@ export default function News() {
 
       <Section className="border-t border-navy/10 bg-accent-pale/30" kicker="In the press" title="Around the ecosystem">
         <p className="mt-3 max-w-2xl text-ink/70">
-          Media coverage of innovation and entrepreneurship at IIT Madras — refreshed automatically by a bot that
-          scans news sources daily.
+          Media coverage of innovation and entrepreneurship at IIT Madras.
         </p>
         <div className="mt-8 grid gap-4 md:grid-cols-2">
           {feed.items.slice(0, 12).map((n, i) => (
@@ -52,9 +51,6 @@ export default function News() {
             </a>
           ))}
         </div>
-        {feed.updated && (
-          <p className="mt-4 text-xs text-ink/45">Last scanned: {new Date(feed.updated).toLocaleDateString('en-IN', { day: 'numeric', month: 'long', year: 'numeric' })}</p>
-        )}
       </Section>
     </>
   );

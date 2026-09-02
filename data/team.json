@@ -31,84 +31,91 @@
   ],
   "staff": [
     {
-      "name": "K. S. Nandhini",
+      "name": "Ms.Nandhini K.S",
       "role": "Chief Operating Officer",
       "email": "coo@sie.iitm.ac.in",
       "photo": "/images/people/Nandhini.jpeg",
       "linkedin": ""
     },
     {
-      "name": "Krishnaveni",
+      "name": "Ms. Krishnaveni S.",
       "role": "Finance Manager",
       "email": "finance-manager@sie.iitm.ac.in",
       "photo": "/images/people/krishnaveni.jpg",
       "linkedin": ""
     },
     {
-      "name": "Usha Sriram",
+      "name": "Ms.Usha Sriram",
       "role": "Academic Liaison Officer",
       "email": "acad@sie.iitm.ac.in",
       "photo": "/images/people/usha-sriram.jpg",
       "linkedin": ""
     },
     {
-      "name": "E. Sundarraj",
+      "name": "Mr. Sundarraj E.",
       "role": "IP Manager",
       "email": "ip-manager@sie.iitm.ac.in",
       "photo": "/images/people/e-sundarraj.jpg",
       "linkedin": ""
     },
     {
-      "name": "Anjana U. P.",
+      "name": "Mr. Shaju N S ",
+      "role": "Project Manager I & E",
+      "email": "managerie@sie.iitm.ac.in",
+      "photo": "/images/people/shaju.jpg",
+      "linkedin": ""
+    },
+    {
+      "name": "Ms. Anjana U. P.",
       "role": "Pre-Incubation Coordinator",
       "email": "preincubation1@sie.iitm.ac.in",
       "photo": "/images/people/anjana-square.jpeg",
       "linkedin": ""
     },
     {
-      "name": "Amrutha Narayanan",
+      "name": "Ms. Amrutha Narayanan",
       "role": "Learning Development Coordinator",
       "email": "ldc@sie.iitm.ac.in",
       "photo": "/images/people/amrutha-narayanan.jpg",
       "linkedin": ""
-    },
+    }, 
     {
-      "name": "Sriram",
+      "name": "Mr. Sriram",
       "role": "Technician",
       "email": "technician1@sie.iitm.ac.in",
       "photo": "/images/people/sriram.jpg",
       "linkedin": ""
     },
     {
-      "name": "Suvanya",
+      "name": "Ms. Suvanya",
       "role": "Technician (Safety & Inventory)",
       "email": "technician2@sie.iitm.ac.in",
       "photo": "/images/people/suvanya.jpg",
       "linkedin": ""
     },
     {
-      "name": "R. Manikandan",
+      "name": "Mr. R. Manikandan",
       "role": "Facility Manager",
       "email": "facility-manager@sie.iitm.ac.in",
       "photo": "/images/people/r-manikandan.jpg",
       "linkedin": ""
     },
     {
-      "name": "Velankanni Robert",
+      "name": "Mr. Velankanni Robert",
       "role": "Senior Office Assistant",
       "email": "facility1@sie.iitm.ac.in",
       "photo": "/images/people/vela-square.jpeg",
       "linkedin": ""
     },
     {
-      "name": "Rajesh",
+      "name": "Mr.Rajesh",
       "role": "Office Assistant",
       "email": "",
       "photo": "",
       "linkedin": ""
     },
     {
-      "name": "Jaya Prakash M.",
+      "name": "Mr. Jaya Prakash M.",
       "role": "Tech Support",
       "email": "techsupport@sie.iitm.ac.in",
       "photo": "/images/people/jp.jpg",
@@ -418,27 +425,27 @@
   "governingCouncil": [
     {
       "name": "Prof. Ashwin Mahalingam",
-      "affiliation": "IIT Madras",
+      "affiliation": "Dean, Alumni & Corporate Relations, IIT Madras",
       "linkedin": "https://www.linkedin.com/in/ashwin-mahalingam-084b3b216/"
     },
     {
-      "name": "Kunal Upadhyay",
-      "affiliation": "IIM Ahmedabad",
+      "name": "Mr.Kunal Upadhyay",
+      "affiliation": "IIMA Ventures",
       "linkedin": "https://www.linkedin.com/in/kunalupadhyay/"
     },
     {
-      "name": "Vishy Vishwanathan",
+      "name": "Mr.Vishy Vishwanathan",
       "affiliation": "IIT Madras Alumnus",
       "linkedin": "https://www.linkedin.com/in/vishy/"
     },
     {
-      "name": "K. K. Raman",
+      "name": "Mr.K. K. Raman",
       "affiliation": "IIT Madras Alumnus",
       "linkedin": "https://www.linkedin.com/in/k-k-raman-427166a9/"
     },
     {
       "name": "Prof. Prabhu Rajagopal",
-      "affiliation": "IIT Madras",
+      "affiliation": "Director in Charge,                 IITM Zanzibar",
       "linkedin": "https://www.linkedin.com/in/prabhu-rajagopal-041ab74/"
     },
     {

@@ -35,7 +35,7 @@ export default function OpenCalls() {
               A grant call for agritech, climatetech, and fintech ventures — funding up to ₹5L through
               pre-incubation and up to ₹20L through incubation.
             </p>
-            <a href="https://venturearch.org/apply/nirmaan-iitm/6a698f413973750db248cd3b" rel="noopener" target="_blank" className="btn-primary mt-5">Apply on VentureArch ↗</a>
+            <a href="https://www.venturearch.org/apply/sie/6a698f413973750db248cd3b " rel="noopener" target="_blank" className="btn-primary mt-5">Apply on VentureArch ↗</a>
           </div>
           <div className="card">
             <span className="tag bg-navy/10 text-navy">Closed</span>

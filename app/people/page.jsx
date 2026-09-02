@@ -33,7 +33,7 @@ export default function People() {
             <div key={m.name} className="flex items-center justify-between gap-3 rounded-xl border border-navy/10 bg-white px-4 py-3">
               <div className="min-w-0">
                 <p className="font-display text-sm font-semibold leading-snug text-navy">{m.name}</p>
-                <p className="truncate text-xs text-ink/55">{m.affiliation}</p>
+                <p className="text-xs leading-snug text-ink/55">{m.affiliation}</p>
               </div>
               {m.linkedin && (
                 <a href={m.linkedin} rel="noopener" target="_blank" className="flex-none text-[#0A66C2] hover:opacity-75" aria-label={`${m.name} on LinkedIn`}>
