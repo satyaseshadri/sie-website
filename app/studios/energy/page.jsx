@@ -26,9 +26,9 @@ const ROLES = [
 
 const TIMELINE = [
   { d: '5 Aug 2026', t: 'Applications open.', x: 'IIT Madras-led national scouting begins.' },
-  { d: '5–31 Aug', t: 'Scouting window.', x: 'Apply online; no late submissions.' },
-  { d: '1 – 15 Sep', t: 'Selection (15 days).', x: 'Triage → diligence → interviews → final pitch.' },
-  { d: '16 Sep', t: 'Cohort of 12 announced.', x: 'Contracting and onboarding through end-September.' },
+  { d: '5 Aug–15 Sept', t: 'Scouting window.', x: 'Apply online; no late submissions.' },
+  { d: '16 – 25 Sep', t: 'Selection (10 days).', x: 'Triage → diligence → interviews → final pitch.' },
+  { d: '26 Sep', t: 'Cohort of 12 announced.', x: 'Contracting and onboarding through end-September.' },
   { d: '1–7 Oct', t: 'Launch bootcamp at IIMA Ventures.', x: '7-day residential kick-off; ₹50 lakh convertible debt released.' },
   { d: '8 Oct – 31 Dec', t: 'Node-based build (12 weeks).', x: 'Mentoring by IIT Madras · monitoring by IIMA Ventures · pilots via the MC²⁺ Team; gate reviews at Weeks 4 & 8.' },
   { d: '7 Jan 2027', t: 'Demo Day (IIT Madras, Chennai).', x: 'Organised by IIT Madras; up to ₹1.5 crore convertible released on milestones.' },
