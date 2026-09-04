@@ -17,7 +17,7 @@ export default function OpenCalls() {
       <Section>
         <div className="grid gap-6 md:grid-cols-2">
           <div className="card border-t-4 border-t-navy">
-            <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 31st August</span>
+            <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 15th September</span>
             <h2 className="mt-3 font-display text-2xl font-bold text-navy">MC²⁺ Ignite — Cohort 1</h2>
             <p className="mt-3 leading-relaxed text-ink/70">
               India's energy accelerator for deep-tech founders — up to ₹2 crore in convertible funding,
