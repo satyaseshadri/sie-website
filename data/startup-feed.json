@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-03T07:17:09.490Z",
+  "updated": "2026-09-04T07:19:52.008Z",
   "items": [
     {
       "startup": "GalaxEye",
       "title": "Indian startup GalaxEye launches ‘Mission Drishti’",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQY0E4dGRyMVk0WWpIdUVSbGhoOVBybi1tREFrc2g0aEFwdkxlRVgwODExaTM3R1RnT2JEckNiWWtWanhJSm93S3NXRW45d08ybnloM2FQNnBrUkVySFNMWVdzVFBoSExvODFKNzBRdWR1cVQzQ2xkTGVwRUpfaXItQXJZWlo5SGVPOEphbmhGSTNvYzk1bnZJdWZ3?oc=5",
       "date": "2026-05-05",
-      "source": "Manorama Yearbook"
+      "source": "manoramayearbook.in"
     },
     {
       "startup": "GalaxEye",
       "title": "This Bengaluru startup just launched world’s first OptoSAR satellite. It started at IIT Madras",
       "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOaW5LMHN1Z3g5TjNDZDJ1UkJSNnhNanhKYTQtUzNtY1NkbkM5cFNLZTB4MzZYeEpDQmlZZlp5OUFBRlhGNS03S21qZEY4U2hSd2lOMS1obU9QX1B6NHB5VmJqU3RRX3hiM3BxRngtWDZ1alRRMy14ZXhWX0JaTVRmS2JiWnJvMF9YblVoYjdPT185ZzNtcDd0bWRITE44SWFX0gGmAUFVX3lxTE9SckhTZGxHdVdJaWNydWZ6N2Y4akZWRzBzbkVPZk1lWENLSVBPSTVZel9nSGlGZldia3dCckxoZ0VhMEdVQV9VejIzTWJYX3VPZVM0Q2RGa2pTMkhyZWM1ajdSYk9lUjhDVElKeFpub0JsNVdKUHMxcExoWUNoNVV6V1hLV0dQVHNSdGdhSFdXQ3JNYWowOWhRaThja1N3cDg5dTJLT1E?oc=5",
       "date": "2026-05-04",
-      "source": "ThePrint"
+      "source": "theprint.in"
+    },
+    {
+      "startup": "Inbound Aerospace",
+      "title": "TN bags four aerospace & defence MoUs worth 1,600 INR-Crore",
+      "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWFTc1JtOGdjaTltQmZOZ3pkbkFEZy1ELUpxd0xnNHgwb2cwOFVxSFFuWDYwY2JQbldRZXA2NWJnQkxhUVJfeVRvWGNSWWhjMzBiY1NKOFFYc0V0bVdPRUplcHBlWGNycG9LTTl0Y0tDa1VnYnQwRkZmMUYzR3J0MzFROTlRclZQTV8zRjVxQ2tHLXlidnQ2a1ItN0pDdw?oc=5",
+      "date": "2026-02-20",
+      "source": "Biltrax Media"
     },
     {
       "startup": "Modulus Housing",
@@ -21,6 +28,13 @@
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOemFEeFl6SGRjTWF5RmtvNWdGY2NUaDJhOUJMQS1qNDFuRGl2ZFhaTER6a2p4MEItNnFNbkwyclNJVXRCcE84bFhUNXBKNDdmVUVTeVFpQk03emdjMmQySnZvTjB3WU53aWRtRlRoWUhRdHY3TTd4VzR0RDJuSnNrSS05amUxclE5c2JLM3p4UmhlWjMtWXJxbERZTk9XWmx0TG1uSWtXRFBrUnNBSXR2b3IwMA?oc=5",
       "date": "2025-12-02",
       "source": "yourstory.com"
+    },
+    {
+      "startup": "Modulus Housing",
+      "title": "B2B platform Modulus raises maiden round; OG Media buys Instagram-first news platform",
+      "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbzJYYkZQcXVLVFZoYnFGRER1ejEwQkY1alVHNmZHem9iNnZpQ0xnbHdHWnVpdG10YWxsRGtSR3VBY1JxZEJBaWtneEhzaDVhVXRCWEJJN3VnSVVMZUltcmVUazRRZjNoLXRhRFJ3eUg5QTV0OHV4VlZLT0JrQXppRXJTWWRrQldPNV9hODhwTW9RUzE4M0FUcU85RllBUTduZk5ILXphekZlUGU0aUNDWmlLaUZsXzg?oc=5",
+      "date": "2025-12-02",
+      "source": "VCCircle"
     },
     {
       "startup": "Arctus Aerospace",
@@ -31,45 +45,45 @@
     },
     {
       "startup": "Arctus Aerospace",
-      "title": "Arctus Aerospace secures $2.6 million from Version One Ventures, others",
-      "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWmFpWG1lMTVpekJJN0FWYTBIM0lOeXFQLTN4NTlFazlPR1pqbnV1ZzRmelY3WV9qS3BIV0RDUThEUm1SSDdUOUlvTkNfVVZoMGVxV0wxRGM2blRRTFplalI3dGdRdUQxSU8wUmpLMTVNeEFJN1RXdzdvbzRSS1FfcW02Skp1NWs3TEU0T296Z3g5SlJGU2MzZm5ibGFOS1l4LVpuS1pXNzM5MkU3eEJZZGVzY1g3UjdkRVVYMWRrbGZCZ1dqcExfQ19BTUhTNWdacHfSAdcBQVVfeXFMUGVxc2JlMUxUbHpkWk9vcndiNm9mQkhhUFlBbUtjVUxJRXIwSEZ2d1hPbS1EYkF1cFZOQW5UTHhUOHZTUlhGOEREOWFMR2hNb0dZS3QtRnZXZ0l4VzBVbkNwemU2NnMybXlBZ2xadE1EWHFsaG1IUkxqQnU0VmNIY3ZfXzRqVFRDaHAxLUI5TXpWZW1jVkw0M09qWnNMMXlEcFJRQWZ6blJLc25hMG1Mbkh2WlFSLWd0SnBaWHVkSkZNUmtKX2FDdm9uSW04VEtIeFlfTmNxNWs?oc=5",
+      "title": "[Update] Arctus Aerospace Raises $2.6 Mn To Build UAVs For Earth Observation",
+      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcjdCcVEtajFyYlpzdUZhWXV6ODgwd3VUYi00NVotcnNWdng2bGhYUkctYk5NSTJRZ1VCVGdxVHNLYVBlbUJuaTRhbXdlWTAtU3JGSi1HY3lkd2JSazNlVFlCczQyWEF1OW42UnEtb3VPNVNWZktzSGlBVDdZZzF3V3JrenNIVS0zWWZRa2NBRWpWNDVPeDNqTzB2VlBMb2EybFE?oc=5",
       "date": "2025-11-26",
-      "source": "The Economic Times"
+      "source": "inc42.com"
     },
     {
       "startup": "Inbound Aerospace",
-      "title": "IIT Madras-Incubated Start-Up Inbound Aerospace Bags $1 Mn from Speciale Invest",
-      "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOa1RPZnVJdWUtQ21SODVJc0Vzd3VVSGdpRTA5SXMwVTgzb0lxZHJMV3ZNUVRFTGxuQWQ0bDNnMzZwUWRtM2ZraVoxc2VNZWxjc2dKY0QyZTNYLXpSOUZ5SzFpWkltRWlkNDlWMkhqTWE0YTUtYW5saEtwY2R3aUlpTWRGeXU2LTIzaU1oRmhmZ191Y3JTZDJ6eFJxUlFKYVp2M0JTLWc0T0VQdHVDdkZtWTZhZFRGQ1drYlM1YdIBygFBVV95cUxOSTNSMElFT3EtWDR3T0Z6S3JxV1RqcjJNM3kxZkVNSGJWQVViUE5UTXBkXzUyZ09ibzJDQjl4NHNfQzdaZ3hOZWtrT2dQek9tY2luX3p3OE5kNFRYSjdKbDUxd01XRWVadjA2ZHktcV8tS0Z5M1pvT0pVSkQ5cUpoWEd2UktQQmZERFBSbWdWSHBONldkQm83ZkdUTnA0cWQzQ1NxWEhTTnF6MXhfb29IZkVIRjFVYmtfaVpvNFhPODRhNlhIcmhiVDRB?oc=5",
+      "title": "Inbound Aerospace, a space-tech startup incubated at Indian Institute of Technology, Madras, has raised over $1 million in a pre-seed funding round led by Speciale Invest, with participation from Piper Serica. The funding will fuel the development of the startu",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbnNreEU2QVhkSmNQV1ljb3NZc3dmOTJYWXBEUE1rNEJIR3Vya21fbGs4NXYyVDd3RWpTT3cwZGs1R25WYmFvRFZPdWoyNW9uUlNkOW9faGNMM0tqVFBlRmstS0YwT0IybXBiNFZsaEhRSWUxaG1lTVBWQ2I0NnN1YlNBYnhDOFQ0cF84eVVieU5GWDJKVTk3OXN5eG5qNGx6ekZTSEYwX1JyTVZPSlZyOGhHWFlOYTVDd2pESFNhSS1ya2RLb2hqZGlETVhXc1gwVnRVQw?oc=5",
       "date": "2025-07-23",
-      "source": "outlookbusiness.com"
-    },
-    {
-      "startup": "Inbound Aerospace",
-      "title": "Spacetech startup Inbound Aerospace raises $1 million in funding from Speciale Invest",
-      "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNWjBmWW5LX3pmbE92dG1tblB2UFJVVFE0VVJGcjIydnVaSDY5dzZSVTVoYWVwUFZsOTVmc0ZtX25RTGcxbWxBNy13aXQwLXpqWDBQdlJQVkVyUkM4aTItOWJ4VlQ5UzVhVEx1UEwybnRjWktqbTNRRDZoMHFNd0ZOVGwyY21ZelVualF1VTNxNUV5RkRwakNnVGlVZ2hDTTVULVI5c3QzUEFPNy1LR0hWQjYwbFMwaS1DTVFxVmFRM1RuNDVTZVRPbmdUNkJZTHFBR2FRdjZiSWtvQVY5OGphY3FKSWZuZTRrd18yRnMxTTBhMXNBazBYV2ZIR0_SAYICQVVfeXFMT0RwaWJaZU1wYVRQalM1MjVNRWI0LWtyNFVzR3dfZEVTQ3NMTUgwUzFnT1otaFNWa0FSTXBsUFNOWWpMaUtQRWpsamEtUVl0V0Q2Yk1ZQmd4aXJEbUNybXdFWGx0YmluQmFYcTZWTEtVZkFoLTVJRE1jRHlKTGhDUWp1Y1RFaVJHbVJpYUNxZG9FbkJsZDFBQXhPbGtZVkdwcjdvOU1JRU5TbC1hYzVWczNOSUdIQjZSbGJJbHpNWlVnMW1mX0ZwVU5qZmNCaGhMV2pGVktSQlp0OE1Idjg1VWdEODdXZjVTSXk2VEpQTGJxTUpGSUNqeHZMZzhjUE93aEtR?oc=5",
-      "date": "2025-07-23",
-      "source": "ET Manufacturing"
+      "source": "LinkedIn"
     },
     {
       "startup": "Plenome Technologies",
-      "title": "IIT Madras-incubated Plenome Technologies raises ₹6.5 crore in seed funding",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZkYyLWhRWHFvYllnVlpjd25OU0dyanNUUTU0VG10NWo4bHlyQVNjYklyWGxuWXpYdTR4dTVBUFJNaWdvRDdqTGFFZkRFc05Dc2lHMFlkMEp0UklKNzIwMHo1dXRiazJOcWxtU3NCMGhiRksyOXVCVC1XVk5oN3MtaHQ5V2dWOTJMeWdZbURTZG8yVDh3R3N3NGU0ZFJIUHhnSWRoaVlrdjg1SnR0M0Y5NVRZSkNkVmplMzRVcUtCZVpoOWFMUmfSAcwBQVVfeXFMTUEtOFV1UDY4aU1IYXUxSTFiS1IyOGwtVEwzd29aYndXMmxMcjhvV2Jsb1FXdzFsSTM2TFVpSXlZcFVhdDY4enZONlFLMVNPZU5GSHBWYkdCMGxlRlpYaTYzMWQ3QlZHb0dNTUk1N01wVFFKd3pnSFdZckF4TG5KeEFuTDZMZWd3VkZUOWdVcGtMbE85MW54WWJxdkd3bDU2VWZaQy1CZ0hpSlV1MjUzOV9sLURaZ2U5bHpxNjJsbzFLQkRQRTFIc0hJVUVf?oc=5",
+      "title": "IIT Madras-incubated Plenome raises ₹6.5 crore in seed funding",
+      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOd2VRQ2d1Rnp3Ym9wVTBpdjlXZmpiTmNCdmt1SHlQUGNPM3Bjb2g4c1pEZXJ5bll5NzRuX2pVOXpLOGtseV9yUU1CMnNpa21XSjBpVkRva3V6Yk1SRERySzR6NGExODhZTnBEbVNxU3Z6dTB3UEg0Qll2OTI4ZXRtR3RUR3JCbjFhYlZub0dIazQ2Q1Nudms2dER2UF9aZW96N0d6a2VaMlFvTTVxT3hXNlprMUNwUmxkTjVKN01zZjNrRVMxODhpUy00YzjSAdMBQVVfeXFMUDk0V3ZOYmV4NW0zWElJQUtTOE5NUzdTSkFiYWJ5blRUbDJQZkU5YnZvdjFuUTRLLWp0YnJCT0NFS1Exa3kzbDFhUHNLNUZSNktZSzUyMzFaQWMwcE9vdzgtcVJYZGxfLS1tZV9qeF96R0xZbTJLdVNudnJkdGY5NXhDNUp6YXJCT0lPaUc2TFFMUlhtRGNjeVZHWGZuaWx3eTBYRjJ5SThGZmNMX09OLUk1ci1UVDd3Y1hsbmV5UllWcHZlb3NIcmM2a2NJbHJzOXNxMA?oc=5",
       "date": "2025-07-22",
-      "source": "thehindu.com"
+      "source": "thehindubusinessline.com"
     },
     {
       "startup": "Plenome Technologies",
-      "title": "IIT Madras-incubated Start-up Plenome raises Rs. 6.5 Crore in Seed Funding, targets Global Expansion",
-      "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ieVJxbkhwSXRPeDhmWk5aS09wMzZFRTRYUVphVmgzSXM4QzM2TUhHUmg5UkZkS2QycHVQc2lkU1dGUEZ5LUJzTHRLV3hvclFwOERvREUwb2dhZnZId2N2RmJWWjVtUXgt?oc=5",
+      "title": "Plenome Technologies raises Rs 6.5 Cr in seed round",
+      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaDRfMUtxcUpqajlNYXoxYW9EcW1meWZCTi1WWVhfTF9MdlpTRHpvdkFwUm1Vc09tWmZVMEx3NGhQQm9EbDI3Tm9nZGozeVpsYkswU3p4QzlZbUNGQUE0aEVBaWRkaU51ckhhdnEzY0hXS0o1ZDBLMGstYVpyQ2lUNnhrdWtCNkg2VGdiYURRUUhOZ9IBkgFBVV95cUxQaDRfMUtxcUpqajlNYXoxYW9EcW1meWZCTi1WWVhfTF9MdlpTRHpvdkFwUm1Vc09tWmZVMEx3NGhQQm9EbDI3Tm9nZGozeVpsYkswU3p4QzlZbUNGQUE0aEVBaWRkaU51ckhhdnEzY0hXS0o1ZDBLMGstYVpyQ2lUNnhrdWtCNkg2VGdiYURRUUhOZw?oc=5",
       "date": "2025-07-21",
-      "source": "PIB"
+      "source": "Entrackr"
+    },
+    {
+      "startup": "Tan90 Thermal Solutions",
+      "title": "Chennai-based Tan90 Thermal Solutions raises ₹20 crore in Series A",
+      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYWpHRnpNZEdyZ1YtWDZwYkZ1bDNMaFJsN1JxQjVuWlNOeGdwMUZKWTg5aXJzQ013QlEtTWFweW04VmIxMmk4aXo1QlNDZlYtZy1fQS11NVQyeF8tSl81OXpaMFR6UkZYdlk0LTdUbEN1YTJjeG5KMk80VGRuVGVJOVhOcUdVakg2WENJSzlYcmY1SVdzQmpsUlZPSmMzLXhOeEpnNXdRLW82aDFKYnFRRWJQaWI1Q1hGX0s4YnFkZm82cU9SZTg0Z2pGV2RRMFhW0gHXAUFVX3lxTE1ENmFjMmd5YkVpXzJ5MHZjSTdjSVFwQ2JObHlDX3hmUEI2MGtFNzhMM3lIWFFDbExfZE5XZ3ZYRjB3VWlGLXUzcGxTM3oxZTI5RFRJSFpjMWQxLVV2bFhhWWZ1cDltelI0LTF1WEpDS2NzQk9HT0tZaFpwWHIzeGhxOHhCdzZvMWZKUzBHM0ZQUnlIcVQzOWRlYkZzQlNkZkpZY01hbFpOOUdMMGRiMER5b3c3QVUyblVkMXNubG5NRm11WVhndjRocGl3NktLbVJyN25DNkRv?oc=5",
+      "date": "2025-05-20",
+      "source": "The Hindu"
     },
     {
       "startup": "Waterfly Technologies",
-      "title": "Anand Mahindra praises IIT-Madras startup for innovative electric sea gliders",
-      "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNmFfUVh3NDRDRUJpRUdJZTVsN3ptNEQwRnp4ajVtTFRLOEpSUGs0c09EVjBMcWY4aWlfRzJYSlVkTmt6aWdwRlVYY2hTS3BnSDkyTFJCUmV6NkpydWVSUGRIaFVTdVVmQm15OWNhUG56S2VfbklQYzBjcmNFbWotQWI0b1VDVGdNaW5tZkdzWjFqSWVJWi1TT1pSMXB2NTBBOHdVOG90OWFNc0dOWW4wNXpyOEtYekRzTGNod3VPNXJkaWhjdDZuZl9Db09tVVhoY0g5WDNFU1dlUdIB4AFBVV95cUxNMWd5WGVtTTRUUHEwLTE3emZPUE1wX2dSc2dubHlZY2RZYjMwcXI0Ty0wX05EcFB4MzFmMUpGWFJyMEVXTW5SR182ZWNycGVGaVN0Qk50ZjM3TzRIV3pMM0pEUWswWUs4QklWbTB3Y0d1MTd5TVE4NDExNU9ZaE4ycDB3ckVsWjN4MTJwYllBbGlFQ0RyTW9TOGs1aE9fREtjY0dkeER3enlYcFZDN2c3WkZfSGVLSzdJa20wV2Yta3FkQzdzc0c4QjZXckZaQjhvbmU3WC1Nd05obE1YcG5QNQ?oc=5",
-      "date": "2025-02-27",
-      "source": "thehindu.com"
+      "title": "Anand Mahindra praises 'stunning' design of IIT Madras-backed startup's electric sea gliders",
+      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNU3NkTldpaGpMNkR0NC1rS3UtQlBOSHRGQWtHcEdGek1HbEZfdFhlU1BHOUE2S1VWSWRxYTJraDAxNnVfSjlTRjRlZXVKUmpUQks0VFgza0VwdkVXRjg4N1JDdFAwNVJZWm52MWZ5T3FCLV9teHVoUk42aEFWM25obW9wWmJQRHB1c0dncGJNTXFRcWVfLW0yTnVRbVBzVWN3amZ0TnlWR0dlLThKQXpWZk1YYmNHMFZ0akRXVDU0X3k3djhIQ3RXc0ZaWWY3elZmQWhwNDZBdTBnOFBXUzZLd1h3WHl5eGx1bU0ybTJUalZmM014ak1ObHFycXFUd9IBgwJBVV95cUxOTm80YjJNVWgtV1V3LXlLSVBlUUoxMWVOdUlVaFI0Yk9Ba2NtWDJLd2pfX1dsVTV5aXV6U1NjU0hJZXVJVVE0SEdpaU45akxFbElrV0ItdzV5NHBWMnQyX2pIWlk4MVJRLUNzMzc0UVEzT1JHSEt3Yk1hSFFlRmVPLURYd3RJLU9iY1plSFpVbE9nZVE0WkF3WnJ4ZklLZHJqT3VkOUNxSWdvbXBtUVdXOUN5WDNadERZQkd6bFNTSXVQeml4LWdGTXE0WlJtMy16R2UtQXVLejEwX3llN2RHR0EybFhveG1WQjk5VGlUQm9xRjkxY25xaEtXTVdWekpOQTZN?oc=5",
+      "date": "2025-02-26",
+      "source": "The Times of India"
     },
     {
       "startup": "Waterfly Technologies",
@@ -83,7 +97,7 @@
       "title": "Y Combinator Backed Clueso Bags Funding To Provide AI-Powered Video Creation Tools",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaDhJRURoOU9Db0gxanhGX0oxdURXaFN4d2EtN2cwTUpyb1BVRkxTNVl0c2k2WDR3RUFvTTJvZmRGb2NtYzRzVlBoY2U5WlV1WHk2RWZoM2FUX01KQU1KdlpobEZJZHotTUxIT0RFM29PWE0zdEFneXBWTnNVWDU4SnZLSTZzdW9mUER4YTBWYmM0Q2ZnV1VXSHFJVWxoU0RyWGVKclhJcWJPUQ?oc=5",
       "date": "2024-04-24",
-      "source": "Inc42"
+      "source": "inc42.com"
     },
     {
       "startup": "Susstains Engineering",
@@ -93,13 +107,6 @@
       "source": "Manufacturing Today India"
     },
     {
-      "startup": "UrbanMatrix Technologies",
-      "title": "Drone tech startup UrbanMatrix raises Rs 6 cr in pre-Series A led by Inflection Point Ventures",
-      "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTEhzN3pZeGRKRUE4R19hNENQdElwOE5pNjA5TmxNSGFTa0ppN0wyV3hSOFpFbGdTVmxlN2MzYWd0aUM4TnNKaXVlX3hXQkE1WWxoVEpQZ0d6clk0U3lMRmR0LVFTaGFNSFJNUzdCUVNFbVN0ZGZ1bGVjMVphNlZfb1ptYzF3RmxmeTJjaU11LXlVSU83TTZJb3dBc0tMcE4wRFZ2Vk9RVnUwTDFyNkFfQzFfSzBqT2RNWlBWU3VkTzV5a0g4SVNUZEJqSEdOck5ZQm1tT2paa2h1cnE3VHh4SXh6eXRTR2tOOUpTaGhvLUVTZHoyUkHSAfsBQVVfeXFMUDBjSmlZcVlnYnZ6eXMwU015UEs5M0huU2VFU0pxNFN5WWlBcVFxTHNKWnBhRldNZ3RhY2JPT3ZVLXZ2U3pySmpTM3V0Q195REthc0k4Z19TUUtQMW9feVY4ZW8yMHFvREg1NjlVTHhEU18tc1BXY0Z5TGpUc2pzWTFnQUdpSnVwX2xvLUdKVktPcnllQUw5elcxZGNJZ2ZDdGJSVkVQdkJVbEVWYUoyTWlMeUF5d05FMUhJbElGczFadExkelhsN1VwOHFqTXBTTWNpOURkWkJvTDFqdV9rUEdjX2lVQ0M3ZnhnX0E2WmdWU2tlelhic1hSTUU?oc=5",
-      "date": "2023-10-26",
-      "source": "ET Telecom"
-    },
-    {
       "startup": "Melvano",
       "title": "Melvano raises Rs 1.3 Cr from Tyke for expansion into upskilling segment",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSUI5MTVoTjktTENMNGJ3cUpaN1NWQTFnUFZaeXB2NXQwOHE0cF9vaXdGUUpGVWE3djdSU0RDcUxUdjhnZUZ5MUtNMDlGQUllb1hLRmFkaC1ScUlzaDFWZW5sazF1U0FuMm9kY3lfX0oyZ21QcUE4Uld3VkV5aGxRRTlEVVk1Y3ptV3FDMHpUR2dTbXBIdVY0V21hNnFkUVg1ZXdBV9IBpAFBVV95cUxOSUI5MTVoTjktTENMNGJ3cUpaN1NWQTFnUFZaeXB2NXQwOHE0cF9vaXdGUUpGVWE3djdSU0RDcUxUdjhnZUZ5MUtNMDlGQUllb1hLRmFkaC1ScUlzaDFWZW5sazF1U0FuMm9kY3lfX0oyZ21QcUE4Uld3VkV5aGxRRTlEVVk1Y3ptV3FDMHpUR2dTbXBIdVY0V21hNnFkUVg1ZXdBVw?oc=5",
@@ -107,11 +114,11 @@
       "source": "Entrackr"
     },
     {
-      "startup": "Melvano",
-      "title": "Edtech startup Melvano raises Rs 1.3Cr from Tyke Invest",
-      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeExvYTk1QjJUTGhrWnpnMERYWUlxSnp6V1BlU0twWDY3SEdtV0Vmekc3cWIwQmxSM1VZazZzZnZfNThLcm1tR19NaW15WDJkXzNBdy1STW9ZUzctR1lCWTNFaFd1cFBmcFFwbWxDTXZMRXB3WGxCSkd1alZBY3lxQ2ZfVUVhMjlmYXVRclpKRmRfVnJ6R1HSAZYBQVVfeXFMTXhMb2E5NUIyVExoa1p6ZzBEWFlJcUp6eldQZVNLcFg2N0hHbVdFZnpHN3FiMEJsUjNVWWs2c2Z2XzU4S3JtbUdfTWlteVgyZF8zQXctUk1vWVM3LUdZQlkzRWhXdXBQZnBRcG1sQ012TEVwd1hsQkpHdWpWQWN5cUNmX1VFYTI5ZmF1UXJaSkZkX1ZyekdR?oc=5",
-      "date": "2023-02-16",
-      "source": "Indian Startup News"
+      "startup": "InfyU Labs",
+      "title": "[Funding alert] Agritech startup InfyU Labs raises Rs 1.8 Cr in seed round from IAN",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZjZ4SFY5QWg3X2FjMEtkYW5BY2Z0VU9LOVQ0OFpadFJIUUl0NmsyVUtBQW9IenVmMUF4dnNnbUM3VWxpbmFqeC1CVklOdzZFa1g4RDdDaFVSTnZ0TlBHVG1qM1diN01sRGJPV2dmNlcydjlSUU1uQllQWGhMdVRPeV92dXFwS3lQcElKQUUzQzJRQ0p1S2JWQzRxeF91clI0RVNJ?oc=5",
+      "date": "2021-09-07",
+      "source": "yourstory.com"
     },
     {
       "startup": "InfyU Labs",
@@ -126,13 +133,6 @@
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxON2Q3dzBjNXBkWW01MDU1S3FaSFdjX1MwbmpULU1WUlRlNE14NDc1cHdacmpWZW40MlFjSHdRLTVLZm9MU3lmR1FUdmR2d0NtNU5tejZJOEZlWlktUDd5YU1EaGhfS2lxcV9LWjBTdGtjUzlsRFlqM2Q0MHhyOUxWdVJCNTgtbG8?oc=5",
       "date": "2021-08-05",
       "source": "yourstory.com"
-    },
-    {
-      "startup": "Modulus Housing",
-      "title": "How this IIT-Madras incubated start-up is reimagining India's construction industry",
-      "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPODZ6Vm5HeTlmNktYeUxYSVZyellvWUNfVDYwOENRMzZJSW9tcGR0WGg2NnJWWFljRktNYXF2cGlfbmlDbkNzNHpTQmNnaUpyTTBjLUJSLXY0MjJ0MDlzZHdwNElVTERaemlPY2I0bTg4NkJiLVJoNGRtN0d2dzRVTWpYUTFQNWIwNHlIR2Z0akxIOHk4LVhfWTdSZ0tYNGJaTjNYSlNzd05qdkVhN1ZKWkF4Qkd1TTVh?oc=5",
-      "date": "2021-04-03",
-      "source": "NewsBytes"
     }
   ]
 }
