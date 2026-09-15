@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-14T08:00:21.002Z",
+  "updated": "2026-09-15T07:55:13.428Z",
   "items": [
     {
       "startup": "GalaxEye",
@@ -72,13 +72,6 @@
       "source": "PIB"
     },
     {
-      "startup": "Tan90 Thermal Solutions",
-      "title": "Chennai-based Tan90 Thermal Solutions raises ₹20 crore in Series A",
-      "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYWpHRnpNZEdyZ1YtWDZwYkZ1bDNMaFJsN1JxQjVuWlNOeGdwMUZKWTg5aXJzQ013QlEtTWFweW04VmIxMmk4aXo1QlNDZlYtZy1fQS11NVQyeF8tSl81OXpaMFR6UkZYdlk0LTdUbEN1YTJjeG5KMk80VGRuVGVJOVhOcUdVakg2WENJSzlYcmY1SVdzQmpsUlZPSmMzLXhOeEpnNXdRLW82aDFKYnFRRWJQaWI1Q1hGX0s4YnFkZm82cU9SZTg0Z2pGV2RRMFhW0gHXAUFVX3lxTE1ENmFjMmd5YkVpXzJ5MHZjSTdjSVFwQ2JObHlDX3hmUEI2MGtFNzhMM3lIWFFDbExfZE5XZ3ZYRjB3VWlGLXUzcGxTM3oxZTI5RFRJSFpjMWQxLVV2bFhhWWZ1cDltelI0LTF1WEpDS2NzQk9HT0tZaFpwWHIzeGhxOHhCdzZvMWZKUzBHM0ZQUnlIcVQzOWRlYkZzQlNkZkpZY01hbFpOOUdMMGRiMER5b3c3QVUyblVkMXNubG5NRm11WVhndjRocGl3NktLbVJyN25DNkRv?oc=5",
-      "date": "2025-05-20",
-      "source": "The Hindu"
-    },
-    {
       "startup": "Matterize",
       "title": "IIT Madras Incubates 100+ Deep Tech Startups in a Single Financial Year — A Historic First",
       "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUlVyREZoQmduaWhBSHNPcnAzODA0Uk5jcjl5UnVYVThMeXJXdncxYndlcVc1YThxblg5YkhLRWtIYmRWdjNpMm85X1VBRzFqdFJOcll3cWJ4cXNOWXJoU181eVVzX3c5bnNCOXBocU9kWFRXU1E4SVA5RmxZUmtLZ0RLemZ4R0FGbk1vNl9jbHl4R1hCM0szaEU2RlhJaUlsNGZNVmppcTZNTXdCN0oxQXBaaw?oc=5",
@@ -118,7 +111,7 @@
       "title": "ArcelorMittal's XCarb® India Accelerator unveils pioneering startups for industrial decarboniSation",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNDU0d3R6VkNTajNUUTZOdVBkbUVBQ0ZIR2c4YXBDTWV6R3FDWU83aXlKNm5wSUdIUE5JQUswWmFEcUR1RWJ3SmFNMkVxUmJMWHFEMnlEazFodXZya2NOb3ZvYWg0TTVRN3dhR01KaUJ4c2dzMHRyWGx1RUc1Rm9vaEZKbUpfYzUwbVFUTWpMdWRaYmNxSGpSdFRKbXJVcVAwSTYtUXliUzZEeTlZVTg3ZjRVVDVHU1dYb19wMmNZcUdPMXh5WkF6OVA2bWFILU1YMFpz?oc=5",
       "date": "2024-02-22",
-      "source": "Manufacturing Today India"
+      "source": "manufacturingtodayindia.com"
     },
     {
       "startup": "UrbanMatrix Technologies",
@@ -140,6 +133,13 @@
       "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeExvYTk1QjJUTGhrWnpnMERYWUlxSnp6V1BlU0twWDY3SEdtV0Vmekc3cWIwQmxSM1VZazZzZnZfNThLcm1tR19NaW15WDJkXzNBdy1STW9ZUzctR1lCWTNFaFd1cFBmcFFwbWxDTXZMRXB3WGxCSkd1alZBY3lxQ2ZfVUVhMjlmYXVRclpKRmRfVnJ6R1HSAZYBQVVfeXFMTXhMb2E5NUIyVExoa1p6ZzBEWFlJcUp6eldQZVNLcFg2N0hHbVdFZnpHN3FiMEJsUjNVWWs2c2Z2XzU4S3JtbUdfTWlteVgyZF8zQXctUk1vWVM3LUdZQlkzRWhXdXBQZnBRcG1sQ012TEVwd1hsQkpHdWpWQWN5cUNmX1VFYTI5ZmF1UXJaSkZkX1ZyekdR?oc=5",
       "date": "2023-02-16",
       "source": "Indian Startup News"
+    },
+    {
+      "startup": "InfyU Labs",
+      "title": "[Funding alert] Agritech startup InfyU Labs raises Rs 1.8 Cr in seed round from IAN",
+      "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZjZ4SFY5QWg3X2FjMEtkYW5BY2Z0VU9LOVQ0OFpadFJIUUl0NmsyVUtBQW9IenVmMUF4dnNnbUM3VWxpbmFqeC1CVklOdzZFa1g4RDdDaFVSTnZ0TlBHVG1qM1diN01sRGJPV2dmNlcydjlSUU1uQllQWGhMdVRPeV92dXFwS3lQcElKQUUzQzJRQ0p1S2JWQzRxeF91clI0RVNJ?oc=5",
+      "date": "2021-09-07",
+      "source": "YourStory.com"
     }
   ]
 }
