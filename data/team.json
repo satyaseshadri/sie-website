@@ -65,6 +65,7 @@
       "photo": "/images/people/shaju.jpg",
       "linkedin": ""
     },
+    
     {
       "name": "Ms. Anjana U. P.",
       "role": "Pre-Incubation Coordinator",
@@ -79,6 +80,35 @@
       "photo": "/images/people/amrutha-narayanan.jpg",
       "linkedin": ""
     }, 
+    
+    {
+      "name": "Ms. Isai Tamizh ",
+      "role": "Data Analyst",
+      "email": "dataanalyst@sie.iitm.ac.in",
+      "photo": "/images/people/Isai.png",
+      "linkedin": ""
+    },
+    {
+      "name": "Ms. Lakshmi ",
+      "role": "Accounts Executive",
+      "email": "accountscoordinator@sie.iitm.ac.in",
+      "photo": "/images/people/Lakshmi.jpg",
+      "linkedin": ""
+    },
+    {
+      "name": "Ms. Melcy ",
+      "role": "Senior Executive",
+      "email": "financeexecutive@sie.iitm.ac.in",
+      "photo": "/images/people/melcy.jpeg",
+      "linkedin": ""
+    },
+    {
+      "name": "Mr. R. Manikandan",
+      "role": "Facility Manager",
+      "email": "facility-manager@sie.iitm.ac.in",
+      "photo": "/images/people/r-manikandan.jpg",
+      "linkedin": ""
+    },
     {
       "name": "Mr. Sriram",
       "role": "Technician",
@@ -93,13 +123,7 @@
       "photo": "/images/people/suvanya.jpg",
       "linkedin": ""
     },
-    {
-      "name": "Mr. R. Manikandan",
-      "role": "Facility Manager",
-      "email": "facility-manager@sie.iitm.ac.in",
-      "photo": "/images/people/r-manikandan.jpg",
-      "linkedin": ""
-    },
+    
     {
       "name": "Mr. Velankanni Robert",
       "role": "Senior Office Assistant",
@@ -115,7 +139,7 @@
       "linkedin": ""
     },
     {
-      "name": "Mr. Jaya Prakash M.",
+      "name": "Mr. Jaya Prakash M",
       "role": "Tech Support",
       "email": "techsupport@sie.iitm.ac.in",
       "photo": "/images/people/jp.jpg",
@@ -194,7 +218,7 @@
           "linkedin": "https://www.linkedin.com/in/satyesh-yadav-91a167a/"
         },
         {
-          "name": "Prof. Sathiya N. Gummadi",
+          "name": "Prof. Sathyanarayana N Gummadi",
           "role": "Advisor",
           "linkedin": "https://www.linkedin.com/in/sathyanarayana-gummadi-b37575250/"
         },
@@ -207,16 +231,6 @@
           "name": "Prof. Sivarama Krishnan",
           "role": "Advisor",
           "linkedin": "https://www.linkedin.com/in/srkris/"
-        },
-        {
-          "name": "Dr. Abhijit P. Deshpande",
-          "role": "Advisor",
-          "linkedin": "https://www.linkedin.com/in/abhijit-deshpande-55ba3224a/"
-        },
-        {
-          "name": "Prof. Manivannan M",
-          "role": "Advisor",
-          "linkedin": "https://www.linkedin.com/in/manivannan-muniyandi-5b2591224/"
         },
         {
           "name": "Prof. Basavaraja Madivala Gurappa",
@@ -273,10 +287,42 @@
           "role": "Advisor",
           "linkedin": "https://www.linkedin.com/in/dr-vimal-edachery-a15425aa/"
         },
-        {
-          "name": "Prof. Bala Ramadurai",
-          "role": "Advisor",
-          "linkedin": "https://www.linkedin.com/in/balaramadurai/"
+
+        { "name": "Dr. Ramesh Nayaka", 
+          "role": "Advisor", 
+          "linkedin": "https://www.linkedin.com/in/dr-ramesh-nayaka-aa17b347/"
+        },
+        { "name": "Prof. Bala Ramadurai",
+         "role": "Advisor", 
+         "linkedin": "https://www.linkedin.com/in/balaramadurai/" 
+        },
+        { "name": "Prof. Nandan Kumar Sinha", 
+          "role": "Guide", 
+          "linkedin": "https://www.linkedin.com/in/nandan-kumar-sinha-8a507014/"
+        },
+        { "name": "Prof. John Augustine", 
+          "role": "Advisor", 
+          "linkedin": "https://www.linkedin.com/in/johnaugustine/"
+        },
+        { "name": "Prof. A.R Ganesan", 
+          "role": "Technical Advisor", 
+          "linkedin": "https://www.linkedin.com/in/a-r-ganesan-2159182a/" 
+        },
+        { "name": "Prof. Varadhan SKM", 
+          "role": "Advisor", 
+          "linkedin": "https://www.linkedin.com/in/varadhanskm/" 
+        },
+        { "name": "Dr. Hariharan K", 
+         "role": "Advisor", 
+         "linkedin": "https://www.linkedin.com/in/hariharankrish/" 
+        },
+        { "name": "Prof. Mukesh Doble", 
+          "role": "Advisor", 
+          "linkedin": "https://www.linkedin.com/in/mukesh-doble-a213352/" 
+        },
+        { "name": "Dr. V Sriram", 
+          "role": "Advisor",  
+          "linkedin": "" 
         },
         {
           "name": "Prof. Boby George",
@@ -292,16 +338,6 @@
           "name": "Dr. R. Velmurugan",
           "role": "Advisor",
           "linkedin": "https://www.linkedin.com/in/velmurugan-r-iitm-0566ba1b9/"
-        },
-        {
-          "name": "Dr. Gokul S Krishnan",
-          "role": "Advisor",
-          "linkedin": "https://www.linkedin.com/in/gokul-s-krishnan-437a7654/"
-        },
-        {
-          "name": "Prof. Raj Jaswa",
-          "role": "Advisor",
-          "linkedin": "https://www.linkedin.com/in/rjaswa/"
         },
         {
           "name": "Prof. Shanti Swarup K",

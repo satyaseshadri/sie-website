@@ -17,25 +17,27 @@ export default function OpenCalls() {
       <Section>
         <div className="grid gap-6 md:grid-cols-2">
           <div className="card border-t-4 border-t-navy">
-            <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 15th September</span>
+            {/* <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 15th September</span> */}
+            <span className="tag bg-navy/10 text-navy">Closed</span>
             <h2 className="mt-3 font-display text-2xl font-bold text-navy">MC²⁺ Ignite — Cohort 1</h2>
             <p className="mt-3 leading-relaxed text-ink/70">
               India's energy accelerator for deep-tech founders — up to ₹2 crore in convertible funding,
               labs and pilot pathways at the PSU energy majors. Organised by IIT Madras with the MC²⁺ Foundation.
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
-              <a href="https://app.mc2plus.in/ext/form/24027/1/apply?source=IIT%20Madras&medium=NIL" rel="noopener" target="_blank" className="btn-primary">Apply now ↗</a>
+              {/* <a href="https://app.mc2plus.in/ext/form/24027/1/apply?source=IIT%20Madras&medium=NIL" rel="noopener" target="_blank" className="btn-primary">Apply now ↗</a> */}
               <Link href="/studios/energy/" className="btn-ghost">Programme details</Link>
             </div>
           </div>
           <div className="card border-t-4 border-t-accent">
-            <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 10th September</span>
+            {/* <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 10th September</span> */}
+            <span className="tag bg-navy/10 text-navy">Closed</span>
             <h2 className="mt-3 font-display text-2xl font-bold text-navy">Tech Pioneer Grant 2026</h2>
             <p className="mt-3 leading-relaxed text-ink/70">
               A grant call for agritech, climatetech, and fintech ventures — funding up to ₹5L through
               pre-incubation and up to ₹20L through incubation.
             </p>
-            <a href="https://www.venturearch.org/apply/sie/6a698f413973750db248cd3b " rel="noopener" target="_blank" className="btn-primary mt-5">Apply on VentureArch ↗</a>
+            {/* <a href="https://www.venturearch.org/apply/sie/6a698f413973750db248cd3b " rel="noopener" target="_blank" className="btn-primary mt-5">Apply on VentureArch ↗</a> */}
           </div>
           <div className="card">
             <span className="tag bg-navy/10 text-navy">Closed</span>

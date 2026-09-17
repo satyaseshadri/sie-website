@@ -30,10 +30,10 @@ const ANNOUNCEMENTS = [
 export default function Home() {
   return (
     <>
-      <PosterModal />
+      {/* <PosterModal /> */}
 
       {/* Announcements — fixed under navbar; content scrolls */}
-      <div className="sticky top-20 z-40 overflow-hidden bg-navy py-3 sm:top-24">
+      {/* <div className="sticky top-20 z-40 overflow-hidden bg-navy py-3 sm:top-24">
         <div className="marquee-track flex w-max">
           {[0, 1].map((copy) => (
             <div key={copy} aria-hidden={copy === 1} className="flex items-center gap-16 pr-16">
@@ -49,7 +49,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </div>
+      </div> */}
 
       {/* Hero */}
       <div className="border-b border-navy/10 bg-white">
