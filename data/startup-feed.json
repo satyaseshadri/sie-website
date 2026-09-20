@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-19T07:26:37.956Z",
+  "updated": "2026-09-20T07:50:48.902Z",
   "items": [
     {
       "startup": "GalaxEye",
@@ -9,18 +9,18 @@
       "source": "CNBC TV18"
     },
     {
-      "startup": "GalaxEye",
-      "title": "How IIT Madras-incubated GalaxEye is building world’s first OptoSAR technology",
-      "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNOFozcjFyWWJfcEZVVUpiZzNRVGhPWDVHbW1oUzZySHllODRSZ0Y0V1Z4MXlMWVJCMjJyRGFDOTBHT05lS1BHOUpUX19iU01CejBtS1ZHMW9HbTlRTkJ6VC00cjlPTnlZOE9EOFM2VlpWQXd4ZlZNQWllT1V4YUlCWlVrM1V2M0c0LU5vS0J4X28yd29TTzQ2cnB4RTRmbTVfRk1XNnNkMTgyUGlmbzQ0eEdPUTJ4V3NCSU9zdTJFSk5YaDdC?oc=5",
-      "date": "2026-09-10",
-      "source": "CNBC TV18"
-    },
-    {
       "startup": "Clueso",
       "title": "Clueso AI Review 2026: Career, Revenue, Tool, Funding, Founder & FAQs",
       "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUzduTk9lU3NOVFc0c0VNaXJqd3ZXZlhXbUgwaktDSU1tS0dBWjBQa1RZR0VpQWtiTnotSk0zSUgyNGFfcWZBaEhzaDhpNDNiV0UyYlo2MUd1eFF3UV9hb256X0pVQmpyWk5DV003V3RDNWsxbl96dmhySC1KVzBzZ2hRS1BYbkE?oc=5",
       "date": "2026-07-23",
       "source": "Nubia Magazine!"
+    },
+    {
+      "startup": "GalaxEye",
+      "title": "IIT Madras Achieves Deep-Tech Milestone: 112 Startups Incubated and 431 Patents Filed in FY 2025-26",
+      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1MRHFfMnVXeVpXWklsSTNOTjVQc1hmSGhpbnNZUkJYLXJnN0VkWkJXTEM2NFpvS2J3ZkNVWXJBaTVUVUJDdjV1SnZJSUdLeC1fdWowNXlvNXhkY2w1djgtV3dZeHUxZ2ZUaEo1Qnd4d1pkZ1dWcXNPa1lB?oc=5",
+      "date": "2026-04-27",
+      "source": "PIB"
     },
     {
       "startup": "Matterize",
@@ -34,7 +34,7 @@
       "title": "TN bags four aerospace & defence MoUs worth 1,600 INR-Crore",
       "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWFTc1JtOGdjaTltQmZOZ3pkbkFEZy1ELUpxd0xnNHgwb2cwOFVxSFFuWDYwY2JQbldRZXA2NWJnQkxhUVJfeVRvWGNSWWhjMzBiY1NKOFFYc0V0bVdPRUplcHBlWGNycG9LTTl0Y0tDa1VnYnQwRkZmMUYzR3J0MzFROTlRclZQTV8zRjVxQ2tHLXlidnQ2a1ItN0pDdw?oc=5",
       "date": "2026-02-20",
-      "source": "biltraxmedia.com"
+      "source": "Biltrax Media"
     },
     {
       "startup": "Modulus Housing",
@@ -55,7 +55,7 @@
       "title": "23-Year-Old Founder Shreepoorna Rao Raises $2.6M for Arctus Aerospace",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSS00UGFHN0d5ZDFzd3hxRnRTVnhiR3B4MjlvVHhCRUMtd0NHMmhxekZVaFBvSWl1WmptUXlFeTE1U3gzSHM2X1p4akduS3NEX3dIa3BpX2QxUjNpRWJPVUF4Z3dNX0ZrNmFzd0c4QkE0Y1NuNlJqdGRrMjJYcDBVa2lFc0c5NEljM1dDQzljck1sWklNR1Fhdy13?oc=5",
       "date": "2025-11-28",
-      "source": "The New Indian"
+      "source": "newindian.in"
     },
     {
       "startup": "Arctus Aerospace",
@@ -76,7 +76,7 @@
       "title": "IIT Madras-incubated Start-up Plenome raises Rs. 6.5 Crore in Seed Funding, targets Global Expansion",
       "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ieVJxbkhwSXRPeDhmWk5aS09wMzZFRTRYUVphVmgzSXM4QzM2TUhHUmg5UkZkS2QycHVQc2lkU1dGUEZ5LUJzTHRLV3hvclFwOERvREUwb2dhZnZId2N2RmJWWjVtUXgt?oc=5",
       "date": "2025-07-21",
-      "source": "pib.gov.in"
+      "source": "PIB"
     },
     {
       "startup": "Tan90 Thermal Solutions",
@@ -132,14 +132,14 @@
       "title": "Drone tech startup UrbanMatrix raises Rs 6 cr in pre-Series A led by Inflection Point Ventures",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTEhzN3pZeGRKRUE4R19hNENQdElwOE5pNjA5TmxNSGFTa0ppN0wyV3hSOFpFbGdTVmxlN2MzYWd0aUM4TnNKaXVlX3hXQkE1WWxoVEpQZ0d6clk0U3lMRmR0LVFTaGFNSFJNUzdCUVNFbVN0ZGZ1bGVjMVphNlZfb1ptYzF3RmxmeTJjaU11LXlVSU83TTZJb3dBc0tMcE4wRFZ2Vk9RVnUwTDFyNkFfQzFfSzBqT2RNWlBWU3VkTzV5a0g4SVNUZEJqSEdOck5ZQm1tT2paa2h1cnE3VHh4SXh6eXRTR2tOOUpTaGhvLUVTZHoyUkHSAfsBQVVfeXFMUDBjSmlZcVlnYnZ6eXMwU015UEs5M0huU2VFU0pxNFN5WWlBcVFxTHNKWnBhRldNZ3RhY2JPT3ZVLXZ2U3pySmpTM3V0Q195REthc0k4Z19TUUtQMW9feVY4ZW8yMHFvREg1NjlVTHhEU18tc1BXY0Z5TGpUc2pzWTFnQUdpSnVwX2xvLUdKVktPcnllQUw5elcxZGNJZ2ZDdGJSVkVQdkJVbEVWYUoyTWlMeUF5d05FMUhJbElGczFadExkelhsN1VwOHFqTXBTTWNpOURkWkJvTDFqdV9rUEdjX2lVQ0M3ZnhnX0E2WmdWU2tlelhic1hSTUU?oc=5",
       "date": "2023-10-26",
-      "source": "ET Telecom"
+      "source": "telecom.economictimes.indiatimes.com"
     },
     {
       "startup": "Melvano",
       "title": "Melvano raises Rs 1.3 Cr from Tyke for expansion into upskilling segment",
       "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSUI5MTVoTjktTENMNGJ3cUpaN1NWQTFnUFZaeXB2NXQwOHE0cF9vaXdGUUpGVWE3djdSU0RDcUxUdjhnZUZ5MUtNMDlGQUllb1hLRmFkaC1ScUlzaDFWZW5sazF1U0FuMm9kY3lfX0oyZ21QcUE4Uld3VkV5aGxRRTlEVVk1Y3ptV3FDMHpUR2dTbXBIdVY0V21hNnFkUVg1ZXdBV9IBpAFBVV95cUxOSUI5MTVoTjktTENMNGJ3cUpaN1NWQTFnUFZaeXB2NXQwOHE0cF9vaXdGUUpGVWE3djdSU0RDcUxUdjhnZUZ5MUtNMDlGQUllb1hLRmFkaC1ScUlzaDFWZW5sazF1U0FuMm9kY3lfX0oyZ21QcUE4Uld3VkV5aGxRRTlEVVk1Y3ptV3FDMHpUR2dTbXBIdVY0V21hNnFkUVg1ZXdBVw?oc=5",
       "date": "2023-02-16",
-      "source": "entrackr.com"
+      "source": "Entrackr"
     }
   ]
 }
