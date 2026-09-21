@@ -23,17 +23,17 @@ const STACK = [
 
 // Add new items at the top with badge: 'New'. Older ones use badge: 'Announcement'.
 const ANNOUNCEMENTS = [
-  { badge: 'New', text: 'Tech Pioneer Grant 2026 applications are open until 10th September — funding up to ₹20L for agritech, climatetech and fintech ventures.', href: 'https://www.venturearch.org/apply/sie/6a698f413973750db248cd3b' },
-  { badge: 'Announcement', text: 'MC²⁺ Ignite Cohort 1 applications are open until 15th September — up to ₹2 crore for energy deep-tech founders.', href: 'https://app.mc2plus.in/ext/form/24027/1/apply?source=IIT%20Madras&medium=NIL' },
+  { badge: 'New', text: 'Tech Pioneer Grant 2026 - Social entrepreneurship in Energy Catalyst applications are open until 28th September ', href: 'https://venturearch.org/apply/sie/6aaa6d947a1e240d3d50f31c' },
+  // { badge: 'Announcement', text: 'MC²⁺ Ignite Cohort 1 applications are open until 15th September — up to ₹2 crore for energy deep-tech founders.', href: 'https://app.mc2plus.in/ext/form/24027/1/apply?source=IIT%20Madras&medium=NIL' },
 ];
 
 export default function Home() {
   return (
     <>
-      {/* <PosterModal /> */}
+       <PosterModal /> 
 
       {/* Announcements — fixed under navbar; content scrolls */}
-      {/* <div className="sticky top-20 z-40 overflow-hidden bg-navy py-3 sm:top-24">
+      <div className="sticky top-20 z-40 overflow-hidden bg-navy py-3 sm:top-24">
         <div className="marquee-track flex w-max">
           {[0, 1].map((copy) => (
             <div key={copy} aria-hidden={copy === 1} className="flex items-center gap-16 pr-16">
@@ -49,7 +49,7 @@ export default function Home() {
             </div>
           ))}
         </div>
-      </div> */}
+      </div>
 
       {/* Hero */}
       <div className="border-b border-navy/10 bg-white">

@@ -7,15 +7,15 @@ const SEEN_KEY = 'posters-seen-v5';
 
 const POSTERS = [
   {
-    href: 'https://www.venturearch.org/apply/sie/6a698f413973750db248cd3b',
-    src: '/images/tech-pioneer-poster.png',
-    alt: 'Tech Pioneer Grant 2026 — applications open until 10 September 2026. Click to apply.',
+    href: 'https://venturearch.org/apply/sie/6aaa6d947a1e240d3d50f31c',
+    src: '/images/energy grant.png',
+    alt: 'Tech Pioneer Grant 2026 — Social entrepreneurship in Energy Catalyst applications open until 28th September 2026. Click to apply.',
   },
-  {
-    href: 'https://app.mc2plus.in/ext/form/24027/1/apply?source=IIT%20Madras&medium=NIL',
-    src: '/images/mc2_grant_updated_sep15.jpg',
-    alt: "MC²⁺ Ignite — India's flagship energy innovation accelerator. Applications open, last date  15 september 2026. Click to apply.",
-  },
+  // {
+  //   href: 'https://app.mc2plus.in/ext/form/24027/1/apply?source=IIT%20Madras&medium=NIL',
+  //   src: '/images/mc2_grant_updated_sep15.jpg',
+  //   alt: "MC²⁺ Ignite — India's flagship energy innovation accelerator. Applications open, last date  15 september 2026. Click to apply.",
+  // },
 ];
 
 export default function PosterModal() {
