@@ -131,11 +131,12 @@ export default function ProgramPage({ params }) {
             ))}
           </div>
           <Link href="/startups/#scholars" className="btn-ghost mt-8">Full MS(E) scholar directory</Link>
+          
         </Section>
       )}
 
       {p.slug === 'ms' && (
-        <Section className="bg-accent-pale/50" kicker="From the July 2026 cycle" title="Project areas" lead="Faculty-led problem statements from the most recent admission cycle — the next call will offer a similar spread. Applicants may also propose their own venture idea.">
+        <Section className="bg-accent-pale/50" kicker="From the January 2027 cycle" title="Project areas" lead="Faculty-Led Problem Statements for the January 2027 Admission Cycle .">
           <div id="projects" className="mt-10 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {projects.map((pr) => (
               <div key={pr.id} className="card py-5">

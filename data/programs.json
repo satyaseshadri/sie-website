@@ -7,8 +7,8 @@
     "kicker": "Research degree · Startup as thesis",
     "oneLiner": "Build a deep-tech venture and earn a research degree for it — the programme that has produced founders since 1982.",
     "notice": {
-      "title": "Admissions for the July 2026 cohort are now closed.",
-      "body": "Please check back for the next admission cycle. Meanwhile, meet the scholars building ventures in the current cohorts.",
+      "title": "Admissions for the January 2027 cohort is open now .",
+      "body": "meet the scholars building ventures in the current cohorts.",
       "ctaLabel": "Meet the MS(E) scholars",
       "ctaHref": "/startups/#scholars"
     },
@@ -24,15 +24,15 @@
       "Programme alumni hold key technology patents, many commercialised through transfers to leading organisations. Recent cohorts have founded companies in healthcare, energy, robotics, agritech and quantum communication."
     ],
     "eligibility": [
-      "B.Tech / B.E., or a postgraduate degree (M.Com / M.A. included)",
-      "Graduation from a recognised university",
-      "A startup proposal submitted with the application"
+      "B.Tech / B.E., or a postgraduate degree (MBA included)",
+      "Graduation from a recognised university"
+      
     ],
-    "applicationsOpen": false,
+    "applicationsOpen": true,
     "deadline": {
-      "hasDeadline": false,
+      "hasDeadline": true,
       "date": null,
-      "label": "Closed"
+      "label": "30th October 2026"
     },
     "cta": { "label": "Explore project areas", "href": "/programs/ms/#projects" }
   },

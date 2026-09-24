@@ -16,6 +16,20 @@ export default function OpenCalls() {
       />
       <Section>
         <div className="grid gap-6 md:grid-cols-2">
+        <div className="card border-t-4 border-t-navy">
+            {/* <span className="tag bg-navy/10 text-navy">Closed</span> */}
+            <span className="tag bg-navy/10 text-navy-700">Applications open · closes 30th October</span>
+
+            <h2 className="mt-3 font-display text-2xl font-bold text-navy">MS (Entrepreneurship) — January 2027 cohort</h2>
+            <p className="mt-3 leading-relaxed text-ink/70">
+              Admissions for the July 2026 cohort are closed. Check back for the next cycle, and meet the
+              scholars currently building ventures in the programme.
+            </p>
+            <div className="mt-5 flex flex-wrap gap-3">
+              <a href="https://research.iitm.ac.in/" rel="noopener" target="_blank" className="btn-primary">Apply now ↗</a>
+              <Link href="/startups/#scholars" className="btn-ghost">Meet the MS(E) scholars</Link>
+            </div>
+          </div>
         <div className="card border-t-4 border-t-accent">
             <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 28th September</span>
             {/* <span className="tag bg-navy/10 text-navy">Closed</span> */}
