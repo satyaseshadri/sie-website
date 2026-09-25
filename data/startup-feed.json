@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-21T08:05:18.723Z",
+  "updated": "2026-09-24T07:42:33.286Z",
   "items": [
     {
       "startup": "GalaxEye",
@@ -7,13 +7,6 @@
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZmU5aDRxaHp2XzFGcGVNQ0s0STVOU3g5ZkFER3FIOG9aRkpQTE1HZ3pNeTZfTEkzUG55c1VHbEZlMU9kTk1wNjdHb1NIZWZfc1BZRjlTa1cxZHQyOFRWZ1BDRFVmdS1nTXFyZ3BSbXdRaE13Y3hoSkVzWDRnSUYtSHB2Y1k3dlhoRjk5YVJUN1FxRW5Wemc4ME95M2NFcS03N0EtMXh2VU9HS0ZM0gGyAUFVX3lxTE1DU2NfSW03LXh3czh3Q195dzNMVHJILU1vd3Q0Q3ZSUFZNamRINmQyckdzYVMxX0taT0ZfZXpZZmRwSFBKOW50aVpvaHlnS1dhSXVEaEoweEJZM015QVhTcV9DN2hCX0FTU3ozdURRUHZWNnRYM19vRHp0Njhxdnp4NUR5b2RvLXFrNExpZjN5Ump6WGp4NWlCZWZ6cmgzUV8zdGs3akVmN0U3cXBTWXJJR1E?oc=5",
       "date": "2026-09-17",
       "source": "CNBC TV18"
-    },
-    {
-      "startup": "Clueso",
-      "title": "Clueso AI Review 2026: Career, Revenue, Tool, Funding, Founder & FAQs",
-      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUzduTk9lU3NOVFc0c0VNaXJqd3ZXZlhXbUgwaktDSU1tS0dBWjBQa1RZR0VpQWtiTnotSk0zSUgyNGFfcWZBaEhzaDhpNDNiV0UyYlo2MUd1eFF3UV9hb256X0pVQmpyWk5DV003V3RDNWsxbl96dmhySC1KVzBzZ2hRS1BYbkE?oc=5",
-      "date": "2026-07-23",
-      "source": "Nubia Magazine!"
     },
     {
       "startup": "GalaxEye",
@@ -65,6 +58,13 @@
       "source": "The Economic Times"
     },
     {
+      "startup": "Inbound Aerospace",
+      "title": "Inbound Aerospace, a space-tech startup incubated at Indian Institute of Technology, Madras, has raised over $1 million in a pre-seed funding round led by Speciale Invest, with participation from Piper Serica. The funding will fuel the development of the startu",
+      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNbnNreEU2QVhkSmNQV1ljb3NZc3dmOTJYWXBEUE1rNEJIR3Vya21fbGs4NXYyVDd3RWpTT3cwZGs1R25WYmFvRFZPdWoyNW9uUlNkOW9faGNMM0tqVFBlRmstS0YwT0IybXBiNFZsaEhRSWUxaG1lTVBWQ2I0NnN1YlNBYnhDOFQ0cF84eVVieU5GWDJKVTk3OXN5eG5qNGx6ekZTSEYwX1JyTVZPSlZyOGhHWFlOYTVDd2pESFNhSS1ya2RLb2hqZGlETVhXc1gwVnRVQw?oc=5",
+      "date": "2025-07-23",
+      "source": "LinkedIn"
+    },
+    {
       "startup": "Plenome Technologies",
       "title": "IIT Madras-incubated Plenome Technologies raises ₹6.5 crore in seed funding",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZkYyLWhRWHFvYllnVlpjd25OU0dyanNUUTU0VG10NWo4bHlyQVNjYklyWGxuWXpYdTR4dTVBUFJNaWdvRDdqTGFFZkRFc05Dc2lHMFlkMEp0UklKNzIwMHo1dXRiazJOcWxtU3NCMGhiRksyOXVCVC1XVk5oN3MtaHQ5V2dWOTJMeWdZbURTZG8yVDh3R3N3NGU0ZFJIUHhnSWRoaVlrdjg1SnR0M0Y5NVRZSkNkVmplMzRVcUtCZVpoOWFMUmfSAcwBQVVfeXFMTUEtOFV1UDY4aU1IYXUxSTFiS1IyOGwtVEwzd29aYndXMmxMcjhvV2Jsb1FXdzFsSTM2TFVpSXlZcFVhdDY4enZONlFLMVNPZU5GSHBWYkdCMGxlRlpYaTYzMWQ3QlZHb0dNTUk1N01wVFFKd3pnSFdZckF4TG5KeEFuTDZMZWd3VkZUOWdVcGtMbE85MW54WWJxdkd3bDU2VWZaQy1CZ0hpSlV1MjUzOV9sLURaZ2U5bHpxNjJsbzFLQkRQRTFIc0hJVUVf?oc=5",
@@ -111,7 +111,7 @@
       "title": "Y Combinator Backed Clueso Bags Funding To Provide AI-Powered Video Creation Tools",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaDhJRURoOU9Db0gxanhGX0oxdURXaFN4d2EtN2cwTUpyb1BVRkxTNVl0c2k2WDR3RUFvTTJvZmRGb2NtYzRzVlBoY2U5WlV1WHk2RWZoM2FUX01KQU1KdlpobEZJZHotTUxIT0RFM29PWE0zdEFneXBWTnNVWDU4SnZLSTZzdW9mUER4YTBWYmM0Q2ZnV1VXSHFJVWxoU0RyWGVKclhJcWJPUQ?oc=5",
       "date": "2024-04-24",
-      "source": "Inc42"
+      "source": "inc42.com"
     },
     {
       "startup": "Susstains Engineering",
