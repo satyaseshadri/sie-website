@@ -19,7 +19,8 @@ export default function PdfViewer({ src, title }) {
 
     async function draw(width) {
       if (cancelled || width < 40) return;
-      const pdfjs = await import('pdfjs-dist/build/pdf.mjs');
+      const libUrl = new URL(`${PREFIX}/pdfjs/pdf.min.mjs`, window.location.origin).href;
+      const pdfjs = await Function('u', 'return import(u)')(libUrl);
       pdfjs.GlobalWorkerOptions.workerSrc = `${PREFIX}/pdfjs/pdf.worker.min.mjs`;
 
       if (!pdfDoc) {
