@@ -82,6 +82,12 @@ export default function ProgramPage({ params }) {
               </div>
             )}
 
+            {p.slug === 'ms' && (
+              <Link href="/programs/ms/thesis-format/" className="btn-ghost mt-6 w-full justify-center">
+                Sample thesis format
+              </Link>
+            )}
+
             {applicationsOpen && hasValidCta ? (
               external ? (
                 <a href={p.cta.href} rel="noopener" target="_blank" className="btn-primary mt-6 w-full justify-center">{p.cta.label} ↗</a>

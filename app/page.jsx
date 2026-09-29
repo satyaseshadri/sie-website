@@ -23,8 +23,8 @@ const STACK = [
 
 // Add new items at the top with badge: 'New'. Older ones use badge: 'Announcement'.
 const ANNOUNCEMENTS = [
-  { badge: 'New', text: 'Tech Pioneer Grant 2026 - Social entrepreneurship in Energy Catalyst applications are open until 28th September ', href: 'https://venturearch.org/apply/sie/6aaa6d947a1e240d3d50f31c' },
-  { badge: 'Announcement', text: 'MS (Entrepreneurship) — January 2027 cohort applications are open until 30th October', href: 'https://research.iitm.ac.in/' },
+  { badge: 'New', text: 'Tech Pioneer Grant 2026 - Deep-Tech & SDG Edition applications are open until 05th October 2026 ', href: 'https://venturearch.org/apply/sie/6a9fca1e88187140b68c9348' },
+  { badge: 'Announcement', text: 'MS (Entrepreneurship) — January 2027 cohort applications are open until 30th October 2026', href: 'https://research.iitm.ac.in/' },
 ];
 
 export default function Home() {

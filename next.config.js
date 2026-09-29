@@ -11,6 +11,11 @@ const nextConfig = {
   basePath,
   assetPrefix: basePath || undefined,
   env: { NEXT_PUBLIC_BASE_PATH: basePath },
+  transpilePackages: ['pdfjs-dist'],
+  webpack: (config) => {
+    config.resolve.alias.canvas = false;
+    return config;
+  },
 };
 
 module.exports = nextConfig;
