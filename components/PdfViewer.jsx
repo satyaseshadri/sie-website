@@ -4,6 +4,54 @@ import { useEffect, useRef, useState } from 'react';
 
 const PREFIX = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
+let pdfjsPromise;
+
+function assetUrl(base, file) {
+  return new URL(`${base}/pdfjs/${file}`, window.location.origin).href;
+}
+
+async function loadPdfjs() {
+  if (!pdfjsPromise) {
+    pdfjsPromise = (async () => {
+      const bases = [...new Set([PREFIX, ''])];
+      let lastErr;
+      for (const base of bases) {
+        try {
+          const libUrl = assetUrl(base, 'pdf.min.js');
+          const workerUrl = assetUrl(base, 'pdf.worker.min.js');
+          const pdfjs = await import(/* webpackIgnore: true */ libUrl);
+          pdfjs.GlobalWorkerOptions.workerPort = new Worker(workerUrl, { type: 'module' });
+          return pdfjs;
+        } catch (err) {
+          lastErr = err;
+        }
+      }
+      throw lastErr || new Error('pdf.js missing');
+    })();
+  }
+  return pdfjsPromise;
+}
+
+async function loadPdfData(src) {
+  const paths = [...new Set([
+    src,
+    `${PREFIX}/docs/THESIS_SPECIMEN_COPY.pdf`,
+    '/docs/THESIS_SPECIMEN_COPY.pdf',
+  ].filter(Boolean))];
+
+  let lastErr;
+  for (const path of paths) {
+    try {
+      const res = await fetch(path, { cache: 'force-cache' });
+      if (res.ok) return await res.arrayBuffer();
+      lastErr = new Error(`${path} ${res.status}`);
+    } catch (err) {
+      lastErr = err;
+    }
+  }
+  throw lastErr || new Error('PDF missing');
+}
+
 export default function PdfViewer({ src, title }) {
   const hostRef = useRef(null);
   const [status, setStatus] = useState('loading');
@@ -17,22 +65,27 @@ export default function PdfViewer({ src, title }) {
     let debounce = null;
     let lastWidth = 0;
 
+    async function getPdf() {
+      if (pdfDoc) return pdfDoc;
+      const pdfjs = await loadPdfjs();
+      pdfDoc = await pdfjs.getDocument({
+        data: await loadPdfData(src),
+        disableRange: true,
+        disableStream: true,
+      }).promise;
+      return pdfDoc;
+    }
+
     async function draw(width) {
       if (cancelled || width < 40) return;
-      const libUrl = new URL(`${PREFIX}/pdfjs/pdf.min.mjs`, window.location.origin).href;
-      const pdfjs = await Function('u', 'return import(u)')(libUrl);
-      pdfjs.GlobalWorkerOptions.workerSrc = `${PREFIX}/pdfjs/pdf.worker.min.mjs`;
-
-      if (!pdfDoc) {
-        pdfDoc = await pdfjs.getDocument(src).promise;
-      }
+      const doc = await getPdf();
       if (cancelled) return;
 
       host.replaceChildren();
       const dpr = window.devicePixelRatio || 1;
 
-      for (let n = 1; n <= pdfDoc.numPages; n += 1) {
-        const page = await pdfDoc.getPage(n);
+      for (let n = 1; n <= doc.numPages; n += 1) {
+        const page = await doc.getPage(n);
         if (cancelled) return;
         const unscaled = page.getViewport({ scale: 1 });
         const scale = (width / unscaled.width) * dpr;
