@@ -34,7 +34,7 @@ export default function OpenCalls() {
 
             <h2 className="mt-3 font-display text-2xl font-bold text-navy">MS (Entrepreneurship) — January 2027 cohort</h2>
             <p className="mt-3 leading-relaxed text-ink/70">
-              Admissions for the July 2026 cohort are closed. Check back for the next cycle, and meet the
+              Admissions for the January 2027 cohort are open until 30 October 2026. Apply now, and meet the
               scholars currently building ventures in the programme.
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
