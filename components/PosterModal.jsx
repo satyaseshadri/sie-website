@@ -16,6 +16,11 @@ const POSTERS = [
     src: '/images/admission.png',
     alt: "MC²⁺ Ignite — India's flagship energy innovation accelerator. Applications open, last date  15 september 2026. Click to apply.",
   },
+  // {
+  //   href: 'https://research.iitm.ac.in/',
+  //   src: '/images/admission.png',
+  //   alt: "MC²⁺ Ignite — India's flagship energy innovation accelerator. Applications open, last date  15 september 2026. Click to apply.",
+  // },
 ];
 
 export default function PosterModal() {

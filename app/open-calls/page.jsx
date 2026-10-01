@@ -16,6 +16,20 @@ export default function OpenCalls() {
       />
       <Section>
         <div className="grid gap-6 md:grid-cols-2">
+        <div className="card border-t-4 border-t-navy">
+            <span className="tag bg-navy/10 text-navy ">Applications open · closes 23rd October</span>
+            {/* <span className="tag bg-navy/10 text-navy bg-emerald-500/15 text-emerald-700">Closed</span> */}
+            <h2 className="mt-3 font-display text-2xl font-bold text-navy">AI Venture Studio </h2>
+            <p className="mt-3 leading-relaxed text-ink/70">
+            We co-build AI, ML, and data science ventures from research and talent — from idea to pilot, and from pilot to scale.
+            <br />
+            A venture studio by WSAI × SIE × IIT Madras Incubation Cell.
+            </p>
+            <div className="mt-5 flex flex-wrap gap-3">
+              <a href="https://venturearch.org/apply/sie/6ab22c12c778225f10167c13" rel="noopener" target="_blank" className="btn-primary">Apply now ↗</a>
+              <Link href="https://wsai.iitm.ac.in/aistudio/" className="btn-ghost">Programme details</Link>
+            </div>
+          </div>
         <div className="card border-t-4 border-t-accent">
             <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 05th October</span>
             {/* <span className="tag bg-navy/10 text-navy">Closed</span> */}
@@ -42,7 +56,7 @@ export default function OpenCalls() {
               <Link href="/startups/#scholars" className="btn-ghost">Meet the MS(E) scholars</Link>
             </div>
           </div>
-        <div className="card border-t-4 border-t-accent">
+        <div className="card ">
             {/* <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 28th September</span> */}
             <span className="tag bg-navy/10 text-navy">Closed</span>
             <h2 className="mt-3 font-display text-2xl font-bold text-navy">Tech Pioneer Grant 2026 - Social Entrepreneurship in Energy Catalyst</h2>
@@ -54,7 +68,7 @@ export default function OpenCalls() {
               <Link href="https://www.venturearch.org/chevron-iitm-energy-incubation" className="btn-ghost">Programme details</Link>
             </div>
           </div>
-          <div className="card border-t-4 border-t-navy">
+          <div className="card ">
             {/* <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 15th September</span> */}
             <span className="tag bg-navy/10 text-navy">Closed</span>
             <h2 className="mt-3 font-display text-2xl font-bold text-navy">MC²⁺ Ignite — Cohort 1</h2>
@@ -67,7 +81,7 @@ export default function OpenCalls() {
               <Link href="/studios/energy/" className="btn-ghost">Programme details</Link>
             </div>
           </div>
-          <div className="card border-t-4 border-t-accent">
+          <div className="card ">
             {/* <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 10th September</span> */}
             <span className="tag bg-navy/10 text-navy">Closed</span>
             <h2 className="mt-3 font-display text-2xl font-bold text-navy">Tech Pioneer Grant 2026</h2>
