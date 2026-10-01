@@ -8,14 +8,19 @@ export const metadata = {
 
 const STUDIOS = [
   {
-    name: 'Studio AI',
+    name: 'AI Studio',
     desc: 'A venture studio building AI-first companies out of IIT Madras research — from foundational models to applied intelligence in manufacturing, healthcare and education.',
     accent: 'border-t-brand-blue',
+    tag: 'Applications open · closes 23rd October',
+    tagClass: 'bg-emerald-500/15 text-emerald-700',
+    detailsHref: 'https://wsai.iitm.ac.in/aistudio/',
   },
   {
     name: 'Studio Sustainability',
     desc: 'A venture studio for climate and sustainability ventures — clean energy, circular economy, decarbonisation and water — turning lab breakthroughs into scalable green businesses.',
     accent: 'border-t-brand-green',
+    tag: 'Launching soon',
+    tagClass: 'bg-accent/15 text-accent-dark',
   },
 ];
 
@@ -31,9 +36,14 @@ export default function Studios() {
         <div className="grid gap-6 md:grid-cols-2">
           {STUDIOS.map((s) => (
             <div key={s.name} className={`card border-t-4 ${s.accent}`}>
-              <span className="tag bg-accent/15 text-accent-dark">Launching soon</span>
+              <span className={`tag ${s.tagClass}`}>{s.tag}</span>
               <h2 className="mt-3 font-display text-2xl font-bold text-navy">{s.name}</h2>
               <p className="mt-3 leading-relaxed text-ink/70">{s.desc}</p>
+              {s.detailsHref && (
+                <a href={s.detailsHref} rel="noopener" target="_blank" className="btn-ghost mt-5">
+                  Programme details ↗
+                </a>
+              )}
             </div>
           ))}
         </div>
