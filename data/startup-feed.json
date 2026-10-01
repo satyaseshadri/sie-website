@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-30T08:47:32.227Z",
+  "updated": "2026-10-01T09:11:10.009Z",
   "items": [
     {
       "startup": "Prescribe",
@@ -10,17 +10,17 @@
     },
     {
       "startup": "GalaxEye",
-      "title": "Spacetech startup GalaxEye secures Rs 64 crore govt support to develop OptoSAR satellite",
-      "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeW9EV0NQUE56eXVtQWY5M2VuSFdkN3NXdHBKMloyMlpsNjY3bF8tTE94RWxucERJLUpYdVRWNHRia2ZESmZVcmo5S0pyaVR4aUN2azI4b0VrMS1XX0VtYnVmM1hDMU80TXNxV0ppZ1BuYThaS200Ykk5SFB2R0ZoWnhKblg2T2prWkd1ODFwY2RacC12a2lTN3lNUENoOHRwekRiekltVnVFVVQwYzRFdWNKVHYybXpFMHEzN0c5RVRiNjBNRklZYVB2WTDSAcwBQVVfeXFMT3lvRFdDUFBOenl1bUFmOTNlbkhXZDdzV3RwSjJaMjJabDY2N2xfLUxPeEVsbnBESS1KWHVUVjR0YmtmREpmVXJqOUtKcmlUeGlDdmsyOG9FazEtV19FbWJ1ZjNYQzFPNE1zcVdKaWdQbmE4WkttNGJJOUhQdkdGaFp4Sm5YNk9qa1pHdTgxcGNkWnAtdmtpUzd5TVBDaDh0cHpEYnpJbVZ1RVVUMGM0RXVjSlR2Mm16RTBxMzdHOUVUYjYwTUZJWWFQdlkw?oc=5",
-      "date": "2026-09-26",
-      "source": "Indian Startup News"
-    },
-    {
-      "startup": "GalaxEye",
       "title": "How IIT Madras-incubated GalaxEye is building the world’s first OptoSAR tech after space setback",
       "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZmU5aDRxaHp2XzFGcGVNQ0s0STVOU3g5ZkFER3FIOG9aRkpQTE1HZ3pNeTZfTEkzUG55c1VHbEZlMU9kTk1wNjdHb1NIZWZfc1BZRjlTa1cxZHQyOFRWZ1BDRFVmdS1nTXFyZ3BSbXdRaE13Y3hoSkVzWDRnSUYtSHB2Y1k3dlhoRjk5YVJUN1FxRW5Wemc4ME95M2NFcS03N0EtMXh2VU9HS0ZM0gGyAUFVX3lxTE1DU2NfSW03LXh3czh3Q195dzNMVHJILU1vd3Q0Q3ZSUFZNamRINmQyckdzYVMxX0taT0ZfZXpZZmRwSFBKOW50aVpvaHlnS1dhSXVEaEoweEJZM015QVhTcV9DN2hCX0FTU3ozdURRUHZWNnRYM19vRHp0Njhxdnp4NUR5b2RvLXFrNExpZjN5Ump6WGp4NWlCZWZ6cmgzUV8zdGs3akVmN0U3cXBTWXJJR1E?oc=5",
       "date": "2026-09-17",
       "source": "CNBC TV18"
+    },
+    {
+      "startup": "GalaxEye",
+      "title": "Bengaluru-based space-tech startup GalaxEye, founded by IIT Madras alumni Suyash Singh, Denil Chawda, Pranit Mehta, Kishan Thakkar and Rakshit Bhatt, has secured a US patent for the core technology behind its OptoSAR imaging system. The startup sai",
+      "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jRWxoTmZJSWZNWjU1eFVhRzY3SURQeU8tTGVySEVuQ3VQS2RzRnZaU3d4SGRsdmQ1YjQwMUt2RkJBaUdQNGhDWTlFVnVvcGJJX0E?oc=5",
+      "date": "2026-09-09",
+      "source": "instagram.com"
     },
     {
       "startup": "Matterize",
@@ -55,7 +55,7 @@
       "title": "23-Year-Old Founder Shreepoorna Rao Raises $2.6M for Arctus Aerospace",
       "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSS00UGFHN0d5ZDFzd3hxRnRTVnhiR3B4MjlvVHhCRUMtd0NHMmhxekZVaFBvSWl1WmptUXlFeTE1U3gzSHM2X1p4akduS3NEX3dIa3BpX2QxUjNpRWJPVUF4Z3dNX0ZrNmFzd0c4QkE0Y1NuNlJqdGRrMjJYcDBVa2lFc0c5NEljM1dDQzljck1sWklNR1Fhdy13?oc=5",
       "date": "2025-11-28",
-      "source": "newindian.in"
+      "source": "The New Indian"
     },
     {
       "startup": "Arctus Aerospace",
@@ -76,7 +76,7 @@
       "title": "IIT Madras-incubated Plenome Technologies raises ₹6.5 crore in seed funding",
       "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZkYyLWhRWHFvYllnVlpjd25OU0dyanNUUTU0VG10NWo4bHlyQVNjYklyWGxuWXpYdTR4dTVBUFJNaWdvRDdqTGFFZkRFc05Dc2lHMFlkMEp0UklKNzIwMHo1dXRiazJOcWxtU3NCMGhiRksyOXVCVC1XVk5oN3MtaHQ5V2dWOTJMeWdZbURTZG8yVDh3R3N3NGU0ZFJIUHhnSWRoaVlrdjg1SnR0M0Y5NVRZSkNkVmplMzRVcUtCZVpoOWFMUmfSAcwBQVVfeXFMTUEtOFV1UDY4aU1IYXUxSTFiS1IyOGwtVEwzd29aYndXMmxMcjhvV2Jsb1FXdzFsSTM2TFVpSXlZcFVhdDY4enZONlFLMVNPZU5GSHBWYkdCMGxlRlpYaTYzMWQ3QlZHb0dNTUk1N01wVFFKd3pnSFdZckF4TG5KeEFuTDZMZWd3VkZUOWdVcGtMbE85MW54WWJxdkd3bDU2VWZaQy1CZ0hpSlV1MjUzOV9sLURaZ2U5bHpxNjJsbzFLQkRQRTFIc0hJVUVf?oc=5",
       "date": "2025-07-22",
-      "source": "thehindu.com"
+      "source": "The Hindu"
     },
     {
       "startup": "Plenome Technologies",
@@ -90,7 +90,7 @@
       "title": "Chennai-based Tan90 Thermal Solutions raises ₹20 crore in Series A",
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYWpHRnpNZEdyZ1YtWDZwYkZ1bDNMaFJsN1JxQjVuWlNOeGdwMUZKWTg5aXJzQ013QlEtTWFweW04VmIxMmk4aXo1QlNDZlYtZy1fQS11NVQyeF8tSl81OXpaMFR6UkZYdlk0LTdUbEN1YTJjeG5KMk80VGRuVGVJOVhOcUdVakg2WENJSzlYcmY1SVdzQmpsUlZPSmMzLXhOeEpnNXdRLW82aDFKYnFRRWJQaWI1Q1hGX0s4YnFkZm82cU9SZTg0Z2pGV2RRMFhW0gHXAUFVX3lxTE1ENmFjMmd5YkVpXzJ5MHZjSTdjSVFwQ2JObHlDX3hmUEI2MGtFNzhMM3lIWFFDbExfZE5XZ3ZYRjB3VWlGLXUzcGxTM3oxZTI5RFRJSFpjMWQxLVV2bFhhWWZ1cDltelI0LTF1WEpDS2NzQk9HT0tZaFpwWHIzeGhxOHhCdzZvMWZKUzBHM0ZQUnlIcVQzOWRlYkZzQlNkZkpZY01hbFpOOUdMMGRiMER5b3c3QVUyblVkMXNubG5NRm11WVhndjRocGl3NktLbVJyN25DNkRv?oc=5",
       "date": "2025-05-20",
-      "source": "thehindu.com"
+      "source": "The Hindu"
     },
     {
       "startup": "Matterize",
@@ -104,7 +104,7 @@
       "title": "Anand Mahindra praises IIT-Madras startup for innovative electric sea gliders",
       "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPNmFfUVh3NDRDRUJpRUdJZTVsN3ptNEQwRnp4ajVtTFRLOEpSUGs0c09EVjBMcWY4aWlfRzJYSlVkTmt6aWdwRlVYY2hTS3BnSDkyTFJCUmV6NkpydWVSUGRIaFVTdVVmQm15OWNhUG56S2VfbklQYzBjcmNFbWotQWI0b1VDVGdNaW5tZkdzWjFqSWVJWi1TT1pSMXB2NTBBOHdVOG90OWFNc0dOWW4wNXpyOEtYekRzTGNod3VPNXJkaWhjdDZuZl9Db09tVVhoY0g5WDNFU1dlUdIB4AFBVV95cUxNMWd5WGVtTTRUUHEwLTE3emZPUE1wX2dSc2dubHlZY2RZYjMwcXI0Ty0wX05EcFB4MzFmMUpGWFJyMEVXTW5SR182ZWNycGVGaVN0Qk50ZjM3TzRIV3pMM0pEUWswWUs4QklWbTB3Y0d1MTd5TVE4NDExNU9ZaE4ycDB3ckVsWjN4MTJwYllBbGlFQ0RyTW9TOGs1aE9fREtjY0dkeER3enlYcFZDN2c3WkZfSGVLSzdJa20wV2Yta3FkQzdzc0c4QjZXckZaQjhvbmU3WC1Nd05obE1YcG5QNQ?oc=5",
       "date": "2025-02-27",
-      "source": "thehindu.com"
+      "source": "The Hindu"
     },
     {
       "startup": "Waterfly Technologies",
@@ -132,7 +132,7 @@
       "title": "ArcelorMittal's XCarb® India Accelerator unveils pioneering startups for industrial decarboniSation",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNDU0d3R6VkNTajNUUTZOdVBkbUVBQ0ZIR2c4YXBDTWV6R3FDWU83aXlKNm5wSUdIUE5JQUswWmFEcUR1RWJ3SmFNMkVxUmJMWHFEMnlEazFodXZya2NOb3ZvYWg0TTVRN3dhR01KaUJ4c2dzMHRyWGx1RUc1Rm9vaEZKbUpfYzUwbVFUTWpMdWRaYmNxSGpSdFRKbXJVcVAwSTYtUXliUzZEeTlZVTg3ZjRVVDVHU1dYb19wMmNZcUdPMXh5WkF6OVA2bWFILU1YMFpz?oc=5",
       "date": "2024-02-22",
-      "source": "manufacturingtodayindia.com"
+      "source": "Manufacturing Today India"
     },
     {
       "startup": "UrbanMatrix Technologies",
