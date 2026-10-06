@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T09:19:22.886Z",
+  "updated": "2026-10-06T09:10:08.886Z",
   "items": [
     {
       "startup": "Prescribe",
@@ -13,7 +13,7 @@
       "title": "Spacetech startup GalaxEye secures Rs 64 crore govt support to develop OptoSAR satellite",
       "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPeW9EV0NQUE56eXVtQWY5M2VuSFdkN3NXdHBKMloyMlpsNjY3bF8tTE94RWxucERJLUpYdVRWNHRia2ZESmZVcmo5S0pyaVR4aUN2azI4b0VrMS1XX0VtYnVmM1hDMU80TXNxV0ppZ1BuYThaS200Ykk5SFB2R0ZoWnhKblg2T2prWkd1ODFwY2RacC12a2lTN3lNUENoOHRwekRiekltVnVFVVQwYzRFdWNKVHYybXpFMHEzN0c5RVRiNjBNRklZYVB2WTDSAcwBQVVfeXFMT3lvRFdDUFBOenl1bUFmOTNlbkhXZDdzV3RwSjJaMjJabDY2N2xfLUxPeEVsbnBESS1KWHVUVjR0YmtmREpmVXJqOUtKcmlUeGlDdmsyOG9FazEtV19FbWJ1ZjNYQzFPNE1zcVdKaWdQbmE4WkttNGJJOUhQdkdGaFp4Sm5YNk9qa1pHdTgxcGNkWnAtdmtpUzd5TVBDaDh0cHpEYnpJbVZ1RVVUMGM0RXVjSlR2Mm16RTBxMzdHOUVUYjYwTUZJWWFQdlkw?oc=5",
       "date": "2026-09-26",
-      "source": "indianstartupnews.com"
+      "source": "Indian Startup News"
     },
     {
       "startup": "GalaxEye",
@@ -107,6 +107,13 @@
       "source": "Moneycontrol.com"
     },
     {
+      "startup": "Susstains Engineering",
+      "title": "India Accelerator programme for breakthrough climate tech start-ups announces winners",
+      "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxObDFCUUlBX1F6QmlNVnJjRVh5cXV0bkkyVi1WWTk1dVRmS3JSX3RLZUpGR2J4SEloWHR1c1dqZVRXT2d1TjJZWjBTblp0VmUyVHpSRU4xZGdoYnlsWFcxUzAtb3ZEVzlLQVpZcG9YSWJEcVIzd3JzSGMzVlFvaThRSHJIaDZnRlFGMDhUZlVKNXZ6bmdJUWxDcm1tYnJmc1diNGRkZE5zcUlfRnE4TnRYV0ZUV0VfYWQ0ckIxc0RfczNmTjgzbnViWnlnTVJMaEgyU2o0aEpsRTRUQnhkTGFnMTY1dTI2YzFEbVlRSnE4M3hfcC10TENjSUFveGxEeEd4c2JXQQ?oc=5",
+      "date": "2024-07-16",
+      "source": "ArcelorMittal"
+    },
+    {
       "startup": "Clueso",
       "title": "Y Combinator Backed Clueso Bags Funding To Provide AI-Powered Video Creation Tools",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaDhJRURoOU9Db0gxanhGX0oxdURXaFN4d2EtN2cwTUpyb1BVRkxTNVl0c2k2WDR3RUFvTTJvZmRGb2NtYzRzVlBoY2U5WlV1WHk2RWZoM2FUX01KQU1KdlpobEZJZHotTUxIT0RFM29PWE0zdEFneXBWTnNVWDU4SnZLSTZzdW9mUER4YTBWYmM0Q2ZnV1VXSHFJVWxoU0RyWGVKclhJcWJPUQ?oc=5",
@@ -115,17 +122,10 @@
     },
     {
       "startup": "Susstains Engineering",
-      "title": "XCarb India Accelerator programme: finalists announced",
-      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbWt3Z2JrbHhwUVVDMWVncGw2TGFyUXJNVDgwekQtYkxscG1jc1pmSUROOG1vYmlfNXFSTlF1RHZ1dzBKVVlhSnRTeV9jUWkxdWdLLVdhTkotc0E5NzFQQ0h5TFUtd1NYMk5RckFXMjA2WndRYlI2dnNaS1BtczV5eEFEVWZCMDU1N2hOYzd1MEFTUQ?oc=5",
-      "date": "2024-02-23",
-      "source": "Steel Times International"
-    },
-    {
-      "startup": "Susstains Engineering",
       "title": "ArcelorMittal's XCarb® India Accelerator unveils pioneering startups for industrial decarboniSation",
       "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPNDU0d3R6VkNTajNUUTZOdVBkbUVBQ0ZIR2c4YXBDTWV6R3FDWU83aXlKNm5wSUdIUE5JQUswWmFEcUR1RWJ3SmFNMkVxUmJMWHFEMnlEazFodXZya2NOb3ZvYWg0TTVRN3dhR01KaUJ4c2dzMHRyWGx1RUc1Rm9vaEZKbUpfYzUwbVFUTWpMdWRaYmNxSGpSdFRKbXJVcVAwSTYtUXliUzZEeTlZVTg3ZjRVVDVHU1dYb19wMmNZcUdPMXh5WkF6OVA2bWFILU1YMFpz?oc=5",
       "date": "2024-02-22",
-      "source": "manufacturingtodayindia.com"
+      "source": "Manufacturing Today India"
     },
     {
       "startup": "UrbanMatrix Technologies",
