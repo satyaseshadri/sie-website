@@ -14,6 +14,7 @@ const STUDIOS = [
     tag: 'Applications open · closes 23rd October',
     tagClass: 'bg-emerald-500/15 text-emerald-700',
     detailsHref: 'https://wsai.iitm.ac.in/aistudio/',
+    detailsExternal: true,
   },
   {
     name: 'Studio Sustainability',
@@ -21,6 +22,8 @@ const STUDIOS = [
     accent: 'border-t-brand-green',
     tag: 'Launching soon',
     tagClass: 'bg-accent/15 text-accent-dark',
+    detailsHref: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/svaasa/index.html`,
+    detailsStatic: true,
   },
 ];
 
@@ -39,11 +42,20 @@ export default function Studios() {
               <span className={`tag ${s.tagClass}`}>{s.tag}</span>
               <h2 className="mt-3 font-display text-2xl font-bold text-navy">{s.name}</h2>
               <p className="mt-3 leading-relaxed text-ink/70">{s.desc}</p>
-              {s.detailsHref && (
-                <a href={s.detailsHref} rel="noopener" target="_blank" className="btn-ghost mt-5">
-                  Programme details ↗
-                </a>
-              )}
+              {s.detailsHref &&
+                (s.detailsExternal ? (
+                  <a href={s.detailsHref} rel="noopener" target="_blank" className="btn-ghost mt-5">
+                    Programme details ↗
+                  </a>
+                ) : s.detailsStatic ? (
+                  <a href={s.detailsHref} className="btn-ghost mt-5">
+                    Programme details
+                  </a>
+                ) : (
+                  <Link href={s.detailsHref} className="btn-ghost mt-5">
+                    Programme details
+                  </Link>
+                ))}
             </div>
           ))}
         </div>

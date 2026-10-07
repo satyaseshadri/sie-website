@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Partner Registration — SVAASA | IIT Madras</title>
+<meta name="description" content="Register your interest in partnering with SVAASA at IIT Madras.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#0C2036;--royal:#1A5FAB;--green:#245C43;--cyan:#2A8C7A;--maroon:#8B1A2B;--lime:#5DAE5F;--ink:#10161D;--mute:#5b6672;--bg:#F0F4F8;--card:#fff;--hh:84px}
+*{box-sizing:border-box;margin:0;padding:0}
+html{overflow-x:hidden;scroll-behavior:smooth;scroll-padding-top:calc(var(--hh) + 44px)}
+body{overflow-x:hidden;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6;-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:Georgia,'Times New Roman',Times,serif;line-height:1.25}
+a{color:inherit;text-decoration:none}ul{list-style:none}img{max-width:100%}
+.skip-link{position:absolute;left:-999px}.skip-link:focus{left:8px;top:8px;background:#fff;padding:8px;z-index:200}
+.section-inner{max-width:1180px;margin:0 auto;padding:0 24px}
+section{padding:88px 0}
+.eyebrow{display:block;font:700 .8rem Arial,sans-serif;letter-spacing:.14em;text-transform:uppercase;color:var(--royal);margin-bottom:10px}
+.eyebrow-light{color:var(--lime)}
+.section-head{margin-bottom:44px;max-width:760px}
+.section-head h2{font-size:clamp(1.6rem,3vw,2.3rem);color:var(--navy)}
+.section-head p{color:var(--mute);margin-top:10px}
+.head-light{color:#fff!important}.head-light-sub{color:#cfe0f0!important}
+/* header */
+.site-header{position:sticky;top:0;z-index:100;background:#fff;box-shadow:0 1px 8px rgba(12,32,54,.1)}
+.header-inner{position:relative;min-width:0;display:flex;align-items:center;gap:18px;padding:18px 24px;max-width:1500px;margin:0 auto}
+.brand{display:flex;align-items:center;gap:10px;flex-shrink:0}
+.brand-logo,.brand-iitm,.partner-logo,.partner-logo-sie,.partner-logo-seal,.partner-logo-sos{height:64px;width:auto;max-width:none;flex-shrink:0;object-fit:contain}
+.partner-logo-seal{width:64px;height:64px}
+.partner-logo-sos{width:64px;height:64px}
+.partner-logo-sie{max-width:200px}
+.brand-word{font:700 1.9rem Arial,Helvetica,sans-serif;color:var(--green);line-height:1}
+.brand-tagline,.footer-brand-tagline,.hero-eyebrow{font-size:.62rem;font-weight:600;white-space:nowrap}
+.site-footer .brand-word{background:linear-gradient(90deg,#5DAE5F,#1A5FAB,#2A8C7A);-webkit-background-clip:text;background-clip:text;color:transparent!important}.site-footer .brand-tagline-seg-green{color:#5DAE5F}.site-footer .brand-tagline-seg-blue{color:#7eb3e8}.site-footer .brand-tagline-seg-cyan{color:#5ec4b4}.brand-tagline-seg-green{color:var(--green)}.brand-tagline-seg-blue{color:var(--royal)}.brand-tagline-seg-cyan{color:var(--cyan)}
+.brand-tagline-dash{color:#999;margin:0 2px}
+.header-partner-logos{display:flex;gap:12px;align-items:center;flex-shrink:0;margin-left:auto}
+.main-nav{position:absolute;left:50%;transform:translateX(-50%);z-index:2;margin:0}.main-nav ul{display:flex;gap:18px;flex-wrap:wrap;justify-content:center}
+.main-nav a{font-size:.8rem;font-weight:600;padding:6px 0;border-bottom:2px solid transparent;transition:.2s}
+.main-nav a:hover,.main-nav a.active{color:var(--royal);border-color:var(--royal)}
+.nav-toggle{display:none;background:none;border:0;cursor:pointer}
+.nav-toggle span{display:block;width:24px;height:2px;background:var(--navy);margin:5px 0}
+/* ticker */
+.event-ticker{display:flex;background:var(--navy);color:#fff;font-size:.78rem;overflow:hidden;position:sticky;top:var(--hh);z-index:90}
+.ticker-label{display:flex;gap:6px;align-items:center;padding:8px 16px;background:var(--royal);font-weight:700;text-transform:uppercase;z-index:2}
+.ticker-track{display:flex;gap:48px;padding:8px 0;white-space:nowrap;animation:tick 40s linear infinite}
+.event-ticker:hover .ticker-track{animation-play-state:paused}
+.ticker-item{display:flex;gap:10px}.ticker-date{color:var(--lime);font-weight:700}.ticker-title{font-weight:700}.ticker-desc{opacity:.75}
+@keyframes tick{to{transform:translateX(-50%)}}
+/* buttons */
+.btn{display:inline-block;padding:12px 22px;border-radius:4px;font-weight:600;font-size:.9rem;transition:.2s;border:1px solid transparent}
+.btn-primary{background:var(--royal);color:#fff}.btn-primary:hover{background:var(--navy)}
+.btn-ghost-light{border-color:rgba(255,255,255,.6);color:#fff}.btn-ghost-light:hover{background:rgba(255,255,255,.15)}
+.btn-primary-inverse{background:#fff;color:var(--maroon)}
+/* hero */
+.hero{position:relative;min-height:calc(100vh - 130px);padding:0;display:flex;flex-direction:column;justify-content:center;color:#fff;overflow:hidden;background:linear-gradient(135deg,#0C2036 0%,#1A5FAB 35%,#2A8C7A 70%,#8B1A2B 110%)}
+.hero-bg{position:absolute;inset:0;color:rgba(255,255,255,.35)}.hero-network{width:100%;height:100%}
+.hero-content{position:relative;max-width:1180px;margin:0 auto;padding:60px 24px;width:100%}
+.hero-eyebrow{display:inline-block;background:rgba(12,32,54,.75);padding:10px 16px;border-radius:4px;font-size:.95rem;margin-bottom:24px}
+.hero-eyebrow span{color:#fff!important}
+.hero-headline{font-size:clamp(2rem,4.6vw,3.6rem);max-width:760px}
+.hero-sub{max-width:620px;margin:20px 0 28px;color:#dbe7f3;font-size:1.05rem}
+.hero-actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-flow{position:relative;max-width:1180px;margin:0 auto;padding:0 24px 40px;width:100%}
+.hero-flow-inner{display:flex;align-items:center;max-width:620px}
+.flow-node{font-size:.75rem;opacity:.3;transition:.5s}.flow-node.on{opacity:1;font-weight:700}
+.flow-line{flex:1;height:1px;background:rgba(255,255,255,.3);margin:0 8px}
+/* why */
+.why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:56px}
+.why-heading h2{font-size:2rem;color:var(--navy)}
+.lead{font:700 1.15rem Georgia,serif;color:var(--royal);margin-bottom:12px}
+.why-copy p{color:var(--mute);margin-bottom:16px}
+.why-path{display:flex;flex-wrap:wrap;gap:6px;font-size:.8rem;font-weight:600;color:var(--navy)}.why-arrow{color:var(--royal)}
+/* reveal */
+.reveal{opacity:0;transform:translateY(24px);transition:.7s}.reveal.in{opacity:1;transform:none}
+/* trl */
+.trl{background:linear-gradient(180deg,#0C2036,#1A5FAB)}
+.trl-rail{position:relative;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:24px;padding-top:30px}
+.trl-track{position:absolute;top:36px;left:0;right:0;height:2px;background:rgba(255,255,255,.2)}
+.trl-track-fill{height:100%;width:0;background:var(--lime);transition:width 1.6s}
+.trl-stage{position:relative;color:#fff}
+.trl-dot{width:12px;height:12px;border-radius:50%;background:var(--navy);border:2px solid var(--lime);margin-bottom:16px}
+.trl-range{font-size:.75rem;color:var(--lime);font-weight:700}
+.trl-stage h3{font-size:1.05rem;margin:6px 0}.trl-programme{font-size:.8rem;color:#cfe0f0}
+/* functions */
+.functions{padding:0 0 88px;margin-top:-40px}
+.functions-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));background:#fff;box-shadow:0 10px 30px rgba(12,32,54,.12)}
+.function-card{padding:28px;border-right:1px solid #e3e9ef}.function-card:last-child{border:0}
+.function-index{color:var(--royal);font-weight:700;font-size:.8rem}
+.function-card h3{font-size:1.3rem;margin:8px 0 12px;color:var(--navy)}.function-sub{font:400 .85rem Arial,sans-serif;color:var(--mute)}
+.function-card p{font-size:.9rem;color:var(--mute);margin-bottom:14px}
+.function-tags{display:flex;flex-wrap:wrap;gap:6px}
+.function-tags li{font-size:.72rem;padding:4px 10px;background:var(--bg);border:1px solid #d9e1e9;border-radius:20px;color:var(--navy);font-weight:500}
+/* focus / hex */
+.focus,.gallery-section,.partners-section{background:var(--bg)}
+.hex-cluster{max-width:560px;margin:0 auto}.hex-cluster-sm{max-width:480px}.hex-cluster svg{width:100%;height:auto}
+.hex-petal{transition:transform .3s;cursor:pointer;outline:none}.hex-petal:hover,.hex-petal:focus{transform:scale(1.04);transform-origin:center;transform-box:fill-box}
+/* timeline */
+.timeline{background:#fff}
+.timeline-list{max-width:720px;border-left:2px solid #d5dee8;margin-left:8px}
+.timeline-item{position:relative;padding:0 0 32px 32px}
+.timeline-marker{position:absolute;left:-8px;top:4px;width:14px;height:14px;border-radius:50%;background:#fff;border:2px solid var(--royal)}
+.timeline-marker-final{background:var(--royal)}
+.timeline-trl{font-size:.75rem;font-weight:700;color:var(--royal)}
+.timeline-body h3{margin:4px 0 6px;color:var(--navy)}.timeline-body p{color:var(--mute);font-size:.92rem}
+/* impact */
+.impact{background:linear-gradient(135deg,#0C2036,#8B1A2B);color:#fff}
+.impact .section-head h2{color:#fff}.impact .eyebrow{color:#7fb3ff}
+.tag-context{display:inline-block;margin-top:14px;font-size:.75rem;padding:4px 12px;border:1px solid rgba(255,255,255,.4);border-radius:20px}
+.impact-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:32px 24px}
+.impact-stat{border-top:1px solid rgba(255,255,255,.3);padding-top:14px}
+.impact-number{display:block;font:700 2.6rem Georgia,serif}.impact-label{font-size:.85rem;color:#e6d4d8}
+/* ecosystem */
+.ecosystem{background:var(--bg)}
+.ecosystem-wheel{position:relative;width:min(600px,100%);aspect-ratio:1;margin:0 auto}
+.eco-lines{position:absolute;inset:0;width:100%;height:100%;color:var(--mute)}
+.eco-center{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:26%;aspect-ratio:1;border-radius:50%;background:var(--navy);color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;font-weight:700;padding:8px}
+.eco-center-sub{font:400 .6rem Arial,sans-serif;color:var(--lime);margin-top:6px}
+.eco-node{position:absolute;left:calc(var(--x)/6*1%);top:calc(var(--y)/6*1%);transform:translate(-50%,-50%);width:23%;aspect-ratio:1;border-radius:50%;background:#fff;border:2px solid var(--c);display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:8px;transition:.3s;outline:none}
+.eco-node:hover,.eco-node:focus{transform:translate(-50%,-50%) scale(1.1);box-shadow:0 8px 24px rgba(12,32,54,.2);z-index:2}
+.eco-node h4{font-size:.68rem;color:var(--navy)}.eco-node p{font-size:.55rem;color:var(--mute);line-height:1.3}
+.eco-icon{width:18px;height:18px;color:var(--c);margin-bottom:2px}
+.eco-maroon{--c:var(--maroon)}.eco-green{--c:var(--green)}.eco-royal{--c:var(--royal)}.eco-lime{--c:var(--lime)}.eco-cyan{--c:var(--cyan)}.eco-navblue{--c:var(--navy)}
+/* value */
+.value{background:#E4EAF1}.value .section-head{max-width:none;text-align:center}
+.value-cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:40px}
+.value-label{border-bottom:2px solid #d2a93a;padding-bottom:10px;margin-bottom:16px}
+.value-num{font-size:.75rem;color:var(--royal);font-weight:700}.value-label h3{font-size:1.1rem;color:var(--navy)}
+.value-list li{position:relative;padding:5px 0 5px 22px;font-size:.9rem}
+.value-list li::before{content:"✓";position:absolute;left:0;color:var(--cyan);font-weight:700}
+.impact-chain{display:flex;flex-direction:column;gap:2px;font-size:.9rem}.chain-arrow{color:var(--cyan);padding-left:6px}
+/* services */
+.services{background:var(--bg)}
+.service-row{display:grid;grid-template-columns:40px 1fr 1.4fr;gap:20px;padding:16px 0;border-bottom:1px solid #d5dee8;align-items:center}
+.service-index{font-size:.75rem;color:var(--royal);font-weight:700}.service-row h3{font-size:.98rem;color:var(--navy)}.service-row p{font-size:.88rem;color:var(--mute)}
+/* cards */
+.events-section{background:#E9EEF4}.partnership{background:var(--bg)}
+.partnership-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;max-width:900px}
+.partnership-card{background:#fff;padding:24px;border:1px solid #e0e7ee;transition:.3s;outline:none}
+.partnership-card:hover,.partnership-card:focus{transform:translateY(-4px);box-shadow:0 10px 24px rgba(12,32,54,.12);border-color:var(--royal)}
+.partnership-num{font-size:.75rem;color:var(--royal);font-weight:700}.partnership-card h3{margin:6px 0 8px;color:var(--navy);font-size:1.05rem}.partnership-card p{font-size:.88rem;color:var(--mute)}
+.partnership-cta{margin-top:28px}
+/* final cta */
+.final-cta{background:linear-gradient(135deg,#8B1A2B,#0C2036);color:#fff}
+.final-cta h2{font-size:clamp(1.6rem,3vw,2.3rem);max-width:620px;margin-bottom:36px}
+.entry-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:1px;background:rgba(255,255,255,.15);max-width:900px}
+.entry-card{background:rgba(12,22,34,.85);padding:22px}.entry-card h3{font-size:1rem;margin-bottom:8px}.entry-card p{font-size:.88rem;color:#cdd6df}
+.final-cta-actions{margin-top:32px}
+/* footer */
+.site-footer{background:#06131d;color:#cfe0f0;padding:36px 0 0;border-top:3px solid #2E9E78}
+.footer-grid{display:grid;grid-template-columns:minmax(260px,1.55fr) 1fr 1fr;gap:20px 36px;align-items:start;padding-bottom:28px}
+.footer-brand{display:block}
+.footer-brand-stack{display:flex;flex-direction:column;align-items:flex-start;gap:8px;max-width:min(100%,560px)}
+.footer-logo-panel{background:#fff;border-radius:10px;padding:10px 12px;margin:0}
+.footer-logo{height:44px;width:auto;object-fit:contain;display:block}
+.footer-fullform{font-size:.8rem;margin:0;line-height:1.45;color:#b8c8d8;white-space:nowrap}
+@media(max-width:960px){.footer-fullform{white-space:normal}}
+.footer-emails{display:flex;flex-direction:column;gap:4px;margin:0;font-size:.9rem}
+.footer-emails a{color:#d5dde6;display:block}
+.footer-emails a:hover{color:var(--lime)}
+.footer-address{font-size:.85rem;line-height:1.5;margin:0 0 10px;color:#b8c8d8;max-width:300px}
+.footer-address .footer-addr-line{display:block}
+.footer-col ul{list-style:none;padding:0;margin:0}
+.footer-col h4{color:#fff;margin:0 0 10px;font-size:.75rem;font-weight:600;letter-spacing:.06em;text-transform:uppercase}
+.footer-col li{margin-bottom:6px;font-size:.9rem}
+.footer-col a{color:#d5dde6}
+.footer-col a:hover{color:var(--lime)}
+.footer-explore-list{display:grid;grid-template-columns:1fr 1fr;column-gap:16px;row-gap:4px}
+.footer-socials{display:flex;gap:8px;margin:10px 0 0}
+.footer-socials a{width:34px;height:34px;border:1px solid rgba(255,255,255,.28);border-radius:4px;display:grid;place-items:center}
+.footer-socials svg{width:16px;height:16px;fill:#cfe0f0}
+.footer-socials a:hover svg{fill:var(--lime)}
+.footer-partner-logos{display:flex;flex-wrap:wrap;gap:6px;align-items:center;background:#fff;padding:6px 8px;border-radius:8px;width:max-content;margin:0;flex-shrink:0}
+.footer-partner-logo{height:38px;width:auto;object-fit:contain}
+.footer-bottom{margin-top:0;border-top:1px solid rgba(255,255,255,.12);padding:14px 0;font-size:.75rem;text-align:center;color:#9aabba}
+.back-to-top{position:fixed;right:20px;bottom:20px;width:40px;height:40px;border-radius:50%;border:0;background:var(--royal);color:#fff;cursor:pointer;opacity:0;pointer-events:none;transition:.3s;z-index:90}
+.back-to-top.show{opacity:1;pointer-events:auto}
+/* responsive */
+@media(max-width:1100px){.main-nav ul{gap:10px}.main-nav a{font-size:.78rem}}
+@media(max-width:1200px){.header-inner{padding:10px 16px;flex-wrap:wrap}
+.header-partner-logos{display:none}
+.nav-toggle{display:block;margin-left:auto;z-index:3}
+.brand{min-width:0;max-width:calc(100% - 48px)}
+.main-nav{position:absolute;top:100%;left:0;right:0;transform:none;background:#fff;max-height:0;overflow:hidden;transition:max-height .3s ease;margin:0;box-shadow:none}
+.main-nav.open{max-height:min(85vh,520px);box-shadow:0 8px 16px rgba(0,0,0,.1);overflow-y:auto}
+.main-nav ul{flex-direction:column;align-items:flex-start;padding:12px 20px 16px;gap:4px}
+.main-nav a{display:block;width:100%;padding:10px 0;font-size:.95rem}
+.service-row{grid-template-columns:30px 1fr}.service-row p{grid-column:2}
+.brand-tagline{display:none}}
+@media(max-width:900px){.header-inner{padding:8px 14px}}
+
+img,svg{max-width:100%}.hero-flow-inner{flex-wrap:wrap;row-gap:6px}.timeline-list,.partnership-grid,.entry-grid{max-width:100%}
+
+
+/* ===== Match to screen recording (new.mp4) ===== */
+/* fonts: Arial for body/nav/labels, Times New Roman for headings and numbers */
+h1,h2,h3,h4,.impact-number{font-family:'Times New Roman',Times,serif}
+/* header */
+.header-inner{max-width:none;padding:18px 24px;gap:16px}
+.brand-logo,.brand-iitm,.partner-logo{height:64px;width:auto;object-fit:contain}
+.brand-word{font-size:1.85rem;background:linear-gradient(90deg,#3b3f8f,#1A5FAB 45%,#2E9E78);-webkit-background-clip:text;background-clip:text;color:transparent}
+.brand-tagline{font-size:.68rem}
+.main-nav ul{gap:14px;justify-content:center}
+.main-nav a{font-size:.9rem;font-weight:700;color:var(--ink)}
+.main-nav a:hover,.main-nav a.active{color:var(--royal);border-color:var(--royal)}
+/* ticker scrolls away with the page (not sticky); date shown as a chip */
+.event-ticker{position:static;background:#0a1626}
+.ticker-date{background:rgba(93,174,95,.18);padding:1px 8px;border-radius:3px;font-size:.7rem;align-self:center}
+/* hero */
+.hero{background:linear-gradient(135deg,#0C2036 0%,#1A5FAB 22%,#2E9E78 55%,#2F7D4F 80%,#8B1A2B 108%)}
+.hero-eyebrow{font-size:1.3rem;font-weight:700;padding:12px 18px;background:rgba(12,32,54,.55)}
+.hero-eyebrow .brand-tagline-dash{margin:0 8px;color:#cfe0f0}
+.hero-headline{font-size:1.75rem;max-width:520px;color:var(--ink)}
+.hero-sub{max-width:440px}
+/* section titles: eyebrow = big blue Arial title, h2 = serif sub-title */
+.section-head,.why-heading{max-width:900px}
+.section-head .eyebrow,.why-heading .eyebrow{font:700 2.7rem Arial,Helvetica,sans-serif;letter-spacing:0;text-transform:none;margin-bottom:12px}
+.eyebrow-light{color:#2E9E78}
+.section-head h2,.why-heading h2{font-size:1.85rem;color:var(--ink)}
+.head-light{color:#fff!important}
+.why-copy .lead{font:400 1.15rem Arial,Helvetica,sans-serif;color:var(--ink)}
+@media(max-width:700px){.section-head .eyebrow,.why-heading .eyebrow{font-size:2.1rem}}
+/* functions box sits below the TRL band, bordered, no overlap */
+.functions{margin-top:0;padding:64px 0 88px}
+.functions-grid{box-shadow:none;border:1px solid #d5dee8;background:rgba(255,255,255,.55)}
+.function-card{padding:32px}
+/* hexagon clusters */
+.hex-cluster{max-width:650px}.hex-cluster-sm{max-width:none;width:min(480px,100%)}
+/* timeline */
+.timeline{background:var(--bg)}
+.timeline-list{list-style:none;max-width:620px;margin-left:0}
+.timeline-body p{max-width:440px}
+/* impact */
+.impact .eyebrow{color:var(--royal)}
+.impact .section-head h2{font-size:1.6rem}
+.impact-grid{grid-template-columns:repeat(4,1fr);max-width:1000px;gap:36px 24px}
+.impact-stat{border-top:0;border-left:2px solid var(--c,#fff);padding:0 0 0 14px}
+.impact-stat:nth-child(4n+1){--c:#6d8fb8}.impact-stat:nth-child(4n+2){--c:#5DAE5F}.impact-stat:nth-child(4n+3){--c:#8fae3f}.impact-stat:nth-child(4n){--c:rgba(255,255,255,.7)}
+@media(max-width:800px){.impact-grid{grid-template-columns:repeat(2,1fr)}}
+/* industry rows, events, partner, CTA */
+.service-row{padding:22px 0;grid-template-columns:40px 1fr 1.6fr}
+.service-row:hover{background:rgba(12,32,54,.05)}
+.events-section [class*="card"]{padding:28px;border:1px solid #e0e7ee}
+.events-section [class*="card"]:hover{border-color:var(--royal)}
+.partnership-grid{grid-template-columns:repeat(2,1fr);max-width:none}
+.partnership-card{padding:28px}
+.entry-grid{grid-template-columns:repeat(2,1fr);max-width:none}
+.entry-card{padding:28px}.entry-card h3{font-size:1.05rem}
+@media(max-width:700px){.partnership-grid,.entry-grid{grid-template-columns:1fr}}
+/* footer: full width, darker, larger Arial links */
+.site-footer{background:#06131d}
+.site-footer .section-inner{max-width:none;padding:0 45px}
+@media(max-width:900px){.footer-grid{grid-template-columns:1fr 1fr}.footer-brand{grid-column:1/-1}.footer-explore-list{grid-template-columns:1fr}}
+@media(max-width:560px){.footer-grid{grid-template-columns:1fr}}
+
+.form-page{padding:56px 0 88px}
+.form-wrap{max-width:720px;margin:0 auto;padding:0 24px}
+.form-eyebrow{display:block;font:700 .72rem Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase;color:var(--royal);margin-bottom:8px}
+.form-wrap h1{font-size:1.9rem;color:var(--ink);margin-bottom:12px}
+.form-intro{color:var(--mute);font-size:.95rem;max-width:520px;margin-bottom:28px}
+.form-card{background:#fff;border:1px solid #e3e9ef;border-radius:8px;padding:28px 30px;box-shadow:0 1px 3px rgba(12,32,54,.04)}
+.form-row{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-bottom:18px}
+.form-field{margin-bottom:18px}.form-row .form-field{margin-bottom:0}
+.form-field label{display:block;font:700 .78rem Arial,sans-serif;color:var(--ink);margin-bottom:8px}
+.form-field label i{color:#c0262d;font-style:normal}
+.form-field input,.form-field select,.form-field textarea{width:100%;font:400 .9rem Arial,sans-serif;color:var(--ink);background:#F0F4F8;border:1px solid #e3e9ef;border-radius:6px;padding:11px 12px}
+.form-field textarea{min-height:90px;resize:vertical}
+.form-field input:focus,.form-field select:focus,.form-field textarea:focus{outline:0;border-color:var(--royal);background:#fff}
+.form-field select{background:#fff;border-color:var(--royal)}
+.form-hint{font-size:.7rem;color:var(--mute);margin-top:8px}
+.form-submit{display:block;width:100%;margin-top:22px;padding:14px;border:0;border-radius:4px;background:var(--royal);color:#fff;font:700 .85rem Arial,sans-serif;cursor:pointer}
+.form-submit:hover{background:var(--navy)}
+.form-msg{display:none;margin-top:16px;padding:12px 14px;border-radius:6px;background:#e7f3ec;color:#1d5a3a;font-size:.88rem}
+.form-msg.is-error{background:#fde8e8;color:#9b1c1c}
+.form-submit:disabled{opacity:.7;cursor:wait}
+@media(max-width:640px){.form-row{grid-template-columns:1fr}.form-card{padding:22px 18px}}
+/* animations matched to recording */
+.site-header{background:rgba(240,244,248,.7);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
+.ticker-track{animation-duration:27s}
+.flow-node{transition:opacity .5s ease}
+
+@media(max-width:1200px){.brand-logo,.brand-iitm{height:56px}}
+@media(max-width:768px){
+.site-footer .section-inner{padding-left:20px;padding-right:20px}
+.form-wrap{padding-left:16px;padding-right:16px}
+.form-wrap h1{font-size:1.55rem}
+}
+@media(max-width:600px){
+.brand-logo,.brand-iitm{height:48px}
+.partner-logo-sie{max-width:min(140px,42vw);height:auto;max-height:48px}
+.footer-explore-list{grid-template-columns:1fr}
+.footer-grid{gap:16px 24px}
+}
+@media(max-width:380px){.brand-logo,.brand-iitm{height:40px}}
+</style>
+</head>
+<body>
+<header class="site-header" id="siteHeader"><div class="header-inner">
+<a href="index.html#top" class="brand"><img src="/images/iitm-seal.png" alt="IIT Madras" class="brand-iitm"><img src="static/images/logo/svaasa.png" alt="SVAASA IIT Madras" class="brand-logo"></a>
+<nav class="main-nav" id="mainNav" aria-label="Primary"><ul><li><a href="index.html#about" data-nav>About</a></li><li><a href="index.html#model" data-nav>SVAASA Model</a></li><li><a href="index.html#programmes" data-nav>Programmes</a></li><li><a href="index.html#ecosystem" data-nav>Ecosystem</a></li><li><a href="index.html#partners" data-nav>Partners</a></li><li><a href="index.html#impact" data-nav>Impact</a></li><li><a href="index.html#gallery" data-nav>Gallery</a></li><li><a href="index.html#partner" data-nav>Partner With Us</a></li></ul></nav>
+<div class="header-partner-logos"><img src="static/images/logo/logo_sos.png?v=5" alt="School of Sustainability, IIT Madras" class="partner-logo partner-logo-sos"><img src="static/images/logo/sie-logo.png" alt="SIE IIT Madras" class="partner-logo partner-logo-sie"></div>
+<div class="header-actions"><button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav"><span></span><span></span><span></span></button></div>
+</div></header>
+
+<main id="main"><section class="form-page"><div class="form-wrap">
+<span class="form-eyebrow">Partner With Us</span>
+<h1>Join the SVAASA Partner Ecosystem</h1>
+<p class="form-intro">Tell us a bit about your organisation and how you'd like to collaborate. Our team will review your submission and get back to you.</p>
+<div class="form-card"><form id="partnerForm" novalidate>
+<div class="form-row"><div class="form-field"><label for="fullName">Full Name <i>*</i></label><input id="fullName" name="full_name" type="text" required></div>
+<div class="form-field"><label for="org">Organisation / Institution <i>*</i></label><input id="org" name="organisation" type="text" required></div></div>
+<div class="form-row"><div class="form-field"><label for="email">Email <i>*</i></label><input id="email" name="email" type="email" required></div>
+<div class="form-field"><label for="phone">Phone Number</label><input id="phone" name="phone" type="tel"></div></div>
+<div class="form-field"><label for="interest">I'm interested in <i>*</i></label><select id="interest" name="interest" required><option value="">Select an option</option><option>Anchor Corporate Partner</option><option>Testbed Partner</option><option>Catalytic Capital Partner</option><option>Knowledge &amp; Mentorship Partner</option><option>Other</option></select></div>
+<div class="form-field"><label for="more">Tell us more</label><textarea id="more" name="message" placeholder="Briefly describe your challenge, technology, or how you'd like to collaborate..."></textarea><p class="form-hint">Optional, but helps us route your enquiry to the right team faster.</p></div>
+<button class="form-submit" type="submit">Submit Registration</button>
+<p class="form-msg" id="formMsg" role="status">Thank you — your registration has been received.</p>
+</form></div></div></section></main>
+<footer class="site-footer footer-wide"><div class="section-inner footer-grid">
+<div class="footer-brand"><div class="footer-brand-stack"><div class="footer-logo-panel"><img src="static/images/logo/svaasa.png" alt="SVAASA IIT Madras" class="footer-logo"></div><p class="footer-fullform">Sustainability Ventures — Academia Alliance — Studio &amp; Accelerator.</p></div></div>
+<div class="footer-col"><h4>Explore</h4><ul class="footer-explore-list"><li><a href="index.html#about">About</a></li><li><a href="index.html#model">SVAASA Model</a></li><li><a href="index.html#programmes">Programmes</a></li><li><a href="index.html#ecosystem">Ecosystem</a></li><li><a href="index.html#partners">Partners</a></li><li><a href="index.html#impact">Impact</a></li><li><a href="index.html#gallery">Gallery</a></li><li><a href="index.html#partner">Partner With Us</a></li></ul></div>
+<div class="footer-col footer-col-details"><h4>Reach out</h4><p class="footer-address"><span class="footer-addr-line">Room no 408, Biotech block 2,</span><span class="footer-addr-line">IIT Madras</span><span class="footer-addr-line">Chennai – 600036</span></p><p class="footer-emails"><a href="mailto:svaasa.iitm@gmail.com">svaasa.iitm@gmail.com</a><a href="mailto:svaasa@iitm.ac.in">svaasa@iitm.ac.in</a></p>
+<div class="footer-socials"><a href="https://www.linkedin.com/posts/svaasa-iitm_svaasa-iitmadras-sustainability-activity-7503326397562630144-jwgT" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.139 1.45-2.139 2.935v5.671H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a><a href="https://www.instagram.com/p/DdnbVWQTQW1/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.745 1.652 4.893 4.893.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.662 4.745-4.893 4.893-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.745-1.66-4.894-4.893-.057-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.745 4.894-4.893 1.265-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.695.072 7.053.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a></div></div>
+</div><div class="footer-bottom"><div class="section-inner footer-bottom-inner"><p>© 2026 SVAASA, IIT Madras. All rights reserved.</p></div></div></footer>
+<script>
+document.getElementById('navToggle').addEventListener('click',function(){var n=document.getElementById('mainNav'),o=n.classList.toggle('open');this.setAttribute('aria-expanded',o)});
+(function(){
+var SVAASA_FORM_EMAIL='svaasa.iitm@gmail.com';
+var form=document.getElementById('partnerForm');
+if(!form)return;
+form.addEventListener('submit',function(e){
+e.preventDefault();
+var ok=true;
+form.querySelectorAll('[required]').forEach(function(f){var bad=!f.value.trim();f.style.borderColor=bad?'#c0262d':'';if(bad)ok=false});
+if(!ok)return;
+var btn=form.querySelector('.form-submit');
+var msg=document.getElementById('formMsg');
+btn.disabled=true;
+btn.textContent='Sending…';
+msg.classList.remove('is-error');
+msg.style.display='none';
+var fd=new FormData(form);
+fd.append('_subject','SVAASA — Join / Partner registration');
+fd.append('_cc','svaasa@iitm.ac.in');
+fd.append('_captcha','false');
+fd.append('_template','table');
+fetch('https://formsubmit.co/ajax/'+encodeURIComponent(SVAASA_FORM_EMAIL),{method:'POST',headers:{Accept:'application/json'},body:fd})
+.then(function(res){if(!res.ok)throw new Error('send failed');return res.json();})
+.then(function(){
+msg.textContent='Thank you — your details have been sent to the SVAASA team at '+SVAASA_FORM_EMAIL+'. We will get back to you soon.';
+msg.style.display='block';
+form.reset();
+})
+.catch(function(){
+msg.textContent='We could not send your form right now. Please email '+SVAASA_FORM_EMAIL+' directly.';
+msg.classList.add('is-error');
+msg.style.display='block';
+})
+.finally(function(){btn.disabled=false;btn.textContent='Submit Registration';});
+});
+})();
+</script>
+</body>
+</html>
