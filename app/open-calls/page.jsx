@@ -30,18 +30,6 @@ export default function OpenCalls() {
               <Link href="https://wsai.iitm.ac.in/aistudio/" className="btn-ghost">Programme details</Link>
             </div>
           </div>
-        <div className="card border-t-4 border-t-accent">
-            <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 05th October</span>
-            {/* <span className="tag bg-navy/10 text-navy">Closed</span> */}
-            <h2 className="mt-3 font-display text-2xl font-bold text-navy">Tech Pioneer Grant 2026 - Deep-Tech & SDG Edition </h2>
-            <p className="mt-3 leading-relaxed text-ink/70">
-              A grant call for deep-tech and SDG ventures.
-            </p>
-            <div className="mt-5 flex flex-wrap gap-3">
-              <a href="https://venturearch.org/apply/sie/6aaa6d947a1e240d3d50f31c" rel="noopener" target="_blank" className="btn-primary">Apply now ↗</a>
-              {/* <Link href="https://www.venturearch.org/chevron-iitm-energy-incubation" className="btn-ghost">Programme details</Link> */}
-            </div>
-          </div>
         <div className="card border-t-4 border-t-navy">
             {/* <span className="tag bg-navy/10 text-navy">Closed</span> */}
             <span className="tag bg-navy/10 text-navy-700">Applications open · closes 30th October</span>

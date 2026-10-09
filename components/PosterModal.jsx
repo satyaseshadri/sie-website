@@ -3,14 +3,9 @@ import { useEffect, useState } from 'react';
 
 const PREFIX = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
-const SEEN_KEY = 'posters-seen-v5';
+const SEEN_KEY = 'posters-seen-v6';
 
 const POSTERS = [
-  {
-    href: 'https://venturearch.org/apply/sie/6a9fca1e88187140b68c9348',
-    src: '/images/deeptech.jpeg',
-    alt: 'TECH PIONEER GRANT 2026 - Deep-Tech & SDG Edition applications open until 05th October 2026. Click to apply.',
-  },
   {
     href: 'https://research.iitm.ac.in/',
     src: '/images/admission.png',
