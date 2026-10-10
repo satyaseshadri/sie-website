@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-09T09:22:34.406Z",
+  "updated": "2026-10-10T08:43:21.365Z",
   "items": [
     {
       "startup": "Prescribe",
@@ -21,13 +21,6 @@
       "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9jRWxoTmZJSWZNWjU1eFVhRzY3SURQeU8tTGVySEVuQ3VQS2RzRnZaU3d4SGRsdmQ1YjQwMUt2RkJBaUdQNGhDWTlFVnVvcGJJX0E?oc=5",
       "date": "2026-09-09",
       "source": "Instagram"
-    },
-    {
-      "startup": "Matterize",
-      "title": "IIT Madras Achieves Milestone: 104 Startups Launched in a Year",
-      "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5zbVppWkkyVzVGYTJLMnY1YzlJczh4T0lwX2xWVnd6NnpZSkhfM0NzcVVNR2twSVpQUDVoY0ZMRGY0VXlDWm9NaEQ4VDB4MFYwN01EaVNvNVlnU2o5bjRRU0Q2X3FEWXNla0JOaG54ejk2cnE4TWtocA?oc=5",
-      "date": "2026-04-27",
-      "source": "ascendants.in"
     },
     {
       "startup": "Inbound Aerospace",
@@ -67,7 +60,7 @@
     {
       "startup": "Plenome Technologies",
       "title": "IIT Madras-incubated Plenome Technologies raises ₹6.5 crore in seed funding",
-      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZkYyLWhRWHFvYllnVlpjd25OU0dyanNUUTU0VG10NWo4bHlyQVNjYklyWGxuWXpYdTR4dTVBUFJNaWdvRDdqTGFFZkRFc05Dc2lHMFlkMEp0UklKNzIwMHo1dXRiazJOcWxtU3NCMGhiRksyOXVCVC1XVk5oN3MtaHQ5V2dWOTJMeWdZbURTZG8yVDh3R3N3NGU0ZFJIUHhnSWRoaVlrdjg1SnR0M0Y5NVRZSkNkVmplMzRVcUtCZVpoOWFMUmc?oc=5",
+      "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZkYyLWhRWHFvYllnVlpjd25OU0dyanNUUTU0VG10NWo4bHlyQVNjYklyWGxuWXpYdTR4dTVBUFJNaWdvRDdqTGFFZkRFc05Dc2lHMFlkMEp0UklKNzIwMHo1dXRiazJOcWxtU3NCMGhiRksyOXVCVC1XVk5oN3MtaHQ5V2dWOTJMeWdZbURTZG8yVDh3R3N3NGU0ZFJIUHhnSWRoaVlrdjg1SnR0M0Y5NVRZSkNkVmplMzRVcUtCZVpoOWFMUmfSAcwBQVVfeXFMTUEtOFV1UDY4aU1IYXUxSTFiS1IyOGwtVEwzd29aYndXMmxMcjhvV2Jsb1FXdzFsSTM2TFVpSXlZcFVhdDY4enZONlFLMVNPZU5GSHBWYkdCMGxlRlpYaTYzMWQ3QlZHb0dNTUk1N01wVFFKd3pnSFdZckF4TG5KeEFuTDZMZWd3VkZUOWdVcGtMbE85MW54WWJxdkd3bDU2VWZaQy1CZ0hpSlV1MjUzOV9sLURaZ2U5bHpxNjJsbzFLQkRQRTFIc0hJVUVf?oc=5",
       "date": "2025-07-22",
       "source": "The Hindu"
     },
@@ -115,6 +108,13 @@
     },
     {
       "startup": "Clueso",
+      "title": "Y Combinator Backed Clueso Bags Funding | OpenAI Makes First Hiring In India | Inshorts",
+      "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa1VkMVBrbi0tQkJPTDd3Zkxtb2ZMWkpMN2dKTFhJSzk2c2lab0EwRWRfNHhVQXpaUWlqZlZ0LVJhbGpBZlNxUllYUXFfYnUteURabTF2bGRabFlvXzJ5dklzbFJFUnVCeGV4SDhrQmk5NlR3RV9UcktGNko0d0xMNkl6YkNTT2RYNEHSAY8BQVVfeXFMTWdjNHlBY1BHWmtpY1k1T19CdkNHYlRIbTFzaFk4aXBtbTcwZUxaampqcWZxUU56TmdkUnJvY0huUUk5bVQxNk1lUXk1YkVHOXJORXZ3RU1rMHV3UHVTNEEtMG1Eb1kzSTFqb0VieVFCZG1kcWhRY0czTXFtVERIMTc0aDcyREN4cGZzeWRmZVk?oc=5",
+      "date": "2024-04-24",
+      "source": "Inshorts"
+    },
+    {
+      "startup": "Clueso",
       "title": "Y Combinator Backed Clueso Bags Funding To Provide AI-Powered Video Creation Tools",
       "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNaDhJRURoOU9Db0gxanhGX0oxdURXaFN4d2EtN2cwTUpyb1BVRkxTNVl0c2k2WDR3RUFvTTJvZmRGb2NtYzRzVlBoY2U5WlV1WHk2RWZoM2FUX01KQU1KdlpobEZJZHotTUxIT0RFM29PWE0zdEFneXBWTnNVWDU4SnZLSTZzdW9mUER4YTBWYmM0Q2ZnV1VXSHFJVWxoU0RyWGVKclhJcWJPUQ?oc=5",
       "date": "2024-04-24",
@@ -132,7 +132,7 @@
       "title": "Drone tech startup UrbanMatrix raises Rs 6 cr in pre-Series A led by Inflection Point Ventures",
       "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNTEhzN3pZeGRKRUE4R19hNENQdElwOE5pNjA5TmxNSGFTa0ppN0wyV3hSOFpFbGdTVmxlN2MzYWd0aUM4TnNKaXVlX3hXQkE1WWxoVEpQZ0d6clk0U3lMRmR0LVFTaGFNSFJNUzdCUVNFbVN0ZGZ1bGVjMVphNlZfb1ptYzF3RmxmeTJjaU11LXlVSU83TTZJb3dBc0tMcE4wRFZ2Vk9RVnUwTDFyNkFfQzFfSzBqT2RNWlBWU3VkTzV5a0g4SVNUZEJqSEdOck5ZQm1tT2paa2h1cnE3VHh4SXh6eXRTR2tOOUpTaGhvLUVTZHoyUkHSAfsBQVVfeXFMUDBjSmlZcVlnYnZ6eXMwU015UEs5M0huU2VFU0pxNFN5WWlBcVFxTHNKWnBhRldNZ3RhY2JPT3ZVLXZ2U3pySmpTM3V0Q195REthc0k4Z19TUUtQMW9feVY4ZW8yMHFvREg1NjlVTHhEU18tc1BXY0Z5TGpUc2pzWTFnQUdpSnVwX2xvLUdKVktPcnllQUw5elcxZGNJZ2ZDdGJSVkVQdkJVbEVWYUoyTWlMeUF5d05FMUhJbElGczFadExkelhsN1VwOHFqTXBTTWNpOURkWkJvTDFqdV9rUEdjX2lVQ0M3ZnhnX0E2WmdWU2tlelhic1hSTUU?oc=5",
       "date": "2023-10-26",
-      "source": "Indiatimes"
+      "source": "ET Telecom"
     },
     {
       "startup": "Melvano",
