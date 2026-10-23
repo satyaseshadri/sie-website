@@ -65,7 +65,14 @@
       "photo": "/images/people/shaju.jpg",
       "linkedin": ""
     },
-    
+    {
+      "name": "Mr. Akash Sharma",
+      "role": "Manager, Innovation",
+      "email": "manager-innovation@sie.iitm.ac.in",
+      "photo": "/images/people/akash-sharma.jpg",
+      "photoPosition": "center",
+      "linkedin": ""
+    },
     {
       "name": "Ms. Anjana U. P.",
       "role": "Pre-Incubation Coordinator",
@@ -78,14 +85,6 @@
       "role": "Learning Development Coordinator",
       "email": "ldc@sie.iitm.ac.in",
       "photo": "/images/people/amrutha-narayanan.jpg",
-      "linkedin": ""
-    }, 
-    
-    {
-      "name": "Ms. Isai Tamizh ",
-      "role": "Data Analyst",
-      "email": "dataanalyst@sie.iitm.ac.in",
-      "photo": "/images/people/Isai.png",
       "linkedin": ""
     },
     {
@@ -233,6 +232,16 @@
           "linkedin": "https://www.linkedin.com/in/srkris/"
         },
         {
+          "name": "Prof. Vijayalakshmi",
+          "role": "Advisor",
+          "linkedin": ""
+        },
+        {
+          "name": "Dr. Abhijit P. Deshpande",
+          "role": "Advisor",
+          "linkedin": "https://www.linkedin.com/in/abhijit-deshpande-55ba3224a/"
+        },
+        {
           "name": "Prof. Basavaraja Madivala Gurappa",
           "role": "Advisor",
           "linkedin": "https://www.linkedin.com/in/basaiitm/"
@@ -253,9 +262,29 @@
           "linkedin": "https://www.linkedin.com/in/pandian-ps-51721962/"
         },
         {
+          "name": "Dr. Lalithambika",
+          "role": "Advisor",
+          "linkedin": ""
+        },
+        {
           "name": "Prof. R. Dhamodharan",
           "role": "Advisor",
           "linkedin": "https://www.linkedin.com/in/dhamodharanraghavachari/"
+        },
+        {
+          "name": "Prof. Milind Brahme",
+          "role": "Advisor",
+          "linkedin": ""
+        },
+        {
+          "name": "Prof. Rama Shanker Verma",
+          "role": "Advisor",
+          "linkedin": ""
+        },
+        {
+          "name": "Prof. Ramesh",
+          "role": "Advisor",
+          "linkedin": ""
         },
         {
           "name": "Prof. M. Thenmozhi",
