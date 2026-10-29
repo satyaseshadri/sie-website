@@ -11,8 +11,8 @@ const STUDIOS = [
     name: 'AI Studio',
     desc: 'A venture studio building AI-first companies out of IIT Madras research — from foundational models to applied intelligence in manufacturing, healthcare and education.',
     accent: 'border-t-brand-blue',
-    tag: 'Applications open · closes 23rd October',
-    tagClass: 'bg-emerald-500/15 text-emerald-700',
+    tag: 'Closed',
+    tagClass: 'bg-navy/10 text-navy',
     detailsHref: 'https://wsai.iitm.ac.in/aistudio/',
     detailsExternal: true,
   },
@@ -49,11 +49,11 @@ export default function Studios() {
                   </a>
                 ) : s.detailsStatic ? (
                   <a href={s.detailsHref} className="btn-ghost mt-5">
-                    Programme details
+                    Programme details ↗
                   </a>
                 ) : (
                   <Link href={s.detailsHref} className="btn-ghost mt-5">
-                    Programme details
+                    Programme details →
                   </Link>
                 ))}
             </div>

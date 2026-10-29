@@ -26,10 +26,12 @@ const NIRMAAN_STATS = [
 ];
 
 const WINS = [
+  { team: 'SUAS IITM', win: '1st — Technical Design Report and Best Website, RoboNation SUAS 2026' },
+  { team: 'Team AgniRath', win: '3rd internationally — Sasol Solar Challenge 2026 (1,192 km)' },
   { team: 'Avishkar Hyperloop', win: 'Champions — Global Hyperloop Competition 2026' },
-  { team: 'Raftar Formula Racing', win: '2nd place — Formula Bharat Challenge' },
-  { team: 'Team Anveshak', win: '2nd runner-up + Best Rover Mission — International Rover Challenge 2026' },
-  { team: 'Team Agnirath', win: 'First Indian team in 15 years to cover 600+ km — World Solar Challenge 2025' },
+  { team: 'Raftar Formula Racing', win: '2nd overall, Electric — Formula Bharat 2026' },
+  { team: 'Team Anveshak', win: '3rd overall + RADO Mission Award — International Rover Challenge 2026' },
+  { team: 'Team AgniRath', win: 'First Indian team in 15 years to cover 600+ km — World Solar Challenge 2025' },
 ];
 
 export default function Ecosystem() {
@@ -71,9 +73,10 @@ export default function Ecosystem() {
         </div>
         <div className="mt-10 rounded-2xl border border-navy/10 bg-accent-pale/40 p-6">
           <p className="kicker">Recent wins</p>
+          <p className="mt-2 text-sm text-ink/60">Latest CFI competition results from 2025–26.</p>
           <div className="mt-4 grid gap-4 md:grid-cols-2">
             {WINS.map((w) => (
-              <div key={w.team} className="flex gap-3">
+              <div key={`${w.team}-${w.win}`} className="flex gap-3">
                 <span className="mt-1 text-accent">★</span>
                 <p className="text-sm leading-relaxed text-ink/80"><strong className="text-navy">{w.team}</strong> — {w.win}</p>
               </div>

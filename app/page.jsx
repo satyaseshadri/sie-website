@@ -5,7 +5,6 @@ import startups from '../data/startups.json';
 import news from '../data/news.json';
 import sponsors from '../data/sponsors.json';
 import { Section } from '../components/Section';
-import PosterModal from '../components/PosterModal';
 
 export const metadata = {
   title: 'School of Innovation & Entrepreneurship | IIT Madras',
@@ -22,17 +21,12 @@ const STACK = [
 ];
 
 // Add new items at the top with badge: 'New'. Older ones use badge: 'Announcement'.
-const ANNOUNCEMENTS = [
-  { badge: 'New', text: 'AI Studio applications are open until 23rd October 2026', href: 'https://wsai.iitm.ac.in/aistudio/' },
-  { badge: 'Announcement', text: 'MS (Entrepreneurship) — January 2027 cohort applications are open until 30th October 2026', href: 'https://research.iitm.ac.in/' },
-];
+const ANNOUNCEMENTS = [];
 
 export default function Home() {
   return (
     <>
-       <PosterModal /> 
-
-      {/* Announcements — fixed under navbar; content scrolls */}
+      {ANNOUNCEMENTS.length > 0 && (
       <div className="sticky top-20 z-40 overflow-hidden bg-navy py-3 sm:top-24">
         <div className="marquee-track flex w-max">
           {[0, 1].map((copy) => (
@@ -50,6 +44,7 @@ export default function Home() {
           ))}
         </div>
       </div>
+      )}
 
       {/* Hero */}
       <div className="border-b border-navy/10 bg-white">
@@ -163,10 +158,10 @@ export default function Home() {
         title="Backed by industry"
         lead="Organisations that sponsor programmes, teams and infrastructure across the SIE ecosystem."
       >
-        <div className="mt-10 grid grid-cols-2 items-center gap-x-8 gap-y-10 sm:grid-cols-4">
+        <div className="mt-10 grid grid-cols-2 gap-x-8 gap-y-8 sm:grid-cols-4">
           {sponsors.map((s) => (
-            <div key={s.name} className="flex items-center justify-center" title={s.name}>
-              <Image src={s.logo} alt={s.name} width={240} height={96} className="max-h-12 w-auto object-contain opacity-80 transition hover:opacity-100" />
+            <div key={s.name} className="flex h-24 items-center justify-center px-4" title={s.name}>
+              <Image src={s.logo} alt={s.name} width={240} height={80} className="h-14 w-auto max-w-full object-contain opacity-90 transition hover:opacity-100" />
             </div>
           ))}
         </div>

@@ -16,6 +16,7 @@ const NAV = [
       { label: 'Courses', href: '/programs/courses/' },
     ],
   },
+  // { label: 'Research', href: '/research/' },
   { label: 'Ecosystem', href: '/ecosystem/' },
   { label: 'Venture Studios', href: '/studios/' },
   { label: 'Startups', href: '/startups/' },
@@ -39,25 +40,25 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-navy/10 bg-white/95 backdrop-blur">
-      <div className="container-site flex h-20 items-center justify-between gap-4 sm:h-24">
-        <Link href="/" className="flex min-w-0 items-center gap-3" onClick={() => setOpen(false)}>
+      <div className="mx-auto flex h-20 w-full max-w-[88rem] flex-nowrap items-center justify-between gap-3 px-5 sm:h-24 sm:px-8">
+        <Link href="/" className="flex min-w-0 shrink-0 items-center gap-3" onClick={() => setOpen(false)}>
           <Image
             src="/images/sie-logo.png"
             alt="School of Innovation & Entrepreneurship, IIT Madras"
             width={640}
             height={201}
             priority
-            className="h-12 w-auto sm:h-16"
+            className="h-12 w-auto lg:h-12 xl:h-16"
           />
         </Link>
 
-        <nav className="hidden items-center gap-0.5 lg:flex" aria-label="Main">
+        <nav className="hidden flex-nowrap items-center lg:flex" aria-label="Main">
           {NAV.map((item) =>
             item.children ? (
-              <div key={item.label} className="group relative">
-                <Link href={item.href} className="flex items-center gap-1 rounded-md px-2 py-2 text-[13px] font-medium text-navy/80 hover:bg-navy/5 hover:text-navy xl:px-2.5 xl:text-sm">
+              <div key={item.label} className="group relative shrink-0">
+                <Link href={item.href} className="flex items-center gap-1 whitespace-nowrap rounded-md px-2 py-2 text-[13px] font-medium text-navy/80 hover:bg-navy/5 hover:text-navy xl:px-2.5 xl:text-sm">
                   {item.label}
-                  <svg className="h-3 w-3" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>
+                  <svg className="h-3 w-3 shrink-0" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2.5 4.5 6 8l3.5-3.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" /></svg>
                 </Link>
                 <div className="invisible absolute left-0 top-full w-72 rounded-xl border border-navy/10 bg-white p-2 opacity-0 shadow-xl transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
                   {item.children.map((c) => (
@@ -68,20 +69,20 @@ export default function Header() {
                 </div>
               </div>
             ) : (
-              <Link key={item.href} href={item.href} className="rounded-md px-2 py-2 text-[13px] font-medium text-navy/80 hover:bg-navy/5 hover:text-navy xl:px-2.5 xl:text-sm">
+              <Link key={item.href} href={item.href} className="shrink-0 whitespace-nowrap rounded-md px-2 py-2 text-[13px] font-medium text-navy/80 hover:bg-navy/5 hover:text-navy xl:px-2.5 xl:text-sm">
                 {item.label}
               </Link>
             )
           )}
         </nav>
 
-        <div className="flex items-center gap-3">
+        <div className="flex shrink-0 items-center gap-3">
           <Image
             src="/images/iitm-seal.png"
             alt="IIT Madras"
             width={400}
             height={400}
-            className="hidden h-14 w-14 md:block"
+            className="hidden h-12 w-12 xl:block"
           />
           <button
             type="button"

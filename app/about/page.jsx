@@ -47,25 +47,25 @@ export default function About() {
       <Section className="bg-accent-pale/50" kicker="Leadership" title="Messages from our leadership">
         <div className="mt-10 grid gap-6 md:grid-cols-2">
           {team.leadership.map((l) => (
-            <figure key={l.name} className="card">
-              <blockquote className="text-sm leading-relaxed text-ink/75">“{l.message}”</blockquote>
-              <figcaption className="mt-4 flex items-center gap-3">
+            <figure key={l.name} className="card flex h-full flex-col">
+              <blockquote className="flex-1 text-sm leading-relaxed text-ink/75">“{l.message}”</blockquote>
+              <figcaption className="mt-5 flex items-center gap-3">
                 {l.photo ? (
                   <Image
-  src={l.photo}
-  alt={l.name}
-  width={480}
-  height={480}
-  className="h-14 w-14 rounded-full object-cover object-top"
-/>
+                    src={l.photo}
+                    alt={l.name}
+                    width={480}
+                    height={480}
+                    className={`h-16 w-16 flex-none rounded-full object-cover ${l.photoPosition === 'center' ? 'object-center' : 'object-top'}`}
+                  />
                 ) : (
-                  <span className="flex h-12 w-12 items-center justify-center rounded-full bg-accent-pale font-display font-bold text-accent-dark">
+                  <span className="flex h-16 w-16 flex-none items-center justify-center rounded-full bg-accent-pale font-display font-bold text-accent-dark">
                     {l.name.replace(/^(Prof\.|Dr\.)\s*/i, '').split(' ').slice(0, 2).map((w) => w[0]).join('')}
                   </span>
                 )}
-                <span>
-                  <span className="block font-display font-bold text-navy">{l.name}</span>
-                  <span className="block text-sm text-accent">{l.role}</span>
+                <span className="flex min-h-16 min-w-0 flex-col justify-center">
+                  <span className="block font-display font-bold leading-snug text-navy">{l.name}</span>
+                  <span className="mt-0.5 block text-sm leading-snug text-accent">{l.role}</span>
                 </span>
               </figcaption>
             </figure>

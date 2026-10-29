@@ -28,19 +28,14 @@ export default function OpenCalls() {
               <Link href="https://wsai.iitm.ac.in/aistudio/" className="btn-ghost">Programme details</Link>
             </div>
           </div>
-        <div className="card border-t-4 border-t-navy">
-            {/* <span className="tag bg-navy/10 text-navy">Closed</span> */}
-            <span className="tag bg-navy/10 text-navy-700">Applications open · closes 30th October</span>
-
+        <div className="card">
+            <span className="tag bg-navy/10 text-navy">Closed</span>
             <h2 className="mt-3 font-display text-2xl font-bold text-navy">MS (Entrepreneurship) — January 2027 cohort</h2>
             <p className="mt-3 leading-relaxed text-ink/70">
-              Admissions for the January 2027 cohort are open until 30 October 2026. Apply now, and meet the
+              Admissions for the January 2027 cohort are closed. Check back for the next cycle, and meet the
               scholars currently building ventures in the programme.
             </p>
-            <div className="mt-5 flex flex-wrap gap-3">
-              <a href="https://research.iitm.ac.in/" rel="noopener" target="_blank" className="btn-primary">Apply now ↗</a>
-              <Link href="/startups/#scholars" className="btn-ghost">Meet the MS(E) scholars</Link>
-            </div>
+            <Link href="/startups/#scholars" className="btn-ghost mt-5">Meet the MS(E) scholars</Link>
           </div>
         <div className="card ">
             {/* <span className="tag bg-emerald-500/15 text-emerald-700">Applications open · closes 28th September</span> */}

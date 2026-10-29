@@ -1,0 +1,102 @@
+{
+  "kicker": "IIT Madras",
+  "title": "CREST",
+  "lead": "Centre for Research on Start-Ups and Risk Financing — an Institute of Eminence research centre at IIT Madras.",
+  "crest": {
+    "fullName": "Centre for Research on Start-Ups and Risk Financing",
+    "shortName": "CREST",
+    "tagline": "An Institute of Eminence research centre at IIT Madras",
+    "dept": "Department of Management Studies, IIT Madras",
+    "about": [
+      "India's startup boom has been driven largely by policy and practice. CREST exists to add academic evidence — so investment decisions, incubation programmes and public schemes rest on data, not anecdote.",
+      "The centre studies innovation, entrepreneurship and risk capital. It builds unique datasets on ventures and investors, publishes scholarly work, and works with ministries, incubators and banks on applied studies.",
+      "SIE and CREST sit in the same campus ecosystem. Faculty who mentor SIE founders also advise CREST research, and SIE's PhD programme draws on the same questions: how ventures form, raise and scale in India."
+    ],
+    "site": "https://doms.iitm.ac.in/crest/",
+    "email": "crest@wmail.iitm.ac.in",
+    "report": "https://doms.iitm.ac.in/crest/wp-content/uploads/2024/07/CREST_Summary_Report_21_24_updated.pdf"
+  },
+  "pillars": [
+    {
+      "title": "Scholarly research",
+      "desc": "New work on innovation, entrepreneurship and risk capital, aimed at top-tier journals and Indian evidence."
+    },
+    {
+      "title": "Data platform",
+      "desc": "A repository on venturing and risk capital — the missing infrastructure for high-quality research in India."
+    },
+    {
+      "title": "Evidence for practice",
+      "desc": "Impact studies with incubators, investor networks and government missions, grounded in real programme data."
+    },
+    {
+      "title": "Thought leadership",
+      "desc": "Reports, dashboards and convenings that put research in front of policymakers and operators."
+    }
+  ],
+  "domains": [
+    { "name": "Venture science", "desc": "How early-stage firms form, hire and survive." },
+    { "name": "Risk capital", "desc": "Valuation, venture capital and the cost of capital for Indian startups." },
+    { "name": "Incubation & policy", "desc": "What public schemes and incubators actually change for founders." },
+    { "name": "Deep-tech ecosystems", "desc": "Lab-to-market paths, IP and university-linked ventures." },
+    { "name": "Sector platforms", "desc": "National dashboards for biotech, textiles, education and more." },
+    { "name": "Impact & inclusion", "desc": "Health equity, circular economy and grassroots enterprise." }
+  ],
+  "studies": [
+    {
+      "title": "Valuing early-stage startups",
+      "partner": "CAMS IITM Fintech Innovation Lab",
+      "desc": "A machine-learning comparable-company model for early-stage valuation, using CREST's startup datasets instead of cash-flow forecasts that young firms cannot support."
+    },
+    {
+      "title": "Biotech startup dashboard",
+      "partner": "BIRAC",
+      "desc": "A national view of biotech startups, founders and funding — built on CREST platforms such as VIBGYOR and ONE-INNOVATION."
+    },
+    {
+      "title": "Ubharte Sitaare impact",
+      "partner": "Exim Bank",
+      "desc": "Before-and-after social impact assessment of companies supported under the Ubharte Sitaare programme, using an additionalities framework."
+    },
+    {
+      "title": "GRID grassroots enterprises",
+      "partner": "Exim Bank",
+      "desc": "Socio-economic outcomes of community enterprises in handloom, pottery, agriculture and rural manufacturing."
+    },
+    {
+      "title": "MeitY TIDE 2.0 assessment",
+      "partner": "MeitY Startup Hub",
+      "desc": "Impact evaluation of the TIDE 2.0 incubation scheme — revenue, jobs, follow-on capital and IP, triangulated with incubator and founder discussions."
+    },
+    {
+      "title": "Tamil Nadu startup ecosystem",
+      "partner": "StartupTN · YNOS",
+      "desc": "A state-level snapshot of policy, funding and founder outcomes, aligned with Startup India."
+    },
+    {
+      "title": "Patents and startup performance",
+      "partner": "IIT Madras",
+      "desc": "How intellectual property relates to survival, fundraising and competitive advantage in the Indian startup ecosystem."
+    },
+    {
+      "title": "Student startups from HEIs",
+      "partner": "IIT Madras",
+      "desc": "Which founder backgrounds, team traits and campus factors predict success for student ventures."
+    }
+  ],
+  "faculty": {
+    "investigators": [
+      { "name": "Prof. Thillai Rajan A.", "role": "Principal Investigator", "dept": "Department of Management Studies" },
+      { "name": "Prof. R. K. Amit", "role": "Co-Principal Investigator", "dept": "Department of Management Studies" },
+      { "name": "Prof. P. Krishna Prasanna", "role": "Co-Principal Investigator", "dept": "Department of Management Studies" }
+    ],
+    "advisors": [
+      { "name": "Prof. Ashok Jhunjhunwala", "dept": "Electrical Engineering · IITM Research Park" },
+      { "name": "Prof. Ashwin Mahalingam", "dept": "Civil Engineering" },
+      { "name": "Prof. Krishnan Balasubramanian", "dept": "Mechanical Engineering" },
+      { "name": "Prof. Prabhu Rajagopal", "dept": "Mechanical Engineering" },
+      { "name": "Prof. T. Pradeep", "dept": "Chemistry" },
+      { "name": "Prof. Satyanarayanan Seshadri", "dept": "Applied Mechanics · Head, SIE" }
+    ]
+  }
+}
