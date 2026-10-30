@@ -29,20 +29,18 @@ export default function PersonCard({ person }) {
           {initials(person.name)}
         </span>
       )}
-      <div className="min-w-0">
+      <div className="min-w-0 flex-1">
         <p className="font-display font-semibold leading-snug text-navy">{person.name}</p>
         <p className="text-sm text-ink/60">{person.role}</p>
-        <div className="mt-1 flex items-center gap-3">
-          {person.email && (
-            <a href={`mailto:${person.email}`} className="truncate text-xs text-brand-blue hover:underline">{person.email}</a>
-          )}
-          {person.linkedin && (
-            <a href={person.linkedin} rel="noopener" target="_blank" className="text-[#0A66C2] hover:opacity-75" aria-label={`${person.name} on LinkedIn`}>
-              <LinkedInIcon />
-            </a>
-          )}
-        </div>
+        {person.email && (
+          <a href={`mailto:${person.email}`} className="mt-1 block truncate text-xs text-brand-blue hover:underline">{person.email}</a>
+        )}
       </div>
+      {person.linkedin && (
+        <a href={person.linkedin} rel="noopener" target="_blank" className="flex-none self-center text-[#0A66C2] hover:opacity-75" aria-label={`${person.name} on LinkedIn`}>
+          <LinkedInIcon />
+        </a>
+      )}
     </div>
   );
 }

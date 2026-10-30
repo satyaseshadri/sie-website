@@ -32,6 +32,11 @@ export default function News() {
               </div>
               <h2 className="mt-3 font-display text-xl font-bold leading-snug text-navy">{n.title}</h2>
               <p className="mt-3 leading-relaxed text-ink/70">{n.summary}</p>
+              {n.link && (
+                <a href={n.link} target="_blank" rel="noopener" className="mt-4 inline-block text-sm font-semibold text-accent hover:underline">
+                  Read the story ↗
+                </a>
+              )}
             </article>
           ))}
         </div>

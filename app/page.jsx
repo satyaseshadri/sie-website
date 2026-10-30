@@ -186,6 +186,11 @@ export default function Home() {
               <p className="text-xs font-semibold uppercase tracking-wider text-accent">{n.tag} · {new Date(n.date).toLocaleDateString('en-IN', { day: 'numeric', month: 'short', year: 'numeric' })}</p>
               <h3 className="mt-2 font-display text-lg font-bold leading-snug text-navy">{n.title}</h3>
               <p className="mt-3 text-sm leading-relaxed text-ink/70">{n.summary}</p>
+              {n.link && (
+                <a href={n.link} target="_blank" rel="noopener" className="mt-4 inline-block text-sm font-semibold text-accent hover:underline">
+                  Read the story ↗
+                </a>
+              )}
             </article>
           ))}
         </div>
