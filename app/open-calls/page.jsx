@@ -17,8 +17,7 @@ export default function OpenCalls() {
       <Section>
         <div className="grid gap-6 md:grid-cols-2">
         <div className="card">
-            <span className="tag bg-navy/10 text-navy">Closed</span>
-            <h2 className="mt-3 font-display text-2xl font-bold text-navy">AI Venture Studio </h2>
+            <h2 className="font-display text-2xl font-bold text-navy">AI Venture Studio </h2>
             <p className="mt-3 leading-relaxed text-ink/70">
             We co-build AI, ML, and data science ventures from research and talent — from idea to pilot, and from pilot to scale.
             <br />

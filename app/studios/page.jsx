@@ -11,8 +11,6 @@ const STUDIOS = [
     name: 'AI Studio',
     desc: 'A venture studio building AI-first companies out of IIT Madras research — from foundational models to applied intelligence in manufacturing, healthcare and education.',
     accent: 'border-t-brand-blue',
-    tag: 'Closed',
-    tagClass: 'bg-navy/10 text-navy',
     detailsHref: 'https://wsai.iitm.ac.in/aistudio/',
     detailsExternal: true,
   },
@@ -39,8 +37,8 @@ export default function Studios() {
         <div className="grid gap-6 md:grid-cols-2">
           {STUDIOS.map((s) => (
             <div key={s.name} className={`card border-t-4 ${s.accent}`}>
-              <span className={`tag ${s.tagClass}`}>{s.tag}</span>
-              <h2 className="mt-3 font-display text-2xl font-bold text-navy">{s.name}</h2>
+              {s.tag && <span className={`tag ${s.tagClass}`}>{s.tag}</span>}
+              <h2 className={`${s.tag ? 'mt-3 ' : ''}font-display text-2xl font-bold text-navy`}>{s.name}</h2>
               <p className="mt-3 leading-relaxed text-ink/70">{s.desc}</p>
               {s.detailsHref &&
                 (s.detailsExternal ? (
