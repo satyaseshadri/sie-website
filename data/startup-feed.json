@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T09:11:22.513Z",
+  "updated": "2026-11-15T09:40:29.602Z",
   "items": [
     {
       "startup": "Inbound Aerospace",
@@ -42,6 +42,13 @@
       "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOR1dTbWRJSW5CWlFINDFEOWxjOFlQYWFtNHhhT0gzSkNzUkswT2ZNNV82UV9NSlFTOHhQWjVNZl9YZ1RKdFpxeVJ3VlNUNTNqVnpHdTVmazU0ak5DWnY5cUxDbTREbmpWdVpzUXRUeEtVSk5kVmpKMkE4aURxU2J2d1F3VEFlZm9LVkYyWEZNZ1BwcXVOSjQyVW5FeGN3QzBFc2RhOXI1emtfQ0ZpZy1UVktlQ01mNHMwMlNQVE1IbWtVaEI4ZUUwTWJCWDY5V0xwQWYzc2l30gHjAUFVX3lxTE1iYThXMEszN2tQVWNic0x0ckNxOXExRk53SHpyWEItQmFaRjNmOFdVZVBVVnc2UlBYdEVWYWFlRlhEbURnSno1ek1CMllzS1VxUlVIdjIwMnN0MzNpaVg5d3VQbE1lUVBmQUozUUE2UEVSZnJFc2JFcTZvNDFPLXFGNWxYbXhOSzY5ZTBjYXQyVEdNazdDTmFTTjk1cXc1N0ZUb0RPVXBNQjF5MlVnR1JFUTNuQVYxRlVabUZBNkFPbWdiWmI0UU5WVWh0QzRzVDZyMGgxQzZWTThQMDdNTmRsZHdJ?oc=5",
       "date": "2026-09-28",
       "source": "EdexLive"
+    },
+    {
+      "startup": "GalaxEye",
+      "title": "How IIT Madras-incubated GalaxEye is building the world’s first OptoSAR tech after space setback",
+      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZmU5aDRxaHp2XzFGcGVNQ0s0STVOU3g5ZkFER3FIOG9aRkpQTE1HZ3pNeTZfTEkzUG55c1VHbEZlMU9kTk1wNjdHb1NIZWZfc1BZRjlTa1cxZHQyOFRWZ1BDRFVmdS1nTXFyZ3BSbXdRaE13Y3hoSkVzWDRnSUYtSHB2Y1k3dlhoRjk5YVJUN1FxRW5Wemc4ME95M2NFcS03N0EtMXh2VU9HS0ZM0gGyAUFVX3lxTE1DU2NfSW03LXh3czh3Q195dzNMVHJILU1vd3Q0Q3ZSUFZNamRINmQyckdzYVMxX0taT0ZfZXpZZmRwSFBKOW50aVpvaHlnS1dhSXVEaEoweEJZM015QVhTcV9DN2hCX0FTU3ozdURRUHZWNnRYM19vRHp0Njhxdnp4NUR5b2RvLXFrNExpZjN5Ump6WGp4NWlCZWZ6cmgzUV8zdGs3akVmN0U3cXBTWXJJR1E?oc=5",
+      "date": "2026-09-17",
+      "source": "CNBC TV18"
     },
     {
       "startup": "GalaxEye",
@@ -98,13 +105,6 @@
       "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYWpHRnpNZEdyZ1YtWDZwYkZ1bDNMaFJsN1JxQjVuWlNOeGdwMUZKWTg5aXJzQ013QlEtTWFweW04VmIxMmk4aXo1QlNDZlYtZy1fQS11NVQyeF8tSl81OXpaMFR6UkZYdlk0LTdUbEN1YTJjeG5KMk80VGRuVGVJOVhOcUdVakg2WENJSzlYcmY1SVdzQmpsUlZPSmMzLXhOeEpnNXdRLW82aDFKYnFRRWJQaWI1Q1hGX0s4YnFkZm82cU9SZTg0Z2pGV2RRMFhW0gHXAUFVX3lxTE1ENmFjMmd5YkVpXzJ5MHZjSTdjSVFwQ2JObHlDX3hmUEI2MGtFNzhMM3lIWFFDbExfZE5XZ3ZYRjB3VWlGLXUzcGxTM3oxZTI5RFRJSFpjMWQxLVV2bFhhWWZ1cDltelI0LTF1WEpDS2NzQk9HT0tZaFpwWHIzeGhxOHhCdzZvMWZKUzBHM0ZQUnlIcVQzOWRlYkZzQlNkZkpZY01hbFpOOUdMMGRiMER5b3c3QVUyblVkMXNubG5NRm11WVhndjRocGl3NktLbVJyN25DNkRv?oc=5",
       "date": "2025-05-20",
       "source": "The Hindu"
-    },
-    {
-      "startup": "Matterize",
-      "title": "IIT Madras Incubates 100+ Deep Tech Startups in a Single Financial Year — A Historic First",
-      "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOUlVyREZoQmduaWhBSHNPcnAzODA0Uk5jcjl5UnVYVThMeXJXdncxYndlcVc1YThxblg5YkhLRWtIYmRWdjNpMm85X1VBRzFqdFJOcll3cWJ4cXNOWXJoU181eVVzX3c5bnNCOXBocU9kWFRXU1E4SVA5RmxZUmtLZ0RLemZ4R0FGbk1vNl9jbHl4R1hCM0szaEU2RlhJaUlsNGZNVmppcTZNTXdCN0oxQXBaaw?oc=5",
-      "date": "2025-04-26",
-      "source": "Indian Institute of Technology Madras"
     },
     {
       "startup": "Waterfly Technologies",
