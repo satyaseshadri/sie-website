@@ -1,6 +1,6 @@
 const STEPS = [
   { n: '01', name: 'Apply', detail: 'Register your team and idea', group: 'nirmaan' },
-  { n: '02', name: 'Select', detail: 'Selection into the cohort', group: 'nirmaan' },
+  { n: '02', name: 'Onboarding', detail: 'Selected teams join the cohort', group: 'nirmaan' },
   { n: '03', name: 'Pratham', detail: 'Training and market discovery', group: 'nirmaan' },
   { n: '04', name: 'Akshar', detail: 'Seed grant, MVP and business plan', group: 'nirmaan' },
   { n: '05', name: 'Incubate', detail: 'Join the IC at IITM Research Park', group: 'ic' },
