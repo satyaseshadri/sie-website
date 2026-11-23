@@ -1,13 +1,14 @@
 'use client';
 
+import SvaasaFrame from '../../../components/SvaasaFrame';
+
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || '';
 
 export default function IwenAwardPage() {
   return (
-    <iframe
+    <SvaasaFrame
       title="National I-WEN MSME Award 2026"
-      src={`${prefix}/svaasa/iwen-award.html`}
-      className="fixed inset-0 z-[60] h-screen w-screen border-0 bg-white"
+      file={`${prefix}/svaasa/iwen-award.html`}
     />
   );
 }
