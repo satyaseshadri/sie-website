@@ -15,18 +15,22 @@ export default function OpenCalls() {
         lead="Active and upcoming opportunities across the SIE ecosystem — applications, awards and challenges."
       />
       <Section>
-        <div className="grid gap-6 md:grid-cols-2">
-        <div className="card">
-            <h2 className="font-display text-2xl font-bold text-navy">AI Venture Studio </h2>
-            <p className="mt-3 leading-relaxed text-ink/70">
-            We co-build AI, ML, and data science ventures from research and talent — from idea to pilot, and from pilot to scale.
-            <br />
-            A venture studio by WSAI × SIE × IIT Madras Incubation Cell.
+        <a
+          href="https://wsai.iitm.ac.in/aistudio/"
+          rel="noopener"
+          target="_blank"
+          className="card mb-6 flex flex-col gap-6 border-brand-blue/40 bg-accent-pale/60 focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 sm:flex-row sm:items-center sm:justify-between"
+        >
+          <div className="min-w-0">
+            <p className="text-xs font-bold uppercase tracking-wider text-brand-blue">WSAI × SIE × IIT Madras Incubation Cell</p>
+            <h2 className="mt-2 font-display text-2xl font-bold text-navy">AI Venture Studio</h2>
+            <p className="mt-2 max-w-2xl leading-relaxed text-ink/70">
+              We co-build AI, ML, and data science ventures from research and talent — from idea to pilot, and from pilot to scale.
             </p>
-            <div className="mt-5 flex flex-wrap gap-3">
-              <Link href="https://wsai.iitm.ac.in/aistudio/" className="btn-ghost">Programme details</Link>
-            </div>
           </div>
+          <span className="btn-primary shrink-0">Visit the studio ↗</span>
+        </a>
+        <div className="grid gap-6 md:grid-cols-2">
         <div className="card">
             <span className="tag bg-navy/10 text-navy">Closed</span>
             <h2 className="mt-3 font-display text-2xl font-bold text-navy">MS (Entrepreneurship) — January 2027 cohort</h2>

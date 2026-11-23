@@ -237,8 +237,9 @@ h1,h2,h3,h4,.impact-number{font-family:'Times New Roman',Times,serif}
 .brand-logo,.brand-iitm,.partner-logo{height:64px;width:auto;object-fit:contain}
 .brand-word{font-size:1.85rem;background:linear-gradient(90deg,#3b3f8f,#1A5FAB 45%,#2E9E78);-webkit-background-clip:text;background-clip:text;color:transparent}
 .brand-tagline{font-size:.68rem}
-.main-nav ul{gap:14px;justify-content:center}
-.main-nav a{font-size:.9rem;font-weight:700;color:var(--ink)}
+.main-nav ul{gap:14px;flex-wrap:nowrap;justify-content:center}
+.main-nav a{font-size:.85rem;font-weight:600;color:var(--ink);white-space:nowrap}
+@media(min-width:1201px){.main-nav{position:static;left:auto;transform:none;flex:1;min-width:0;display:flex;justify-content:center}}
 .main-nav a:hover,.main-nav a.active{color:var(--royal);border-color:var(--royal)}
 /* ticker scrolls away with the page (not sticky); date shown as a chip */
 .event-ticker{position:sticky;top:var(--hh);z-index:90;background:#0a1626}
@@ -327,6 +328,15 @@ section{padding:64px 0}
 .footer-grid{gap:16px 24px}
 .footer-explore-list{grid-template-columns:1fr}
 }
+.award-popup{position:fixed;inset:0;z-index:300;display:grid;place-items:center;padding:20px;background:rgba(12,32,54,.55)}
+.award-popup[hidden]{display:none}
+.award-popup-card{position:relative;width:min(520px,100%);background:#fff;border-radius:12px;padding:28px 28px 24px;box-shadow:0 18px 50px rgba(12,32,54,.25)}
+.award-popup-card h2{font-size:1.55rem;color:var(--navy);margin:6px 0 10px}
+.award-popup-logo{height:28px;width:auto;display:block;margin:2px 0 12px}
+.award-popup-card p{color:var(--mute);margin-bottom:8px}
+.award-popup-note{font-size:.85rem}
+.award-popup-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.award-popup-close{position:absolute;top:10px;right:12px;border:0;background:none;font-size:1.6rem;line-height:1;color:var(--navy);cursor:pointer}
 @media(max-width:380px){
 .brand{gap:6px}
 .brand-logo,.brand-iitm{height:40px}
@@ -347,7 +357,7 @@ section{padding:64px 0}
 <a class="skip-link" href="#main">Skip to content</a>
 <header class="site-header" id="siteHeader"><div class="header-inner">
 <a href="#top" class="brand"><img src="/images/iitm-seal.png" alt="IIT Madras" class="brand-iitm"><img src="static/images/logo/svaasa.png" alt="SVAASA IIT Madras" class="brand-logo"></a>
-<nav class="main-nav" id="mainNav" aria-label="Primary"><ul><li><a href="#about" data-nav>About</a></li><li><a href="#model" data-nav>SVAASA Model</a></li><li><a href="#programmes" data-nav>Programmes</a></li><li><a href="#ecosystem" data-nav>Ecosystem</a></li><li><a href="#partners" data-nav>Partners</a></li><li><a href="#impact" data-nav>Impact</a></li><li><a href="#gallery" data-nav>Gallery</a></li><li><a href="#partner" data-nav>Partner With Us</a></li></ul></nav>
+<nav class="main-nav" id="mainNav" aria-label="Primary"><ul><li><a href="#about" data-nav>About</a></li><li><a href="#model" data-nav>SVAASA Model</a></li><li><a href="#programmes" data-nav>Programmes</a></li><li><a href="#ecosystem" data-nav>Ecosystem</a></li><li><a href="#partners" data-nav>Partners</a></li><li><a href="#impact" data-nav>Impact</a></li><li><a href="#gallery" data-nav>Gallery</a></li><li><a href="iwen/" target="_top">I-WEN Award</a></li><li><a href="#partner" data-nav>Partner With Us</a></li></ul></nav>
 <div class="header-partner-logos"><img src="static/images/logo/logo_sos.png?v=5" alt="School of Sustainability, IIT Madras" class="partner-logo partner-logo-sos"><img src="static/images/logo/sie-logo.png" alt="SIE IIT Madras" class="partner-logo partner-logo-sie"></div>
 <div class="header-actions"><button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav"><span></span><span></span><span></span></button></div>
 </div></header>
@@ -404,16 +414,32 @@ section{padding:64px 0}
 
 <footer class="site-footer footer-wide"><div class="section-inner footer-grid">
 <div class="footer-brand"><div class="footer-brand-stack"><div class="footer-logo-panel"><img src="static/images/logo/svaasa.png" alt="SVAASA IIT Madras" class="footer-logo"></div><p class="footer-fullform">Sustainability Ventures — Academia Alliance — Studio &amp; Accelerator.</p></div></div>
-<div class="footer-col"><h4>Explore</h4><ul class="footer-explore-list"><li><a href="#about">About</a></li><li><a href="#model">SVAASA Model</a></li><li><a href="#programmes">Programmes</a></li><li><a href="#ecosystem">Ecosystem</a></li><li><a href="#partners">Partners</a></li><li><a href="#impact">Impact</a></li><li><a href="#gallery">Gallery</a></li><li><a href="#partner">Partner With Us</a></li></ul></div>
+<div class="footer-col"><h4>Explore</h4><ul class="footer-explore-list"><li><a href="#about">About</a></li><li><a href="#model">SVAASA Model</a></li><li><a href="#programmes">Programmes</a></li><li><a href="#ecosystem">Ecosystem</a></li><li><a href="#partners">Partners</a></li><li><a href="#impact">Impact</a></li><li><a href="#gallery">Gallery</a></li><li><a href="iwen/" target="_top">I-WEN Award</a></li><li><a href="#partner">Partner With Us</a></li></ul></div>
 <div class="footer-col footer-col-details"><h4>Reach out</h4><p class="footer-address"><span class="footer-addr-line">Room no 408, Biotech block 2,</span><span class="footer-addr-line">IIT Madras</span><span class="footer-addr-line">Chennai – 600036</span></p><p class="footer-emails"><a href="mailto:svaasa.iitm@gmail.com">svaasa.iitm@gmail.com</a><a href="mailto:svaasa@iitm.ac.in">svaasa@iitm.ac.in</a></p>
 <div class="footer-socials"><a href="https://www.linkedin.com/posts/svaasa-iitm_svaasa-iitmadras-sustainability-activity-7503326397562630144-jwgT" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.139 1.45-2.139 2.935v5.671H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a><a href="https://www.instagram.com/p/DdnbVWQTQW1/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.745 1.652 4.893 4.893.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.662 4.745-4.893 4.893-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.745-1.66-4.894-4.893-.057-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.745 4.894-4.893 1.265-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.695.072 7.053.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg></a></div></div>
 </div><div class="footer-bottom"><div class="section-inner footer-bottom-inner"><p>© 2026 SVAASA, IIT Madras. All rights reserved.</p></div></div></footer>
 
 <div class="gallery-lightbox" id="galleryLightbox" hidden role="dialog" aria-modal="true" aria-label="Enlarged photo"><button type="button" class="gallery-lightbox-close" id="galleryLightboxClose" aria-label="Close">&times;</button><img src="" alt="" id="galleryLightboxImg"></div>
 
+<div class="award-popup" id="awardPopup" hidden>
+<div class="award-popup-card" role="dialog" aria-modal="true" aria-labelledby="awardPopupTitle">
+<button type="button" class="award-popup-close" id="awardPopupClose" aria-label="Close">&times;</button>
+<p class="eyebrow">SVAASA and Grundfos</p>
+<img class="award-popup-logo" src="static/images/logo/grundfos-blue.jpg" alt="Grundfos">
+<h2 id="awardPopupTitle">National I-WEN MSME Award 2026</h2>
+<p>A joint award for textile dyeing MSMEs, for water efficiency and energy optimisation. There is no registration fee.</p>
+<p class="award-popup-note">Units without complete water or energy data can still apply.</p>
+<div class="award-popup-actions">
+<a class="btn btn-primary" href="iwen/" target="_top">See the award</a>
+<a class="btn btn-primary" href="https://forms.gle/1HSx8jaa2YgKCXSVA" target="_blank" rel="noopener noreferrer">Apply now</a>
+<button type="button" class="btn btn-ghost-light" id="awardPopupLater" style="border-color:var(--navy);color:var(--navy)">Not now</button>
+</div>
+</div>
+</div>
 <button class="back-to-top" id="backToTop" aria-label="Back to top"><svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M12 5l-7 7h4v7h6v-7h4z"/></svg></button>
 <script>
 (function(){
+if('scrollRestoration' in history)history.scrollRestoration='manual';
 var $=function(s,r){return(r||document).querySelector(s)},$$=function(s,r){return[].slice.call((r||document).querySelectorAll(s))};
 var header=$('#siteHeader'),toggle=$('#navToggle'),nav=$('#mainNav'),btt=$('#backToTop');
 if(toggle&&nav)toggle.addEventListener('click',function(){var o=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',o)});
@@ -453,6 +479,19 @@ $$('.gallery-photo-card').forEach(function(card){
 if(lbClose)lbClose.addEventListener('click',closeGalleryLb);
 if(lb)lb.addEventListener('click',function(e){if(e.target===lb)closeGalleryLb()});
 addEventListener('keydown',function(e){if(e.key==='Escape'&&lb&&!lb.hidden)closeGalleryLb()});
+var awardPopup=$('#awardPopup'),awardKey='svaasa-iwen-popup';
+function closeAwardPopup(){if(!awardPopup)return;awardPopup.hidden=true;document.body.style.overflow='';try{sessionStorage.setItem(awardKey,'1')}catch(err){}}
+if(awardPopup){var seen=false;try{seen=sessionStorage.getItem(awardKey)==='1'}catch(err){}
+if(!seen){awardPopup.hidden=false;document.body.style.overflow='hidden'}
+awardPopup.addEventListener('click',function(e){if(e.target===awardPopup)closeAwardPopup()});
+var awardClose=$('#awardPopupClose'),awardLater=$('#awardPopupLater');
+if(awardClose)awardClose.addEventListener('click',closeAwardPopup);
+if(awardLater)awardLater.addEventListener('click',closeAwardPopup);
+$$('.award-popup-actions a').forEach(function(a){a.addEventListener('click',function(){try{sessionStorage.setItem(awardKey,'1')}catch(err){}})});
+addEventListener('keydown',function(e){if(e.key==='Escape'&&awardPopup&&!awardPopup.hidden)closeAwardPopup()});
+}
+function goHash(){var id=location.hash;if(!id||id==='#top'){scrollTo(0,0);return}var el=$(id);if(!el)return;scrollTo(0,el.getBoundingClientRect().top+scrollY-(header?header.offsetHeight:0)-12)}
+goHash();
 })();
 
 </script>

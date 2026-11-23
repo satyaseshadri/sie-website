@@ -23,6 +23,15 @@ const STACK = [
 // Add new items at the top with badge: 'New'. Older ones use badge: 'Announcement'.
 const ANNOUNCEMENTS = [];
 
+const CFI_WINS = [
+  { team: 'SUAS IITM', win: '1st — Technical Design Report and Best Website, RoboNation SUAS 2026', image: '/images/suas-iitm.webp', alt: 'SUAS IITM with their aircraft at the competition' },
+  { team: 'Team AgniRath', win: '3rd internationally — Sasol Solar Challenge 2026 (1,192 km)', image: '/images/agnirath-sasol.jpg', alt: 'AgniRath solar car Aagneya racing at the Sasol Solar Challenge' },
+  { team: 'Avishkar Hyperloop', win: 'Champions — Global Hyperloop Competition 2026', image: '/images/avishkar.jpg', alt: 'Avishkar Hyperloop with the championship trophy' },
+  { team: 'Raftar Formula Racing', win: '2nd overall, Electric — Formula Bharat 2026', image: '/images/cfi-formula.jpg', alt: 'Raftar Formula Racing team at Formula Bharat' },
+  { team: 'Team Anveshak', win: '3rd overall + RADO Mission Award — International Rover Challenge 2026', image: '/images/anveshak.jpg', alt: 'Team Anveshak with their Mars rover' },
+  { team: 'Team AgniRath', win: 'First Indian team in 15 years to cover 600+ km — World Solar Challenge 2025', image: '/images/hyperloop.jpg', alt: 'Team AgniRath at the World Solar Challenge finish line in Adelaide' },
+];
+
 export default function Home() {
   return (
     <>
@@ -110,6 +119,28 @@ export default function Home() {
             </Link>
           ))}
         </div>
+      </Section>
+
+      <Section
+        className="border-t border-navy/10"
+        kicker="Centre for Innovation"
+        title="Competition winners"
+        lead="Latest results from CFI teams in 2025–26 — hyperloop, solar racing, formula, rover and unmanned aircraft."
+      >
+        <div className="mt-10 grid items-start gap-5 sm:grid-cols-2 lg:grid-cols-3">
+          {CFI_WINS.map((w) => (
+            <div key={`${w.team}-${w.win}`} className="card overflow-hidden border-t-4 border-t-brand-red p-0">
+              {w.image && (
+                <Image src={w.image} alt={w.alt} width={1200} height={800} className="h-48 w-full object-cover object-center" />
+              )}
+              <div className="p-6">
+                <p className="font-display text-lg font-bold text-navy">{w.team}</p>
+                <p className="mt-2 text-sm leading-relaxed text-ink/70">{w.win}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+        <Link href="/ecosystem/" className="btn-ghost mt-10">See CFI in the ecosystem</Link>
       </Section>
 
       {/* Startups */}

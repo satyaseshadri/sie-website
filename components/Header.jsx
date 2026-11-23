@@ -40,7 +40,7 @@ export default function Header() {
 
   return (
     <header className="sticky top-0 z-50 border-b border-navy/10 bg-white/95 backdrop-blur">
-      <div className="mx-auto flex h-20 w-full max-w-[88rem] flex-nowrap items-center justify-between gap-3 px-5 sm:h-24 sm:px-8">
+      <div className="container-site flex h-20 items-center justify-between gap-4 sm:h-24">
         <Link href="/" className="flex min-w-0 shrink-0 items-center gap-3" onClick={() => setOpen(false)}>
           <Image
             src="/images/sie-logo.png"
@@ -48,11 +48,11 @@ export default function Header() {
             width={640}
             height={201}
             priority
-            className="h-12 w-auto lg:h-12 xl:h-16"
+            className="h-12 w-auto sm:h-16"
           />
         </Link>
 
-        <nav className="hidden flex-nowrap items-center lg:flex" aria-label="Main">
+        <nav className="hidden flex-nowrap items-center gap-0.5 lg:flex" aria-label="Main">
           {NAV.map((item) =>
             item.children ? (
               <div key={item.label} className="group relative shrink-0">
@@ -82,7 +82,7 @@ export default function Header() {
             alt="IIT Madras"
             width={400}
             height={400}
-            className="hidden h-12 w-12 xl:block"
+            className="hidden h-14 w-14 md:block"
           />
           <button
             type="button"

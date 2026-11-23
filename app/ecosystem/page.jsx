@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import Image from '../../components/Img';
+import NirmaanLifecycle from '../../components/NirmaanLifecycle';
 import { PageHero, Section } from '../../components/Section';
 
 export const metadata = {
@@ -111,9 +112,10 @@ export default function Ecosystem() {
           <div className="space-y-4 self-start">
             <Image src="/images/nirmaan.jpg" alt="Teams at work in the Nirmaan workspace, Sudha & Shankar Innovation Hub" width={1600} height={900} className="rounded-2xl object-cover shadow-sm" />
             <Image src="/images/hub.jpg" alt="Workshop in progress at the Innovation Hub" width={1920} height={1080} className="hidden rounded-2xl object-cover shadow-sm lg:block" />
-            <a href="https://nirmaan.iitm.ac.in" rel="noopener" className="btn-outline w-full justify-center">Visit nirmaan.iitm.ac.in ↗</a>
+            <a href="https://nirmaan.iitm.ac.in" rel="noopener" target="_blank" className="btn-outline w-full justify-center">Visit nirmaan.iitm.ac.in ↗</a>
           </div>
         </div>
+        <NirmaanLifecycle />
       </Section>
 
       <Section kicker="Stages 3–5 · Learn, fund, scale" title="Then SIE takes you the rest of the way">

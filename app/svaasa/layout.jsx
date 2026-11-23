@@ -1,9 +1,9 @@
 export const metadata = {
-  title: 'Studio Sustainability — SVAASA',
+  title: 'SVAASA',
   description:
     'SVAASA is a multidisciplinary sustainability innovation platform at IIT Madras connecting academia, industry, startups, government, investors and ecosystem partners.',
 };
 
-export default function SustainabilityLayout({ children }) {
+export default function SvaasaLayout({ children }) {
   return children;
 }

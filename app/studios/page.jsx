@@ -20,8 +20,7 @@ const STUDIOS = [
     accent: 'border-t-brand-green',
     tag: 'Launching soon',
     tagClass: 'bg-accent/15 text-accent-dark',
-    detailsHref: `${process.env.NEXT_PUBLIC_BASE_PATH || ''}/svaasa/index.html`,
-    detailsStatic: true,
+    detailsHref: '/svaasa/',
   },
 ];
 
@@ -35,27 +34,38 @@ export default function Studios() {
       />
       <Section>
         <div className="grid gap-6 md:grid-cols-2">
-          {STUDIOS.map((s) => (
-            <div key={s.name} className={`card border-t-4 ${s.accent}`}>
-              {s.tag && <span className={`tag ${s.tagClass}`}>{s.tag}</span>}
-              <h2 className={`${s.tag ? 'mt-3 ' : ''}font-display text-2xl font-bold text-navy`}>{s.name}</h2>
-              <p className="mt-3 leading-relaxed text-ink/70">{s.desc}</p>
-              {s.detailsHref &&
-                (s.detailsExternal ? (
-                  <a href={s.detailsHref} rel="noopener" target="_blank" className="btn-ghost mt-5">
-                    Programme details ↗
-                  </a>
-                ) : s.detailsStatic ? (
-                  <a href={s.detailsHref} className="btn-ghost mt-5">
-                    Programme details ↗
-                  </a>
-                ) : (
-                  <Link href={s.detailsHref} className="btn-ghost mt-5">
-                    Programme details →
-                  </Link>
-                ))}
-            </div>
-          ))}
+          {STUDIOS.map((s) => {
+            const className = `card border-t-4 ${s.accent} flex flex-col focus:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2`;
+            const body = (
+              <>
+                {s.tag && <span className={`tag self-start ${s.tagClass}`}>{s.tag}</span>}
+                <h2 className={`${s.tag ? 'mt-3 ' : ''}font-display text-2xl font-bold text-navy`}>{s.name}</h2>
+                <p className="mt-3 flex-1 leading-relaxed text-ink/70">{s.desc}</p>
+                <span className={`${s.detailsExternal ? 'btn-primary' : 'btn-ghost'} mt-5 self-start`}>
+                  {s.detailsExternal ? 'Visit the studio ↗' : 'Programme details ↗'}
+                </span>
+              </>
+            );
+            if (!s.detailsHref) {
+              return (
+                <div key={s.name} className={className}>
+                  {body}
+                </div>
+              );
+            }
+            if (s.detailsExternal) {
+              return (
+                <a key={s.name} href={s.detailsHref} rel="noopener" target="_blank" className={className}>
+                  {body}
+                </a>
+              );
+            }
+            return (
+              <a key={s.name} href={s.detailsHref} className={className}>
+                {body}
+              </a>
+            );
+          })}
         </div>
         <p className="mt-10 max-w-2xl text-ink/70">
           Studio details, founding-team calls and partnership opportunities will be announced here. Interested in
