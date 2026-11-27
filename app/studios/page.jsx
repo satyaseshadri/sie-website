@@ -18,9 +18,8 @@ const STUDIOS = [
     name: 'Studio Sustainability',
     desc: 'A venture studio for climate and sustainability ventures — clean energy, circular economy, decarbonisation and water — turning lab breakthroughs into scalable green businesses.',
     accent: 'border-t-brand-green',
-    tag: 'Launching soon',
-    tagClass: 'bg-accent/15 text-accent-dark',
     detailsHref: '/svaasa/',
+    detailsLabel: 'Visit the studio ↗',
   },
 ];
 
@@ -42,7 +41,7 @@ export default function Studios() {
                 <h2 className={`${s.tag ? 'mt-3 ' : ''}font-display text-2xl font-bold text-navy`}>{s.name}</h2>
                 <p className="mt-3 flex-1 leading-relaxed text-ink/70">{s.desc}</p>
                 <span className={`${s.detailsExternal ? 'btn-primary' : 'btn-ghost'} mt-5 self-start`}>
-                  {s.detailsExternal ? 'Visit the studio ↗' : 'Programme details ↗'}
+                  {s.detailsLabel || (s.detailsExternal ? 'Visit the studio ↗' : 'Programme details ↗')}
                 </span>
               </>
             );
